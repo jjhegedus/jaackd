@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Jaackd Pico Controller</title>
+      <link rel="stylesheet" href="/static/main.css" type="text/css">
+      <script src="/static/main.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>Jaackd Pico Controller</h1>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnRelayOnButton" value="Turn on Relay" onclick="turnRelayOn();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnRelayOffButton" value="Turn off Relay" onclick="turnRelayOff();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <br/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" id="relayState" style="height:50px;width: 50px;">
+                <span>Relay State</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnInternalLedOnButton" value="Turn on Internal LED" onclick="turnInternalLedOn();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnInternalLedOffButton" value="Turn off Internal LED" onclick="turnInternalLedOff();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <br/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" id="ledState" style="height:50px;width: 50px;">
+                <span>LED State</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </body>
+</html>
