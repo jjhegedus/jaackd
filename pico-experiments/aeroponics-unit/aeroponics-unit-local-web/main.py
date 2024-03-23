@@ -22,6 +22,8 @@ schedule_lock = _thread.allocate_lock()
 
 schedule_running = False
 
+up = True
+
 def toggleInternalLED():
     if(internal_led.value()):
         internal_led.value(0)
@@ -38,7 +40,7 @@ def backgroundJob():
     pump = False
     toggle_air_time = toggle_pump_time = int(utime.time())
 
-    while True:
+    while up:
         if schedule_running:
             print("Running background job")
             time_now = int(utime.time())
@@ -78,6 +80,7 @@ def backgroundJob():
         systemState = {'state': 'sleeping', 'air_status': air, 'air_off_seconds': air_off_seconds, 'air_on_seconds': air_on_seconds, 'pump_status': pump, 'pump_off_seconds': pump_off_seconds, 'pump_on_seconds': pump_on_seconds, 'sleep_time': sleep_time}
 
         utime.sleep(sleep_time)
+    return
 
 def do_connect():
     import network
@@ -107,6 +110,7 @@ print("route / added")
 
 @app.route('/shutdown')
 def shutdown(request):
+    up = False
     request.app.shutdown()
     return 'The server is shutting down...'
 
@@ -186,27 +190,22 @@ def api(request):
             json.dump(schedule, f)
         schedule_lock.release()
         print("schedule = ", schedule)
-        return{'status': 'OK', 'schedule': schedule}        
-    
+        return{'status': 'OK', 'schedule': schedule}
+    elif action == "getSchedule":
+        print("getting schedule")
+        return {'status': 'OK', 'schedule': schedule}    
     elif action == "startSchedule":
-
         print("starting schedule")
         schedule_running = True
         schedule_lock.acquire()
         if background_thread == 0:
             print("background_thread == 0: starting new background thread")
             background_thread = _thread.start_new_thread(backgroundJob, ())
-
         return{'status': 'OK'}
-    
     elif action == "stopSchedule":
         print("stopping schedule")
         schedule_running = False
         return{'status': 'OK', 'schedule': {}}
-    
-    elif action == "getSchedule":
-        print("getting schedule")
-        return {'status': 'OK', 'schedule': schedule}
 
     elif action == "getSystemState":
         print("getting system state")

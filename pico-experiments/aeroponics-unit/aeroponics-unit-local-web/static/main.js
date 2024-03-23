@@ -48,17 +48,17 @@ function setPressureStateView(pressureStateData = {}) {
   window.updatePressureStateTimeoutId = setTimeout(window.updatePressureState, 200);
 }
 
-function scheduleSet(scheduleData = {}){
+function scheduleSet(scheduleData = {}) {
   console.log("schedule set");
   window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
 }
 
-function scheduleStarted(scheduleData = {}){
+function scheduleStarted(scheduleData = {}) {
   console.log("schedule started");
   window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
 }
 
-function scheduleStopped(){
+function scheduleStopped() {
   console.log("schedule stopped");
 }
 
@@ -130,7 +130,7 @@ window.updateInternalLedState = updateInternalLedState;
 
 
 function turnAirOn() {
-    console.log("turning air on");
+  console.log("turning air on");
   const jsonData = {
     "action": "turnAirOn"
   };
@@ -176,7 +176,7 @@ window.updatePressureState = updatePressureState;
 
 
 function turnPumpOn() {
-    console.log("turning pump on");
+  console.log("turning pump on");
   const jsonData = {
     "action": "turnPumpOn"
   };
@@ -210,7 +210,7 @@ function updatePumpState() {
 window.updatePumpState = updatePumpState;
 
 
-function setSchedule(){
+function setSchedule() {
 
   var schedule = {
     "airOffHours": document.getElementById("airOffHours").value,
@@ -236,7 +236,7 @@ function setSchedule(){
 }
 
 
-function startSchedule(){
+function startSchedule() {
   document.getElementById("startScheduleButton").disabled = true;
   document.getElementById("stopScheduleButton").disabled = false;
 
@@ -263,7 +263,7 @@ function startSchedule(){
   window.postData(jsonData, scheduleStarted);
 }
 
-function stopSchedule(){
+function stopSchedule() {
   document.getElementById("startScheduleButton").disabled = false;
   document.getElementById("stopScheduleButton").disabled = true;
   clearInterval(window.scheduleIntervalId);
@@ -273,4 +273,19 @@ function stopSchedule(){
   };
 
   window.postData(jsonData, scheduleStopped);
+}
+
+function getSystemState() {
+  const jsonData = {
+    "action": "getSystemState"
+  };
+
+  window.postData(jsonData, receivedSystemState);
+}
+
+function receivedSystemState(systemState = {}) {
+  console.log("received system state");
+  console.log("********** system state : begin ************");
+  console.log(systemState);
+  console.log("********** system state : end ************");
 }
