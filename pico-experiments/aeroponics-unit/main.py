@@ -1,7 +1,7 @@
 # full demo with web control panel
 # combines multi core and multi tasking
 
-import utime
+import utime, uasyncio, _thread
 from microdot import Microdot, redirect, send_file
 from machine import Pin, ADC
 from secrets import NetworkCredentials
@@ -10,8 +10,68 @@ server_port = 3023
 
 internal_led = Pin("LED", Pin.OUT)
 internal_led.value(1)
-relay_pin = Pin(16, Pin.OUT)
+air_pin = Pin(16, Pin.OUT)
+pump_pin = Pin(17, Pin.OUT)
 pressure_pin = ADC(26)
+
+background_thread = 0
+schedule = {}
+
+schedule_lock = _thread.allocate_lock()
+
+schedule_running = False
+
+def backgroundJob():
+    global schedule_lock
+    global schedule
+    global schedule_running
+    print("Start backgroundJob")
+
+    air = False
+    pump = False
+    toggle_air_time = toggle_pump_time = int(utime.time())
+
+    while True:
+        if schedule_running:
+            print("Running background job")
+            time_now = int(utime.time())
+
+            schedule_lock.acquire()
+            air_off_seconds = int(schedule["airOffSeconds"]) + (int(schedule["airOffMinutes"]) * 60) + (int(schedule["airOffHours"]) * 60 * 60)
+            air_on_seconds = int(schedule["airOnSeconds"]) + (int(schedule["airOnMinutes"]) * 60) + (int(schedule["airOnHours"]) * 60 * 60)
+            pump_off_seconds = int(schedule["pumpOffSeconds"]) + (int(schedule["pumpOffMinutes"]) * 60) + (int(schedule["pumpOffHours"]) * 60 * 60)
+            pump_on_seconds = int(schedule["pumpOnSeconds"]) + (int(schedule["pumpOnMinutes"]) * 60) + (int(schedule["pumpOnHours"]) * 60 * 60)
+            schedule_lock.release()
+
+            print("schedule = ", schedule)
+
+            if toggle_air_time <= time_now:
+                air = not air
+                if air:
+                    air_pin.value (1)
+                    toggle_air_time = time_now + air_on_seconds
+                else:
+                    air_pin.value(0)
+                    toggle_air_time = time_now + air_off_seconds
+
+            if toggle_pump_time <= time_now:
+                pump = not pump
+                if pump:
+                    pump_pin.value (1)
+                    toggle_pump_time = time_now + pump_on_seconds
+                else:
+                    pump_pin.value(0)
+                    toggle_pump_time = time_now + pump_off_seconds
+
+            next_activation_time = min(toggle_air_time, toggle_pump_time)
+            sleep_time = next_activation_time - time_now
+        else:
+            sleep_time = 5
+
+        print("background job sleeping for ", sleep_time, " seconds")
+
+
+        utime.sleep(sleep_time)
 
 def do_connect():
     import network
@@ -49,6 +109,10 @@ print("route /shutdown added")
 
 @app.post('/api')
 def api(request):
+    global schedule
+    global background_thread
+    global schedule_lock
+    global schedule_running
     action = request.json["action"]
     if action == "turnInternalLedOn":
         print("turning on internal led")
@@ -67,24 +131,63 @@ def api(request):
         led_state = internal_led.value()
         status = "OK"
         return {'status': status, 'internal_led_state': led_state}
-    elif action == "turnRelayOn":
-        print("turning relay on")
-        relay_pin.value(1)
-        internal_relay_state = relay_pin.value()
+    
+    elif action == "turnAirOn":
+        print("turning air on")
+        air_pin.value(1)
+        internal_air_state = air_pin.value()
         status = "OK"
-        return {'status': status, 'relay_state': internal_relay_state}
-    elif action == "turnRelayOff":
-        print("turning relay off")
-        relay_pin.value(0)
-        internal_relay_state = relay_pin.value()
+        return {'status': status, 'air_state': internal_air_state}
+    elif action == "turnAirOff":
+        print("turning air off")
+        air_pin.value(0)
+        print("t1")
+        internal_air_state = air_pin.value()
+        print("t2")
         status = "OK"
-        return {'status': status, 'relay_state': internal_relay_state}
-    elif action == "getRelayState":
-        print("getting relay state")
-        return{'status': 'OK', 'relay_state': relay_pin.value()}
+        return {'status': status, 'air_state': internal_air_state}
+    elif action == "getAirState":
+        print("getting air state")
+        return{'status': 'OK', 'air_state': air_pin.value()}
+    
+    elif action == "turnPumpOn":
+        print("turning pump on")
+        pump_pin.value(1)
+        internal_pump_state = pump_pin.value()
+        status = "OK"
+        return {'status': status, 'pump_state': internal_pump_state}
+    elif action == "turnPumpOff":
+        print("turning pump off")
+        pump_pin.value(0)
+        internal_pump_state = pump_pin.value()
+        status = "OK"
+        return {'status': status, 'pump_state': internal_pump_state}
+    elif action == "getPumpState":
+        print("getting pump state")
+        return{'status': 'OK', 'pump_state': pump_pin.value()}
+    
     elif action == "getPressure":
         print("getting pressure")
         return{'status': 'OK', 'pressure': pressure_pin.read_u16()}
+    
+    elif action == "startSchedule":
+
+        print("starting schedule")
+        schedule_running = True
+        schedule_lock.acquire()
+        schedule = request.json["schedule"]
+        schedule_lock.release()
+        print("schedule = ", schedule)
+        if background_thread == 0:
+            print("background_thread == 0: starting new background thread")
+            background_thread = _thread.start_new_thread(backgroundJob, ())
+
+        return{'status': 'OK', 'schedule': schedule}
+    
+    elif action == "stopSchedule":
+        print("stopping schedule")
+        schedule_running = False
+        return{'status': 'OK', 'schedule': {}}
 
 
 @app.route('/static/<path:path>')

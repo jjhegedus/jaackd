@@ -11,16 +11,30 @@ function setLedStateView(ledStateData = {}) {
   }
 }
 
-function setRelayStateView(relayStateData = {}) {
-  console.log("setRelayStateView(" + relayStateData + ")");
-  console.log(relayStateData);
-  if (relayStateData.status == "OK") {
+function setAirStateView(airStateData = {}) {
+  console.log("setAirStateView(" + airStateData + ")");
+  console.log(airStateData);
+  if (airStateData.status == "OK") {
 
-    if (relayStateData.relay_state == 0) {
-      window.relayStateView.style.backgroundColor = "black";
+    if (airStateData.air_state == 0) {
+      window.airStateView.style.backgroundColor = "black";
     }
-    else if (relayStateData.relay_state == 1) {
-      window.relayStateView.style.backgroundColor = "green";
+    else if (airStateData.air_state == 1) {
+      window.airStateView.style.backgroundColor = "green";
+    }
+  }
+}
+
+function setPumpStateView(pumpStateData = {}) {
+  console.log("setPumpStateView(" + pumpStateData + ")");
+  console.log(pumpStateData);
+  if (pumpStateData.status == "OK") {
+
+    if (pumpStateData.pump_state == 0) {
+      window.pumpStateView.style.backgroundColor = "black";
+    }
+    else if (pumpStateData.pump_state == 1) {
+      window.pumpStateView.style.backgroundColor = "green";
     }
   }
 }
@@ -34,16 +48,27 @@ function setPressureStateView(pressureStateData = {}) {
   window.updatePressureStateTimeoutId = setTimeout(window.updatePressureState, 200);
 }
 
+function scheduleStarted(scheduleData = {}){
+  console.log("schedule started");
+  window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+}
+
+function scheduleStopped(){
+  console.log("schedule stopped");
+}
+
 
 
 function OnLoad() {
   window.postData = postData;
   window.ledStateView = document.getElementById("ledState");
-  window.relayStateView = document.getElementById("relayState");
+  window.airStateView = document.getElementById("airState");
+  window.pumpStateView = document.getElementById("pumpState");
   window.pressureStateView = document.getElementById("pressureState");
   window.updateInternalLedState();
-  window.updateRelayState();
-  window.updatePressureState();
+  window.updateAirState();
+  window.updatePumpState();
+  //window.updatePressureState();
 }
 window.onload = OnLoad;
 
@@ -94,45 +119,44 @@ function updateInternalLedState() {
   const jsonData = {
     "action": "getInternalLedState"
   };
-
   window.postData(jsonData, setLedStateView);
 }
 window.updateInternalLedState = updateInternalLedState;
 
 
-function turnRelayOn() {
-    console.log("turning relay on");
+function turnAirOn() {
+    console.log("turning air on");
   const jsonData = {
-    "action": "turnRelayOn"
+    "action": "turnAirOn"
   };
 
-  window.postData(jsonData, setRelayState);
+  window.postData(jsonData, setAirState);
 }
 
-function turnRelayOff() {
+function turnAirOff() {
   const jsonData = {
-    "action": "turnRelayOff"
+    "action": "turnAirOff"
   };
 
-  window.postData(jsonData, setRelayState);
+  window.postData(jsonData, setAirState);
 }
 
-function setRelayState(data = {}) {
-  console.log("setRelayState");
+function setAirState(data = {}) {
+  console.log("setAirState");
   if (data.status == "OK") {
-    updateRelayState();
+    updateAirState();
   }
 }
 
-function updateRelayState() {
-  console.log("updateRelayState");
+function updateAirState() {
+  console.log("updateAirState");
   const jsonData = {
-    "action": "getRelayState"
+    "action": "getAirState"
   };
 
-  window.postData(jsonData, setRelayStateView);
+  window.postData(jsonData, setAirStateView);
 }
-window.updateRelayState = updateRelayState;
+window.updateAirState = updateAirState;
 
 
 function updatePressureState() {
@@ -144,3 +168,78 @@ function updatePressureState() {
   window.postData(jsonData, setPressureStateView);
 }
 window.updatePressureState = updatePressureState;
+
+
+function turnPumpOn() {
+    console.log("turning pump on");
+  const jsonData = {
+    "action": "turnPumpOn"
+  };
+  false
+  window.postData(jsonData, setPumpState);
+}
+
+function turnPumpOff() {
+  const jsonData = {
+    "action": "turnPumpOff"
+  };
+
+  window.postData(jsonData, setPumpState);
+}
+
+function setPumpState(data = {}) {
+  console.log("setPumpState");
+  if (data.status == "OK") {
+    updatePumpState();
+  }
+}
+
+function updatePumpState() {
+  console.log("updatePumpState");
+  const jsonData = {
+    "action": "getPumpState"
+  };
+
+  window.postData(jsonData, setPumpStateView);
+}
+window.updatePumpState = updatePumpState;
+
+
+function startSchedule(){
+  document.getElementById("startScheduleButton").disabled = true;
+  document.getElementById("stopScheduleButton").disabled = false;
+
+  var schedule = {
+    "airOffHours": document.getElementById("airOffHours").value,
+    "airOffMinutes": document.getElementById("airOffMinutes").value,
+    "airOffSeconds": document.getElementById("airOffSeconds").value,
+    "airOnHours": document.getElementById("airOnHours").value,
+    "airOnMinutes": document.getElementById("airOnMinutes").value,
+    "airOnSeconds": document.getElementById("airOnSeconds").value,
+    "pumpOffHours": document.getElementById("pumpOffHours").value,
+    "pumpOffMinutes": document.getElementById("pumpOffMinutes").value,
+    "pumpOffSeconds": document.getElementById("pumpOffSeconds").value,
+    "pumpOnHours": document.getElementById("pumpOnHours").value,
+    "pumpOnMinutes": document.getElementById("pumpOnMinutes").value,
+    "pumpOnSeconds": document.getElementById("pumpOnSeconds").value,
+  }
+
+  const jsonData = {
+    "action": "startSchedule",
+    "schedule": schedule
+  };
+
+  window.postData(jsonData, scheduleStarted);
+}
+
+function stopSchedule(){
+  document.getElementById("startScheduleButton").disabled = false;
+  document.getElementById("stopScheduleButton").disabled = true;
+  clearInterval(window.scheduleIntervalId);
+
+  const jsonData = {
+    "action": "stopSchedule"
+  };
+
+  window.postData(jsonData, scheduleStopped);
+}
