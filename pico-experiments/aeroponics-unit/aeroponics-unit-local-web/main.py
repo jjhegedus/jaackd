@@ -16,10 +16,17 @@ pressure_pin = ADC(26)
 
 background_thread = 0
 schedule = {}
+systemState = {}
 
 schedule_lock = _thread.allocate_lock()
 
 schedule_running = False
+
+def toggleInternalLED():
+    if(internal_led.value()):
+        internal_led.value(0)
+    else:
+        internal_led.value(1)
 
 def backgroundJob():
     global schedule_lock
@@ -42,8 +49,6 @@ def backgroundJob():
             pump_off_seconds = int(schedule["pumpOffSeconds"]) + (int(schedule["pumpOffMinutes"]) * 60) + (int(schedule["pumpOffHours"]) * 60 * 60)
             pump_on_seconds = int(schedule["pumpOnSeconds"]) + (int(schedule["pumpOnMinutes"]) * 60) + (int(schedule["pumpOnHours"]) * 60 * 60)
             schedule_lock.release()
-
-            print("schedule = ", schedule)
 
             if toggle_air_time <= time_now:
                 air = not air
@@ -70,6 +75,7 @@ def backgroundJob():
 
         print("background job sleeping for ", sleep_time, " seconds")
 
+        systemState = {'state': 'sleeping', 'air_status': air, 'air_off_seconds': air_off_seconds, 'air_on_seconds': air_on_seconds, 'pump_status': pump, 'pump_off_seconds': pump_off_seconds, 'pump_on_seconds': pump_on_seconds, 'sleep_time': sleep_time}
 
         utime.sleep(sleep_time)
 
@@ -113,6 +119,7 @@ def api(request):
     global background_thread
     global schedule_lock
     global schedule_running
+
     action = request.json["action"]
     if action == "turnInternalLedOn":
         print("turning on internal led")
@@ -193,7 +200,12 @@ def api(request):
     
     elif action == "getSchedule":
         print("getting schedule")
-        schedule = json.load('schedule.json')
+        return {'status': 'OK', 'schedule': schedule}
+
+    elif action == "getSystemState":
+        print("getting system state")
+        return {'status': 'OK', 'systemState': systemState}
+        
 
 
 @app.route('/static/<path:path>')
