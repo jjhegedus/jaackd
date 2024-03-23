@@ -1,7 +1,7 @@
 # full demo with web control panel
 # combines multi core and multi tasking
 
-import utime, uasyncio, _thread
+import utime, uasyncio, _thread, json
 from microdot import Microdot, redirect, send_file
 from machine import Pin, ADC
 from secrets import NetworkCredentials
@@ -176,6 +176,8 @@ def api(request):
         schedule_running = True
         schedule_lock.acquire()
         schedule = request.json["schedule"]
+        with open("schedule.json", "w") as f:
+            json.dump(schedule, f)
         schedule_lock.release()
         print("schedule = ", schedule)
         if background_thread == 0:
@@ -188,6 +190,10 @@ def api(request):
         print("stopping schedule")
         schedule_running = False
         return{'status': 'OK', 'schedule': {}}
+    
+    elif action == "getSchedule":
+        print("getting schedule")
+        schedule = json.load('schedule.json')
 
 
 @app.route('/static/<path:path>')
