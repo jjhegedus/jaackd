@@ -177,9 +177,8 @@ def api(request):
         print("getting pressure")
         return{'status': 'OK', 'pressure': pressure_pin.read_u16()}
     
-    elif action == "startSchedule":
-
-        print("starting schedule")
+    elif action == "setSchedule":
+        print("setting schedule")
         schedule_running = True
         schedule_lock.acquire()
         schedule = request.json["schedule"]
@@ -187,11 +186,18 @@ def api(request):
             json.dump(schedule, f)
         schedule_lock.release()
         print("schedule = ", schedule)
+        return{'status': 'OK', 'schedule': schedule}        
+    
+    elif action == "startSchedule":
+
+        print("starting schedule")
+        schedule_running = True
+        schedule_lock.acquire()
         if background_thread == 0:
             print("background_thread == 0: starting new background thread")
             background_thread = _thread.start_new_thread(backgroundJob, ())
 
-        return{'status': 'OK', 'schedule': schedule}
+        return{'status': 'OK'}
     
     elif action == "stopSchedule":
         print("stopping schedule")

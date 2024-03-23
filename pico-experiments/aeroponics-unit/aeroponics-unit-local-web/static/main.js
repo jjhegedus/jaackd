@@ -48,6 +48,11 @@ function setPressureStateView(pressureStateData = {}) {
   window.updatePressureStateTimeoutId = setTimeout(window.updatePressureState, 200);
 }
 
+function scheduleSet(scheduleData = {}){
+  console.log("schedule set");
+  window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+}
+
 function scheduleStarted(scheduleData = {}){
   console.log("schedule started");
   window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
@@ -203,6 +208,32 @@ function updatePumpState() {
   window.postData(jsonData, setPumpStateView);
 }
 window.updatePumpState = updatePumpState;
+
+
+function setSchedule(){
+
+  var schedule = {
+    "airOffHours": document.getElementById("airOffHours").value,
+    "airOffMinutes": document.getElementById("airOffMinutes").value,
+    "airOffSeconds": document.getElementById("airOffSeconds").value,
+    "airOnHours": document.getElementById("airOnHours").value,
+    "airOnMinutes": document.getElementById("airOnMinutes").value,
+    "airOnSeconds": document.getElementById("airOnSeconds").value,
+    "pumpOffHours": document.getElementById("pumpOffHours").value,
+    "pumpOffMinutes": document.getElementById("pumpOffMinutes").value,
+    "pumpOffSeconds": document.getElementById("pumpOffSeconds").value,
+    "pumpOnHours": document.getElementById("pumpOnHours").value,
+    "pumpOnMinutes": document.getElementById("pumpOnMinutes").value,
+    "pumpOnSeconds": document.getElementById("pumpOnSeconds").value,
+  }
+
+  const jsonData = {
+    "action": "setSchedule",
+    "schedule": schedule
+  };
+
+  window.postData(jsonData, scheduleSet);
+}
 
 
 function startSchedule(){
