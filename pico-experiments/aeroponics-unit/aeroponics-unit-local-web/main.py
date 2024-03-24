@@ -1,7 +1,7 @@
 # full demo with web control panel
 # combines multi core and multi tasking
 
-import utime, uasyncio, _thread, json
+import utime, uasyncio, _thread, json, gc
 from microdot import Microdot, redirect, send_file
 from machine import Pin, ADC
 from secrets import NetworkCredentials
@@ -18,6 +18,13 @@ backgroundThread = 0
 
 with open("systemState.json") as f2:
     systemState = json.load(f2)
+
+systemState["usedMemory"] = gc.mem_alloc()
+systemState["freeMemory"] = gc.mem_free()
+gc.collect()
+systemState["usedMemoryAfterGC"] = gc.mem_alloc()
+systemState["freeMemoryAfterGC"] = gc.mem_free()
+
 
 systemStateLock = _thread.allocate_lock()
 
@@ -95,6 +102,12 @@ def backgroundJob():
         systemState['nextAirToggle'] = toggleAirTime - timeNow
         systemState['nextPumpToggle'] = togglePumpTime - timeNow
         systemState['internalLedState'] = internalLed.value()
+        systemState['usedMemory'] = gc.mem_alloc()
+        systemState['freeMemory'] = gc.mem_free()
+
+        gc.collect()
+        systemState['usedMemoryAfterGC'] = gc.mem_alloc()
+        systemState['freeMemoryAfterGC'] = gc.mem_free()
 
         print(json.dumps(systemState))
 

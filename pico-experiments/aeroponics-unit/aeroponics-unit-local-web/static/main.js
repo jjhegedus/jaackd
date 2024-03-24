@@ -75,6 +75,11 @@ function receivedSystemState(systemState = {}) {
   document.getElementById('nextAirToggleSpan').textContent = systemState['nextAirToggle'];
   document.getElementById('nextPumpToggleSpan').textContent = systemState['nextPumpToggle'];
   document.getElementById('sleepTimeSpan').textContent = systemState['sleepTime'];
+
+  document.getElementById('freeMemorySpan').textContent = systemState['freeMemory'];
+  document.getElementById('usedMemorySpan').textContent = systemState['usedMemory'];
+  document.getElementById('freeMemoryAfterGCSpan').textContent = systemState['freeMemoryAfterGC'];
+  document.getElementById('usedMemoryAfterGCSpan').textContent = systemState['usedMemoryAfterGC'];
 }
 
 
