@@ -93,6 +93,8 @@
               </div>
             </div>
 
+            <div class="row"><h1>Schedule</h1></div>
+
             <div class="row">
                 <div class="col">
                     <label>Air Off Hours : </label><input type="number" id="airOffHours" value="0"></input>
@@ -140,13 +142,31 @@
               <input type="button" id="startScheduleButton" value="Start Schedule" onclick="startSchedule();">
             </div>
             <div class="col">
-              <input type="button" id="updateScheduleButton" value="Update Schedule" onclick="startSchedule();">
+              <input type="button" id="setScheduleButton" value="Update Schedule" onclick="setSchedule();">
             </div>
             <div class="col">
               <input type="button" id="stopScheduleButton" value="Stop Schedule" onclick="stopSchedule();" disabled>
             </div>
             <div class="col">
               <input type="button" id="getSystemStateButton" value="Get System State" onclick="getSystemState();">
+            </div>
+
+            <div class="row"><h1>System State</h1></div>
+
+            <div class="row">
+              <div class="col">
+                <label>nextAirToggle : </label><span id="nextAirToggleSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>nextPumpToggle : </label><span id="nextPumpToggleSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>sleepTime : </label><span id="sleepTimeSpan"></span>
+              </div>
             </div>
             
           </div>

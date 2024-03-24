@@ -2,10 +2,10 @@ function setLedStateView(ledStateData = {}) {
   // alert("setLedStateView(" + ledStateData + ")");
   if (ledStateData.status == "OK") {
 
-    if (ledStateData.internal_led_state == 0) {
+    if (ledStateData.internalLedState == 0) {
       window.ledStateView.style.backgroundColor = "black";
     }
-    else if (ledStateData.internal_led_state == 1) {
+    else if (ledStateData.internalLedState == 1) {
       window.ledStateView.style.backgroundColor = "green";
     }
   }
@@ -16,10 +16,10 @@ function setAirStateView(airStateData = {}) {
   console.log(airStateData);
   if (airStateData.status == "OK") {
 
-    if (airStateData.air_state == 0) {
+    if (airStateData.airState == 0) {
       window.airStateView.style.backgroundColor = "black";
     }
-    else if (airStateData.air_state == 1) {
+    else if (airStateData.airState == 1) {
       window.airStateView.style.backgroundColor = "green";
     }
   }
@@ -30,10 +30,10 @@ function setPumpStateView(pumpStateData = {}) {
   console.log(pumpStateData);
   if (pumpStateData.status == "OK") {
 
-    if (pumpStateData.pump_state == 0) {
+    if (pumpStateData.pumpState == 0) {
       window.pumpStateView.style.backgroundColor = "black";
     }
-    else if (pumpStateData.pump_state == 1) {
+    else if (pumpStateData.pumpState == 1) {
       window.pumpStateView.style.backgroundColor = "green";
     }
   }
@@ -50,16 +50,31 @@ function setPressureStateView(pressureStateData = {}) {
 
 function scheduleSet(scheduleData = {}) {
   console.log("schedule set");
-  window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
 }
 
 function scheduleStarted(scheduleData = {}) {
   console.log("schedule started");
-  window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
 }
 
 function scheduleStopped() {
   console.log("schedule stopped");
+}
+
+function receivedSystemState(systemState = {}) {
+  systemState = systemState['systemState'];
+  console.log("received system state");
+  console.log("********** system state : begin ************");
+  console.log(systemState);
+  console.log("********** system state : end ************");
+  updateInternalLedState({'status': 'OK', 'internalLedState': systemState['internalLedState']});
+  setAirState({'status': 'OK', 'airState': systemState['airState']});
+  setPumpState({'status': 'OK', 'pumpState': systemState['pumpState']});
+
+  document.getElementById('nextAirToggleSpan').textContent = systemState['nextAirToggle'];
+  document.getElementById('nextPumpToggleSpan').textContent = systemState['nextPumpToggle'];
+  document.getElementById('sleepTimeSpan').textContent = systemState['sleepTime'];
 }
 
 
@@ -74,6 +89,7 @@ function OnLoad() {
   window.updateAirState();
   window.updatePumpState();
   //window.updatePressureState();
+  window.scheduleIntervalId = setInterval("window.getSystemState();", 1000);
 }
 window.onload = OnLoad;
 
@@ -213,18 +229,18 @@ window.updatePumpState = updatePumpState;
 function setSchedule() {
 
   var schedule = {
-    "airOffHours": document.getElementById("airOffHours").value,
-    "airOffMinutes": document.getElementById("airOffMinutes").value,
-    "airOffSeconds": document.getElementById("airOffSeconds").value,
-    "airOnHours": document.getElementById("airOnHours").value,
-    "airOnMinutes": document.getElementById("airOnMinutes").value,
-    "airOnSeconds": document.getElementById("airOnSeconds").value,
-    "pumpOffHours": document.getElementById("pumpOffHours").value,
-    "pumpOffMinutes": document.getElementById("pumpOffMinutes").value,
-    "pumpOffSeconds": document.getElementById("pumpOffSeconds").value,
-    "pumpOnHours": document.getElementById("pumpOnHours").value,
-    "pumpOnMinutes": document.getElementById("pumpOnMinutes").value,
-    "pumpOnSeconds": document.getElementById("pumpOnSeconds").value,
+    "airOffHours": parseInt(document.getElementById("airOffHours").value, 10),
+    "airOffMinutes": parseInt(document.getElementById("airOffMinutes").value, 10),
+    "airOffSeconds": parseInt(document.getElementById("airOffSeconds").value, 10),
+    "airOnHours": parseInt(document.getElementById("airOnHours").value, 10),
+    "airOnMinutes": parseInt(document.getElementById("airOnMinutes").value, 10),
+    "airOnSeconds": parseInt(document.getElementById("airOnSeconds").value, 10),
+    "pumpOffHours": parseInt(document.getElementById("pumpOffHours").value, 10),
+    "pumpOffMinutes": parseInt(document.getElementById("pumpOffMinutes").value, 10),
+    "pumpOffSeconds": parseInt(document.getElementById("pumpOffSeconds").value, 10),
+    "pumpOnHours": parseInt(document.getElementById("pumpOnHours").value, 10),
+    "pumpOnMinutes": parseInt(document.getElementById("pumpOnMinutes").value, 10),
+    "pumpOnSeconds": parseInt(document.getElementById("pumpOnSeconds").value, 10),
   }
 
   const jsonData = {
@@ -240,24 +256,8 @@ function startSchedule() {
   document.getElementById("startScheduleButton").disabled = true;
   document.getElementById("stopScheduleButton").disabled = false;
 
-  var schedule = {
-    "airOffHours": document.getElementById("airOffHours").value,
-    "airOffMinutes": document.getElementById("airOffMinutes").value,
-    "airOffSeconds": document.getElementById("airOffSeconds").value,
-    "airOnHours": document.getElementById("airOnHours").value,
-    "airOnMinutes": document.getElementById("airOnMinutes").value,
-    "airOnSeconds": document.getElementById("airOnSeconds").value,
-    "pumpOffHours": document.getElementById("pumpOffHours").value,
-    "pumpOffMinutes": document.getElementById("pumpOffMinutes").value,
-    "pumpOffSeconds": document.getElementById("pumpOffSeconds").value,
-    "pumpOnHours": document.getElementById("pumpOnHours").value,
-    "pumpOnMinutes": document.getElementById("pumpOnMinutes").value,
-    "pumpOnSeconds": document.getElementById("pumpOnSeconds").value,
-  }
-
   const jsonData = {
-    "action": "startSchedule",
-    "schedule": schedule
+    "action": "startSchedule"
   };
 
   window.postData(jsonData, scheduleStarted);
@@ -281,11 +281,4 @@ function getSystemState() {
   };
 
   window.postData(jsonData, receivedSystemState);
-}
-
-function receivedSystemState(systemState = {}) {
-  console.log("received system state");
-  console.log("********** system state : begin ************");
-  console.log(systemState);
-  console.log("********** system state : end ************");
 }
