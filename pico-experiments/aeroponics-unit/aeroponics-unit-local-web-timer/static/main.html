@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Jaackd Pico Controller</title>
+      <link rel="stylesheet" href="/static/main.css" type="text/css">
+      <script src="/static/main.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1><label>Name : </label><input type="text" id="unitName" value="0">Jaackd Pico Controller</input></h1><input type="button" onclick="updateUnitName();" value="Update Unit Name">
+            </div>
+        </div>
+        <div class="row">
+          
+
+
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnAirOnButton" value="Turn on Air" onclick="turnAirOn();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnAirOffButton" value="Turn off Air" onclick="turnAirOff();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <br/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" style="height:50px;width: 50px;">
+                <span>Air State</span>
+              </div>
+              <div class="col" id="airState" style="height:50px;width: 50px;">
+                <span>Air State</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnPumpOnButton" value="Turn on pump" onclick="turnPumpOn();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnPumpOffButton" value="Turn off pump" onclick="turnPumpOff();">
+              </div>
+            </div>Air
+            <div class="row">
+              <div class="col">
+                <br/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" style="height:50px;width: 50px;">
+                <span>Pump State</span>
+              </div>
+              <div class="col" id="pumpState" style="height:50px;width: 50px;">
+                <span>Pump State</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnInternalLedOnButton" value="Turn on Internal LED" onclick="turnInternalLedOn();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input type="button" id="turnInternalLedOffButton" value="Turn off Internal LED" onclick="turnInternalLedOff();">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <br/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" id="ledState" style="height:50px;width: 50px;">
+                <span>LED State</span>
+              </div>
+            </div>
+
+            <div class="row"><h1>Schedule</h1></div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Air Off Hours : </label><input type="number" id="airOffHours" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Air Off Minutes : </label><input type="number" id="airOffMinutes" value="3"></input>
+                </div>
+                <div class="col">
+                    <label>Air Off Seconds : </label><input type="number" id="airOffSeconds" value="48"></input>
+                </div>
+                <div class="col">
+                    <label>Air On Hours : </label><input type="number" id="airOnHours" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Air On Minutes : </label><input type="number" id="airOnMinutes" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Air On Seconds : </label><input type="number" id="airOnSeconds" value="12"></input>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Pump Off Hours : </label><input type="number" id="pumpOffHours" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Pump Off Minutes : </label><input type="number" id="pumpOffMinutes" value="10"></input>
+                </div>
+                <div class="col">
+                    <label>Pump Off Seconds : </label><input type="number" id="pumpOffSeconds" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Pump On Hours : </label><input type="number" id="pumpOnHours" value="0"></input>
+                </div>
+                <div class="col">
+                    <label>Pump On Minutes : </label><input type="number" id="pumpOnMinutes" value="6"></input>
+                </div>
+                <div class="col">
+                    <label>Pump On Seconds : </label><input type="number" id="pumpOnSeconds" value="0"></input>
+                </div>
+            </div>
+
+
+            <div class="col">
+              <input type="button" id="startScheduleButton" value="Start Schedule" onclick="startSchedule();">
+            </div>
+            <div class="col">
+              <input type="button" id="setScheduleButton" value="Update Schedule" onclick="setSchedule();">
+            </div>
+            <div class="col">
+              <input type="button" id="stopScheduleButton" value="Stop Schedule" onclick="stopSchedule();" disabled>
+            </div>
+            <div class="col">
+              <input type="button" id="getSystemStateButton" value="Get System State" onclick="getSystemState();">
+            </div>
+
+            <div class="row"><h1>System State</h1></div>
+
+            <div class="row">
+              <div class="col">
+                <label>nextAirToggle : </label><span id="nextAirToggleSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>nextPumpToggle : </label><span id="nextPumpToggleSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>sleepTime : </label><span id="sleepTimeSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>usedMemory : </label><span id="usedMemorySpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>freeMemory : </label><span id="freeMemorySpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>usedMemoryAfterGC : </label><span id="usedMemoryAfterGCSpan"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label>freeMemoryAfterGC : </label><span id="freeMemoryAfterGCSpan"></span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+    </div>
+  </body>
+</html>

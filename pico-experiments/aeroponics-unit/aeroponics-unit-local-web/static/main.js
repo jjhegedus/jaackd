@@ -50,12 +50,12 @@ function setPressureStateView(pressureStateData = {}) {
 
 function scheduleSet(scheduleData = {}) {
   console.log("schedule set");
-  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 5000);
 }
 
 function scheduleStarted(scheduleData = {}) {
   console.log("schedule started");
-  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 1000);
+  //window.scheduleIntervalId = setInterval("window.updateAirState(); window.updatePumpState();", 5000);
 }
 
 function scheduleStopped() {
@@ -94,7 +94,7 @@ function OnLoad() {
   window.updateAirState();
   window.updatePumpState();
   //window.updatePressureState();
-  window.scheduleIntervalId = setInterval("window.getSystemState();", 1000);
+  window.scheduleIntervalId = setInterval("window.getSystemState();", 5000);
 }
 window.onload = OnLoad;
 

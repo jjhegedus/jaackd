@@ -40,7 +40,7 @@ def toggleInternalLED():
 
 def idle():
     print("idle")
-    sleepTime = min(systemState['sleepTime'], 1)
+    sleepTime = min(systemState['sleepTime'], 5)
     systemState['sleepTime'] = sleepTime
     with open("systemState.json", "w") as f:
         json.dump(systemState, f)
