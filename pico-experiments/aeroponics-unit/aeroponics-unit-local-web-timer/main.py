@@ -1,10 +1,11 @@
 # full demo with web control panel
 # combines multi core and multi tasking
 
-import utime, uasyncio, json, gc, _thread
+import utime, uasyncio, json, gc, _thread, network
 from microdot import Microdot, redirect, send_file
-from machine import Pin, ADC, Timer
+from machine import Pin, ADC, Timer, WDT
 from secrets import NetworkCredentials
+sta_if = network.WLAN(network.STA_IF)
 
 serverPort = 3023
 
@@ -28,14 +29,25 @@ systemState["freeMemoryAfterGC"] = gc.mem_free()
 
 systemStateLock = _thread.allocate_lock()
 
-scheduleRunning = False
+scheduleRunning = systemState["scheduleRunning"]
 timer = Timer()
 
 up = True
 
-air = False
-pump = False
+air = systemState["airState"]
+pump = systemState["pumpState"]
 toggleAirTime = togglePumpTime = int(utime.time())
+
+
+
+def connectToNetwork():
+    if not sta_if.isconnected():
+        # print('connecting to network...')
+        sta_if.active(True)
+        sta_if.connect(NetworkCredentials.ssid, NetworkCredentials.password)
+        while not sta_if.isconnected():
+            pass
+    print('Connected! Network config:', sta_if.ifconfig())
 
 def toggleInternalLED():
     if(internalLed.value()):
@@ -45,6 +57,8 @@ def toggleInternalLED():
 
 def idle():
     print("idle")
+    if not sta_if.isconnected():
+        connectToNetwork()
     sleepTime = min(systemState['sleepTime'], 5)
     systemState['sleepTime'] = sleepTime
     with open("systemState.json", "w") as f:
@@ -58,7 +72,7 @@ def backgroundJob(self):
     global systemState
     global systemStateLock
     global scheduleRunning
-    global air, pump, toggleAirTime, togglePumpTime
+    global air, pump, toggleAirTime, togglePumpTime, wdt
     print("Start backgroundJob")
 
     if scheduleRunning:
@@ -111,17 +125,6 @@ def backgroundJob(self):
     systemState['freeMemoryAfterGC'] = gc.mem_free()
 
     idle()
-
-def connectToNetwork():
-    import network
-    sta_if = network.WLAN(network.STA_IF)
-    if not sta_if.isconnected():
-        # print('connecting to network...')
-        sta_if.active(True)
-        sta_if.connect(NetworkCredentials.ssid, NetworkCredentials.password)
-        while not sta_if.isconnected():
-            pass
-    print('Connected! Network config:', sta_if.ifconfig())
     
 # print("Connecting to your wifi...")
 connectToNetwork()
@@ -280,6 +283,10 @@ print("/static route added")
 
 
 if __name__ == '__main__':
+    print("starting schedule at startup")
+    timer.init(mode=Timer.ONE_SHOT, period=5000, callback=backgroundJob)
+    print("schedule started at startup")
+    
     app.run(port=serverPort, debug=False)
 else:
     print("app not run since not running from main")
