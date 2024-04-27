@@ -5,40 +5,6 @@ import utime, uasyncio, json, gc, _thread, network
 from microdot import Microdot, redirect, send_file
 from machine import Pin, ADC, Timer, WDT
 from secrets import NetworkCredentials
-sta_if = network.WLAN(network.STA_IF)
-
-serverPort = 3023
-
-internalLed = Pin("LED", Pin.OUT)
-internalLed.value(1)
-airPin = Pin(16, Pin.OUT)
-pumpPin = Pin(17, Pin.OUT)
-pressurePin = ADC(26)
-
-backgroundThread = 0
-
-with open("systemState.json") as f2:
-    systemState = json.load(f2)
-
-systemState["usedMemory"] = gc.mem_alloc()
-systemState["freeMemory"] = gc.mem_free()
-gc.collect()
-systemState["usedMemoryAfterGC"] = gc.mem_alloc()
-systemState["freeMemoryAfterGC"] = gc.mem_free()
-
-
-systemStateLock = _thread.allocate_lock()
-
-scheduleRunning = systemState["scheduleRunning"]
-timer = Timer()
-
-up = True
-
-air = systemState["airState"]
-pump = systemState["pumpState"]
-toggleAirTime = togglePumpTime = int(utime.time())
-
-
 
 def connectToNetwork():
     if not sta_if.isconnected():
@@ -73,12 +39,12 @@ def backgroundJob(self):
     global systemStateLock
     global scheduleRunning
     global air, pump, toggleAirTime, togglePumpTime, wdt
-    print("Start backgroundJob")
+    timeNow = int(utime.time())
+    print("Start backgroundJob", timeNow)
 
     if scheduleRunning:
         print("Running background job")
         toggleInternalLED()
-        timeNow = int(utime.time())
 
         systemStateLock.acquire()
         schedule = systemState["schedule"]
@@ -125,171 +91,220 @@ def backgroundJob(self):
     systemState['freeMemoryAfterGC'] = gc.mem_free()
 
     idle()
-    
-# print("Connecting to your wifi...")
-connectToNetwork()
-
-app = Microdot()
-# print("Microdot app created")
 
 
-@app.route('/')
-def index(request):
-    print("route /")
-    return redirect("/static/main.html")
+with open("systemState.json") as f2:
+    systemState = json.load(f2)
 
-print("route / added")
+if systemState['mode'] == 'normal':
+    from jaackd import getName
+    print("getName() = ", getName())
+
+    sta_if = network.WLAN(network.STA_IF)
+
+    serverPort = 3023
+
+    internalLed = Pin("LED", Pin.OUT)
+    internalLed.value(1)
+    airPin = Pin(16, Pin.OUT)
+    pumpPin = Pin(17, Pin.OUT)
+    pressurePin = ADC(26)
+
+    backgroundThread = 0
+
+    systemState["usedMemory"] = gc.mem_alloc()
+    systemState["freeMemory"] = gc.mem_free()
+    gc.collect()
+    systemState["usedMemoryAfterGC"] = gc.mem_alloc()
+    systemState["freeMemoryAfterGC"] = gc.mem_free()
 
 
-@app.route('/shutdown')
-def shutdown(request):
-    print("route /shutdown")
-    up = False
-    request.app.shutdown()
-    return 'The server is shutting down...'
+    systemStateLock = _thread.allocate_lock()
 
-# print("route /shutdown added")
+    scheduleRunning = systemState["scheduleRunning"]
+    timer = Timer()
+
+    up = True
+
+    air = systemState["airState"]
+    pump = systemState["pumpState"]
+    toggleAirTime = togglePumpTime = int(utime.time())
+
+    # print("Connecting to your wifi...")
+    connectToNetwork()
+
+    app = Microdot()
+    # print("Microdot app created")
 
 
-@app.post('/api')
-def api(request):
-    global systemState
-    global backgroundThread
-    global systemStateLock
-    global scheduleRunning
+    @app.route('/')
+    def index(request):
+        print("route /")
+        return redirect("/static/main.html")
 
-    action = request.json["action"]
-    # print("action = ", action)
-    if action == "turnInternalLedOn":
-        print("turning on internal led")
-        internalLed.value(1)
-        ledState = internalLed.value()
-        systemState['internalLedState'] = ledState
-        status = "OK"
-        return {'status': status, 'internalLedState': ledState}
-    elif action == "turnInternalLedOff":
-        # print("turning internal led off")
-        internalLed.value(0)
-        ledState = internalLed.value()
-        systemState['internalLedState'] = ledState
-        status = "OK"
-        return {'status': status, 'internalLedState': ledState}
-    elif action == "getInternalLedState":
-        # print("getting internal led state")
-        ledState = internalLed.value()
-        status = "OK"
-        return {'status': status, 'internalLedState': ledState}
-    
-    elif action == "turnAirOn":
-        # print("turning air on")
-        airPin.value(1)
-        airState = airPin.value()
-        systemState['airState'] = airState
-        status = "OK"
-        return {'status': status, 'airState': airState}
-    elif action == "turnAirOff":
-        # print("turning air off")
-        airPin.value(0)
-        airState = airPin.value()
-        systemState['airState'] = airState
-        status = "OK"
-        return {'status': status, 'airState': airState}
-    elif action == "getAirState":
-        # print("getting air state")
-        return{'status': 'OK', 'airState': airPin.value()}
-    
-    elif action == "turnPumpOn":
-        # print("turning pump on")
-        pumpPin.value(1)
-        pumpState = pumpPin.value()
-        systemState['pumpState'] = pumpState
-        status = "OK"
-        return {'status': status, 'pumpState': pumpState}
-    elif action == "turnPumpOff":
-        # print("turning pump off")
-        pumpPin.value(0)
-        pumpState = pumpPin.value()
-        systemState['pumpState'] = pumpState
-        status = "OK"
-        return {'status': status, 'pumpState': pumpState}
-    elif action == "getPumpState":
-        # print("getting pump state")
-        return{'status': 'OK', 'pumpState': pumpPin.value()}
-    
-    elif action == "getPressure":
-        print("getting pressure")
-        return{'status': 'OK', 'pressure': pressurePin.read_u16()}
-    
-    elif action == "setSchedule":
-        print("setting schedule")
-        scheduleRunning = True
-        schedule = request.json["schedule"]
-        systemStateLock.acquire()
-        systemState['schedule'] = schedule
-        systemStateLock.release()
-        return{'status': 'OK', 'schedule': schedule}
-    elif action == "getSchedule":
-        print("getting schedule")
-        return {'status': 'OK', 'schedule': systemState.schedule}    
-    elif action == "startSchedule":
-        print("starting schedule")
-        scheduleRunning = True
+    print("route / added")
 
-        systemStateLock.acquire()
-        systemState['scheduleRunning'] = scheduleRunning
-        with open("systemState.json", "w") as f:
-            json.dump(systemState, f)
-        systemStateLock.release()
 
-        timer.init(mode=Timer.ONE_SHOT, period=5000, callback=backgroundJob)
-        print("schedule started")
-        return{'status': 'OK'}
-    elif action == "stopSchedule":
-        print("stopping schedule")
-        scheduleRunning = False
+    @app.route('/shutdown')
+    def shutdown(request):
+        print("route /shutdown")
+        up = False
+        request.app.shutdown()
+        return 'The server is shutting down...'
+
+    # print("route /shutdown added")
+
+
+    @app.post('/api')
+    def api(request):
+        global systemState
+        global backgroundThread
+        global systemStateLock
+        global scheduleRunning
+
+        action = request.json["action"]
+        # print("action = ", action)
+        if action == "turnInternalLedOn":
+            print("turning on internal led")
+            internalLed.value(1)
+            ledState = internalLed.value()
+            systemState['internalLedState'] = ledState
+            status = "OK"
+            return {'status': status, 'internalLedState': ledState}
+        elif action == "turnInternalLedOff":
+            # print("turning internal led off")
+            internalLed.value(0)
+            ledState = internalLed.value()
+            systemState['internalLedState'] = ledState
+            status = "OK"
+            return {'status': status, 'internalLedState': ledState}
+        elif action == "getInternalLedState":
+            # print("getting internal led state")
+            ledState = internalLed.value()
+            status = "OK"
+            return {'status': status, 'internalLedState': ledState}
         
-        systemStateLock.acquire()
-        systemState['scheduleRunning'] = scheduleRunning
-        with open("systemState.json", "w") as f:
-            json.dump(systemState, f)
-        systemStateLock.release()
+        elif action == "turnAirOn":
+            # print("turning air on")
+            airPin.value(1)
+            airState = airPin.value()
+            systemState['airState'] = airState
+            status = "OK"
+            return {'status': status, 'airState': airState}
+        elif action == "turnAirOff":
+            # print("turning air off")
+            airPin.value(0)
+            airState = airPin.value()
+            systemState['airState'] = airState
+            status = "OK"
+            return {'status': status, 'airState': airState}
+        elif action == "getAirState":
+            # print("getting air state")
+            return{'status': 'OK', 'airState': airPin.value()}
+        
+        elif action == "turnPumpOn":
+            # print("turning pump on")
+            pumpPin.value(1)
+            pumpState = pumpPin.value()
+            systemState['pumpState'] = pumpState
+            status = "OK"
+            return {'status': status, 'pumpState': pumpState}
+        elif action == "turnPumpOff":
+            # print("turning pump off")
+            pumpPin.value(0)
+            pumpState = pumpPin.value()
+            systemState['pumpState'] = pumpState
+            status = "OK"
+            return {'status': status, 'pumpState': pumpState}
+        elif action == "getPumpState":
+            # print("getting pump state")
+            return{'status': 'OK', 'pumpState': pumpPin.value()}
+        
+        elif action == "getPressure":
+            print("getting pressure")
+            return{'status': 'OK', 'pressure': pressurePin.read_u16()}
+        
+        elif action == "setSchedule":
+            print("setting schedule")
+            scheduleRunning = True
+            schedule = request.json["schedule"]
+            systemStateLock.acquire()
+            systemState['schedule'] = schedule
+            systemStateLock.release()
+            return{'status': 'OK', 'schedule': schedule}
+        elif action == "getSchedule":
+            print("getting schedule")
+            return {'status': 'OK', 'schedule': systemState.schedule}    
+        elif action == "startSchedule":
+            print("starting schedule")
+            scheduleRunning = True
 
-        return{'status': 'OK'}
+            systemStateLock.acquire()
+            systemState['scheduleRunning'] = scheduleRunning
+            with open("systemState.json", "w") as f:
+                json.dump(systemState, f)
+            systemStateLock.release()
 
-    elif action == "getSystemState":
-        # print("getting system state")
-        return {'status': 'OK', 'systemState': systemState}
-    
-    elif action == "updateUnitName":
-        print("updateUnitName")
-        unitName = request.json['unitName']
-        print("unitName = ", unitName)
-        systemStateLock.acquire()
-        systemState['unitName'] = unitName
-        with open("systemState.json", "w") as f:
-            json.dump(systemState, f)
-        systemStateLock.release()
-        return {'status': 'OK', 'unitName': unitName}
+            timer.init(mode=Timer.ONE_SHOT, period=5000, callback=backgroundJob)
+            print("schedule started")
+            return{'status': 'OK'}
+        elif action == "stopSchedule":
+            print("stopping schedule")
+            scheduleRunning = False
+            
+            systemStateLock.acquire()
+            systemState['scheduleRunning'] = scheduleRunning
+            with open("systemState.json", "w") as f:
+                json.dump(systemState, f)
+            systemStateLock.release()
+
+            return{'status': 'OK'}
+
+        elif action == "getSystemState":
+            # print("getting system state")
+            return {'status': 'OK', 'systemState': systemState}
+        
+        elif action == "updateUnitName":
+            print("updateUnitName")
+            unitName = request.json['unitName']
+            print("unitName = ", unitName)
+            systemStateLock.acquire()
+            systemState['unitName'] = unitName
+            with open("systemState.json", "w") as f:
+                json.dump(systemState, f)
+            systemStateLock.release()
+            return {'status': 'OK', 'unitName': unitName}
 
 
-@app.route('/static/<path:path>')
-async def static(request, path):
-    if '..' in path:
-        # directory traversal is not allowed
-        return 'Not found', 404
-    return send_file('static/' + path, max_age=86400)
+    @app.route('/static/<path:path>')
+    async def static(request, path):
+        if '..' in path:
+            # directory traversal is not allowed
+            return 'Not found', 404
+        return send_file('static/' + path, max_age=86400)
 
-print("/static route added")
+    print("/static route added")
 
 
-if __name__ == '__main__':
-    print("starting schedule at startup")
-    timer.init(mode=Timer.ONE_SHOT, period=5000, callback=backgroundJob)
-    print("schedule started at startup")
-    
-    app.run(port=serverPort, debug=False)
-else:
-    print("app not run since not running from main")
-    
+    if __name__ == '__main__':
+        print("starting schedule at startup")
+        timer.init(mode=Timer.ONE_SHOT, period=5000, callback=backgroundJob)
+        print("schedule started at startup")
+        
+        app.run(port=serverPort, debug=False)
+    else:
+        print("app not run since not running from main")
+        
 
-print("done")
+    print("done")
+elif systemState['mode'] == 'systemUpdate':
+    # Get system updates
+    systemUpdates = systemState['systemUpdates']
+    for systemUpdate in systemUpdates.values():
+            if systemUpdate['updateType'] == "updateFile":
+                print("fileName = ", systemUpdate['fileName'])
+                print("fileContents = ", systemUpdate['fileContents'])
+                with open(systemUpdate['fileName'], "w") as f:
+                    f.write(systemUpdate['fileContents'])
+            else:
+                print("updateType = ", systemUpdate['updateType'])

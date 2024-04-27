@@ -1,1 +1,41 @@
-{"nextAirToggle": 197, "airStatus": false, "nextPumpToggle": 315, "usedMemoryAfterGC": 40032, "schedule": {"pumpOffMinutes": 10, "airOffMinutes": 3, "airOnSeconds": 12, "pumpOffHours": 0, "pumpOnSeconds": 0, "pumpOnMinutes": 6, "pumpOffSeconds": 0, "airOffSeconds": 48, "airOffHours": 0, "airOnHours": 0, "airOnMinutes": 0, "pumpOnHours": 0}, "sleepTime": 5, "pumpState": true, "internalLedState": 1, "freeMemory": 66400, "name": "jaackd-aeroponics", "freeMemoryAfterGC": 151840, "usedMemory": 125472, "pumpStatus": true, "airState": false, "unitName": "Back Right Flower Tent", "scheduleRunning": false}
+{
+    "version": {
+        "major":0, 
+        "minor":1, 
+        "patch":10
+        }, 
+    "mode":"systemUpdate", 
+    "ip-address": "0.0.0.0", 
+    "nextAirToggle": 197, 
+    "airStatus": false, 
+    "nextPumpToggle": 315, 
+    "usedMemoryAfterGC": 40032, 
+    "schedule": {
+        "pumpOffMinutes": 10, 
+        "airOffMinutes": 3, 
+        "airOnSeconds": 12, 
+        "pumpOffHours": 0, 
+        "pumpOnSeconds": 0, 
+        "pumpOnMinutes": 6, 
+        "pumpOffSeconds": 0, 
+        "airOffSeconds": 48, 
+        "airOffHours": 0, 
+        "airOnHours": 0, 
+        "airOnMinutes": 0, 
+        "pumpOnHours": 0}, 
+    "sleepTime": 5, 
+    "pumpState": true, 
+    "internalLedState": 1, 
+    "freeMemory": 66400, 
+    "name": "jaackd-aeroponics", 
+    "freeMemoryAfterGC": 151840, 
+    "usedMemory": 125472, 
+    "pumpStatus": true, 
+    "airState": false, 
+    "unitName": "Back Right Flower Tent", 
+    "scheduleRunning": false, 
+    "systemUpdates": {
+        "systemState": {
+            "updateType": "updateFile",
+            "fileName": "jaackd.py", 
+            "fileContents": "def getName:\n	return 'My Name'"}}}
