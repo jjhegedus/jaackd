@@ -1,0 +1,34 @@
+logging:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    default:
+      format: '%(asctime)s - %(pathname)s - %(funcName)s - %(lineno)d - %(levelname)s - %(message)s'
+  handlers:
+    dynamic_file:
+      class: dynamic_file_handler.DynamicFileHandler
+      level: DEBUG
+      formatter: default
+      base_dir: 'C:/Logs/jaackd-freecad'
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: default
+      stream: ext://sys.stdout
+  root:
+    level: DEBUG
+    handlers: [dynamic_file, console]
+
+jobs:
+  # - name: "job1"
+  #   interval: 10  # in seconds
+  #   max_runs: 5
+  #   active: true
+  #   code: |
+  #     print("I am job1")
+  # - name: "job2"
+  #   interval: 30  # in seconds
+  #   max_runs: 3
+  #   active: true
+  #   code: |
+  #     print("I am job2")

@@ -1,0 +1,14 @@
+logging:
+  version: 1
+  formatters:
+    detailed:
+      format: "%(asctime)s - %(pathname)s - %(funcName)s - %(lineno)d - %(levelname)s - %(message)s"
+  handlers:
+    file:
+      class: logging.FileHandler
+      filename: "C:/Logs/jaackd-freecad/test.log"
+      formatter: detailed
+      level: DEBUG
+  root:
+    handlers: [file]
+    level: DEBUG

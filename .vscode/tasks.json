@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Launch FreeCAD with Log",
+          "type": "shell",
+          "command": "C:\\Program Files\\FreeCAD 1.0\\bin\\freecad.exe",
+          "args": [
+              "--write-log",
+              "C:/p/local/freecad/test1.FCStd"
+          ],
+          "windows": {
+            "args": [
+                "--write-log",
+                "C:/p/local/freecad/test1.FCStd"],
+              "command": "C:\\Program Files\\FreeCAD 1.0\\bin\\freecad.exe"
+          },
+          "problemMatcher": [],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "presentation": {
+              "reveal": "always",
+              "panel": "shared",
+              "showReuseMessage": false
+          }
+      },
+      {
+          "label": "Run with FreeCAD Python",
+          "type": "shell",
+          "command": "C:\\Program Files\\FreeCAD 1.0\\bin\\python.exe",
+          "args": [
+              "${file}"
+          ],
+          "options": {
+              "cwd": "${fileDirname}"
+          },
+          "problemMatcher": [],
+          "group": {
+              "kind": "test",
+              "isDefault": true
+          },
+          "presentation": {
+              "reveal": "always",
+              "panel": "shared",
+              "showReuseMessage": false
+          }
+      }
+  ]
+}

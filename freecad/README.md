@@ -1,0 +1,1 @@
+#jaackd-freecad is tooling for extending and improving the functionality of FreeCad and integrating it with other jaackd systems
