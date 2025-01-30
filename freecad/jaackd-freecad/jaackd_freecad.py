@@ -1,3 +1,7 @@
+import sys
+sys.path.append("/usr/lib/freecad-daily-python3/lib/")
+import FreeCAD
+
 import FreeCADGui as Gui
 import logging, debugpy
 

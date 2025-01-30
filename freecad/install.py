@@ -4,7 +4,23 @@ import sys
 import shutil
 from pathlib import Path
 
-log_file_path = r"C:/Logs/jaackd-freecad/install.log"
+log_folder = r""
+log_file_path = r""
+    
+if sys.platform.startswith("win"):
+    log_folder = r"C:/Logs/jaackd-freecad"
+    log_file_path = r"C:/Logs/jaackd-freecad/install.log"
+elif sys.platform.startswith("linux"):
+    log_folder = r"/var/log/jaackd-freecad"
+    log_file_path = r"/var/log/jaackd-freecad/install.log"
+elif sys.platform.startswith("darwin"):
+    log_folder = r"/var/log/jaackd-freecad"
+    log_file_path = r"/var/log/jaackd-freecad/install.log"
+else:
+    raise OSError("Unsupported OS")
+
+if not os.path.exists(log_folder):
+    os.makedirs(log_folder)
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -17,7 +33,7 @@ logger.info("Starting install.py")
 # Define paths
 FREECAD_MOD_DIR = {
     "Windows": r"C:\Program Files\FreeCAD 1.0\Mod",
-    "Linux": "/usr/lib/freecad/Mod",
+    "Linux": "/usr/share/freecad-daily/Mod",
     "MacOS": "/Applications/FreeCAD.app/Contents/Resources/Mod"
 }
 
@@ -34,7 +50,6 @@ def get_freecad_mod_dir():
     else:
         raise OSError("Unsupported OS")
     
-
 def copy_module_to_freecad(source_dir, target_dir):
     source_folder = Path(MODULE_NAME).resolve()
     target_path = os.path.join(target_dir, MODULE_NAME)
