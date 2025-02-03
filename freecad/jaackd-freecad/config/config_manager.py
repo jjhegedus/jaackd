@@ -3,14 +3,20 @@ import yaml, os
 from dynamic_file_handler import DynamicFileHandler
 from file_watcher import FileWatcher
 
-workingFolder = os.getcwd()
-
 class ConfigManager:
     def __init__(self, config_path='./config/config.yaml'):
-        self.config_path = config_path
+        self.set_working_directory()
+        self.config_path = os.path.abspath(config_path)
         self.config = self.load_config()
         self.file_watcher = FileWatcher(self.config_path, self.on_config_modified)
         self.file_watcher.start()
+
+    def set_working_directory(self):
+        working_directory = os.getenv('JAACKD_FREECAD_INSTALL_FOLDER')
+        if working_directory:
+            os.chdir(working_directory)
+            logging.info(f"Working directory set to: {working_directory}")
+
 
     def load_config(self):
         try:

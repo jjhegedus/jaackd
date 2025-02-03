@@ -94,3 +94,6 @@ typings/
 
 #FreeCad backup files
 *.FCBak
+
+#Python virtual environment
+*.venv

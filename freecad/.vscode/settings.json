@@ -1,0 +1,7 @@
+{
+  "python.analysis.extraPaths": [
+    "C:/Program Files/FreeCAD 1.0/bin/freecad.exe",
+    "./jaackd-freecad/commands",
+    "./jaackd-freecad"
+  ]
+}

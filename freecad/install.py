@@ -27,9 +27,16 @@ logging.basicConfig(
     filename=log_file_path,
     format="%(asctime)s - %(pathname)s - %(funcName)s - %(lineno)d - %(levelname)s - %(message)s")
 
+# Add console handler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+console_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
 logger = logging.getLogger(__name__)
+logger.addHandler(console_handler)
 
 logger.info("Starting install.py")
+
 # Define paths
 FREECAD_MOD_DIR = {
     "Windows": r"C:\Program Files\FreeCAD 1.0\Mod",
