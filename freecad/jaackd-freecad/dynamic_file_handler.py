@@ -1,10 +1,19 @@
 import logging
 import os
 import inspect
+import platform
 
 class DynamicFileHandler(logging.FileHandler):
-    def __init__(self, base_dir='C:/Logs/jaackd-freecad', *args, **kwargs):
-        self.base_dir = base_dir
+    def __init__(self, *args, **kwargs):
+        # Set the base directory based on the operating system
+        if platform.system() == 'Windows':
+            self.base_dir = 'C:/Logs/jaackd-freecad'
+        else:
+            self.base_dir = '/var/log/jaackd-freecad'
+        
+        # Ensure the base directory exists
+        os.makedirs(self.base_dir, exist_ok=True)
+        
         super().__init__(self._get_log_file(), *args, **kwargs)
 
     def _get_log_file(self):

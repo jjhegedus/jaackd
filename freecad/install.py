@@ -3,6 +3,8 @@ import os
 import sys
 import shutil
 from pathlib import Path
+from utils import env_variables  # Import the functions
+
 
 log_folder = r""
 log_file_path = r""
@@ -81,6 +83,8 @@ def main():
         logger.info("Preparing to copy")
         # Copy the module to the FreeCAD directory
         copy_module_to_freecad(CLONED_MODULE_DIR, freecad_mod_dir)
+
+        env_variables.set_env_variable("JAACKD_FREECAD_INSTALL_FOLDER", freecad_mod_dir)
 
         logger.info("Installation completed successfully!")
     except Exception as e:

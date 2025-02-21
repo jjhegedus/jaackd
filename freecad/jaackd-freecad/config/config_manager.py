@@ -4,7 +4,7 @@ from dynamic_file_handler import DynamicFileHandler
 from file_watcher import FileWatcher
 
 class ConfigManager:
-    def __init__(self, config_path='./config/config.yaml'):
+    def __init__(self, config_path='./jaackd-freecad/config/config.yaml'):
         self.set_working_directory()
         self.config_path = os.path.abspath(config_path)
         self.config = self.load_config()

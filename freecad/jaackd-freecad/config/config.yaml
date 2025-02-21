@@ -9,7 +9,6 @@ logging:
       class: dynamic_file_handler.DynamicFileHandler
       level: DEBUG
       formatter: default
-      base_dir: 'C:/Logs/jaackd-freecad'
     console:
       class: logging.StreamHandler
       level: DEBUG

@@ -4,30 +4,21 @@
     {
       "label": "Launch FreeCAD with Log",
       "type": "shell",
-      "command": "C:\\Program Files\\FreeCAD 1.0\\bin\\freecad.exe",
+      "command": "/usr/bin/freecad-daily",
       "args": [
         "--write-log",
-        "${env:JAACKD_FREECAD_INSTALL_FOLDER}/testing/test.FCStd"
+        "${env:JAACKD_FREECAD_INSTALL_FOLDER}/jaackd-freecad/testing/test.FCStd"
       ],
-      "windows": {
-        "command": "C:\\Program Files\\FreeCAD 1.0\\bin\\freecad.exe",
-        "args": [
-          "--write-log",
-          "${env:JAACKD_FREECAD_INSTALL_FOLDER}\\testing\\test.FCStd"
-        ]
+      "options": {
+        "env": {
+          "JAACKD_FREECAD_INSTALL_FOLDER": "/usr/share/freecad-daily/Mod"
+        }
       },
       "linux": {
-        "command": "/usr/bin/freecad",
+        "command": "/usr/bin/freecad-daily",
         "args": [
           "--write-log",
-          "${env:JAACKD_FREECAD_INSTALL_FOLDER}/testing/test.FCStd"
-        ]
-      },
-      "osx": {
-        "command": "/Applications/FreeCAD.app/Contents/MacOS/FreeCAD",
-        "args": [
-          "--write-log",
-          "${env:JAACKD_FREECAD_INSTALL_FOLDER}/testing/test.FCStd"
+          "${env:JAACKD_FREECAD_INSTALL_FOLDER}/jaackd-freecad/testing/test.FCStd"
         ]
       },
       "problemMatcher": [],
@@ -38,7 +29,14 @@
       "presentation": {
         "reveal": "always",
         "panel": "shared",
-        "showReuseMessage": false
+        "showReuseMessage": false,
+        "clear": true,
+        "echo": true,
+        "focus": false
+      },
+      "runOptions": {
+        "runOn": "default",
+        "instanceLimit": 1
       }
     },
     {

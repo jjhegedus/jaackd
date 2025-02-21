@@ -20,14 +20,12 @@ def show_freecad_message_box(title, message):
     msg_box.setStandardButtons(QtWidgets.QMessageBox.Ok)
     msg_box.exec_()
 
-# Example usage within the InitGui.py context
-show_freecad_message_box("Information", "This is a message box in FreeCAD.")
-print("After showing message box")
+# Uncomment the follwing line to enable a pause to attach a debugger
+# show_freecad_message_box("Information", "This is a message box in FreeCAD.")
 
 from config.config_manager import ConfigManager
 # from background import BackgroundProcessor
 # from command_manager import CommandManager
-
 
 class HelloWorldCommand:
     def GetResources(self):
@@ -46,12 +44,12 @@ class HelloWorldCommand:
 
 class JaackdFreecad(Gui.Workbench):
     def __init__(self):
-        # Print the path to the currently executing file
-        print(f"Executing file: {os.path.abspath(__file__)}")
+        # Log the path to the currently executing file
+        self.logger.info(f"Executing file: {os.path.abspath(__file__)}")
 
         self.config_manager = ConfigManager()  # Store the instance of ConfigManager
         
-        print(f"Current working directory: {os.getcwd()}")
+        self.logger.info(f"Current working directory: {os.getcwd()}")
         
         self.config_manager.setup_logging()
 
