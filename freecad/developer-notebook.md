@@ -1,7 +1,7 @@
 # FreeCAD Developer Notebook
 
 ## Overview
-This notebook outlines the process of integrating custom Python functionality with FreeCAD, focusing on creating parametric parts linked to custom configurations. Key topics include Python script placement, initialization routines, UI integration, and module installation.
+This notebook outlines the process of integrating custom Python functionality with FreeCAD, focusing on creating parametric parts linked to custom configurations. Key topics include Python script placement, initialization routines, UI integration, module installation, and setting up a development environment for better IntelliSense support.
 
 ---
 
@@ -164,12 +164,51 @@ def load_configurations_from_json(file_path):
 
 ---
 
+## 6. Development Environment Setup
+
+### Using a `.env` File and Python Path for IntelliSense
+To get IntelliSense for FreeCAD-provided libraries, you can use a `.env` file to set the `PYTHONPATH`. Create a `.env` file in your project root with the following content:
+```
+PYTHONPATH=/path/to/FreeCAD/lib
+```
+Replace `/path/to/FreeCAD/lib` with the actual path to the FreeCAD libraries on your system.
+
+### Setting Up a Virtual Environment
+It is recommended to use a virtual environment to manage dependencies and ensure IntelliSense works properly. Follow these steps:
+
+1. **Create a Virtual Environment**:
+    ```sh
+    python -m venv venv
+    ```
+
+2. **Activate the Virtual Environment**:
+    - On Windows:
+        ```sh
+        .\venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```sh
+        source venv/bin/activate
+        ```
+
+3. **Install Required Libraries**:
+    ```sh
+    pip install pyqt5 pyside2
+    ```
+
+4. **Configure Your IDE**:
+    - Ensure your IDE is configured to use the virtual environment's interpreter.
+    - Use the `.env` file to set the `PYTHONPATH` for IntelliSense.
+
+---
+
 ## Conclusion
 This setup provides:
 - A modular, scalable system for managing parametric parts in FreeCAD.
 - User-friendly interfaces for creating and managing configurations.
 - Robust data persistence with JSON.
 - Seamless integration with FreeCAD's document and GUI systems.
+- Enhanced development experience with IntelliSense support.
 
 By following this guide, developers can extend FreeCAD's capabilities for custom applications.
 

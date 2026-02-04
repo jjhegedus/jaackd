@@ -3,7 +3,7 @@ import logging
 import importlib.util
 import FreeCADGui as Gui
 from icommand import ICommand
-from utils import has_interface_methods
+from utils.interface_methods import has_interface_methods
 
 class CommandManager:
     def __init__(self, subfolder, callback):

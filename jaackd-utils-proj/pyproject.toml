@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaackd-utils"
+authors = [
+    {name = "jaackd", email = "admin@jaackd.com"},
+]
+description = "Jaackd Python Utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["jaackd", "utilities", "env", "environment", "interface", "method", "duck-typing"]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "os",
+    'importlib-metadata; python_version<"3.10"',
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+# no option dependencies
+
+[project.scripts]
+# my-script = "my_package.module:function"
+
+[tool.setuptools_scm]
+# using defaults

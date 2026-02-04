@@ -1,0 +1,354 @@
+Title this chat FreeCAD Developer Notebook and it as a developer workbook that includes all of the detail below as well as additional detail on which files need to be modified. Where do they need to be stored. Which will be run when freecad launches, how will the user interface scripts be launched, etc. 
+
+1. Integration with FreeCAD
+When creating parametric parts in FreeCAD, you need to integrate custom Python data structures to interact with the FreeCAD document and its objects.
+To integrate custom data structures such as Configuration with FreeCAD parts, you can follow these steps:
+a. Creating Parts with Custom Data
+1.	Define and store configuration parameters: You can use your custom Configuration class to store parameters that will be used to generate FreeCAD parts. These configurations can include values like dimensions, material properties, and others.
+2.	Link configurations to FreeCAD parts: When a part is created, you can associate it with a specific configuration using FreeCAD custom properties. These properties help track which configuration was used to create the part.
+Example: Create a Part and Link it to a Configuration
+Let’s assume we have a Configuration class (as defined earlier). Here’s how you can integrate it with FreeCAD to create a part and store the configuration name as a custom property:
+
+
+<setup.py>
+from setuptools import setup, find_packages
+
+setup(
+    name="jaackd-freecad",
+    version="0.1",
+    description="Custom functionality for FreeCAD.",
+    author="Jeff Hegedus",
+    author_email="jeff@22ndtech.com",
+    url="https://github.com/jjhegedus/jaackd/jaackd-freecad",
+    packages=find_packages(include=["scripts", "scripts.*"]),
+    install_requires=[
+        "PyQt5",  # Add any additional dependencies here
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+)
+
+<part-creator.py>
+import FreeCAD
+
+def create_part_from_configuration(config):
+    doc = FreeCAD.ActiveDocument
+    part = doc.addObject("Part::Box", f"{config.config_name}_Part")
+    part.Length = config.length
+    part.Width = config.width
+    part.Height = 10
+    part.addProperty("App::PropertyString", "ConfigName").ConfigName = config.config_name
+    doc.recompute()
+
+
+<config-wizard.py>
+from PySide2.QtWidgets import QDialog, QVBoxLayout, QFormLayout, QLineEdit, QPushButton, QLabel, QSpinBox
+
+class ConfigWizard(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Part Configuration Wizard")
+
+        layout = QVBoxLayout()
+        form_layout = QFormLayout()
+
+        self.config_name_input = QLineEdit()
+        form_layout.addRow(QLabel("Configuration Name:"), self.config_name_input)
+
+        self.length_input = QSpinBox()
+        self.length_input.setRange(10, 1000)
+        form_layout.addRow(QLabel("Length (mm):"), self.length_input)
+
+        self.width_input = QSpinBox()
+        self.width_input.setRange(10, 1000)
+        form_layout.addRow(QLabel("Width (mm):"), self.width_input)
+
+        self.diameter_input = QSpinBox()
+        self.diameter_input.setRange(1, 100)
+        form_layout.addRow(QLabel("Hole Diameter (mm):"), self.diameter_input)
+
+        layout.addLayout(form_layout)
+        self.save_button = QPushButton("Save Configuration")
+        self.save_button.clicked.connect(self.save_configuration)
+        layout.addWidget(self.save_button)
+
+        self.setLayout(layout)
+
+    def save_configuration(self):
+        config_name = self.config_name_input.text()
+        length = self.length_input.value()
+        width = self.width_input.value()
+        diameter = self.diameter_input.value()
+        print(f"Saved Configuration: {config_name}, {length}x{width}, Hole: {diameter}mm")
+        self.accept()
+
+
+<Init.py>
+import FreeCAD
+import FreeCADGui
+import InitGui
+import logging, os
+
+# Register your module and set up any global initialization tasks
+def initialize():
+    pass  # Add any initialization code here
+
+log_file_path = r"C:/Logs/jaackd-freecad/Init.log"
+
+logger = logging.getLogger(__name__)
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename=log_file_path,
+    format="%(asctime)s - %(levelname)s - %(message)s")
+
+logger.info("jaackd-freecad: sucessfully ran Init.py")
+
+<InitGui.py>
+import FreeCADGui
+import logging
+from part_creator import create_part_from_configuration
+from Gui.config_wizard import ConfigWizard
+
+class ConfigWizardCommand:
+    def GetResources(self):
+        return {
+            'Pixmap': 'path/to/icon.png',  
+            'MenuText': 'Open Configuration Wizard',
+            'ToolTip': 'Launch the configuration wizard for creating parts.'
+        }
+
+    def Activated(self):
+        wizard = ConfigWizard()
+        wizard.exec_()
+        config = wizard.get_configuration()
+        if config:
+            create_part_from_configuration(config)
+
+    def IsActive(self):
+        return not FreeCADGui.ActiveDocument is None
+    
+FreeCADGui.    
+log_file_path = r"C:/Logs/jaackd-freecad/InitGui.log"
+
+logger = logging.getLogger(__name__)
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename=log_file_path,
+    format="%(asctime)s - %(levelname)s - %(message)s")
+
+try:
+    logger.info("Attempting to register ConfigWizardCommand with FreeCADGui.")
+    # FreeCADGui.addCommand('OpenConfigWizard', ConfigWizardCommand())
+    FreeCADGui.runCommand('OpenConfigWizard', ConfigWizardCommand())
+    logger.info("ConfigWizardCommand successfully registered with FreeCADGui.")
+except Exception as e:
+    logger.error(f"Error while registering ConfigWizardCommand: {str(e)}")
+
+
+
+<install.py> # for installing the functionality on the local machine
+import os
+import sys
+import shutil
+import logging
+import FreeCAD
+
+# Define paths
+FREECAD_MOD_DIR = {
+    "Windows": r"C:\Program Files\FreeCAD 1.0\Mod",
+    "Linux": "/usr/lib/freecad/Mod",
+    "MacOS": "/Applications/FreeCAD.app/Contents/Resources/Mod"
+}
+
+MODULE_NAME = "jaackd-freecad" 
+CLONED_MODULE_DIR = ".\\freecad"  
+
+def get_freecad_mod_dir():
+    if sys.platform.startswith("win"):
+        return os.path.join(os.getenv('APPDATA'), 'FreeCAD', 'Mod')
+    elif sys.platform.startswith("linux"):
+        return FREECAD_MOD_DIR["Linux"]
+    elif sys.platform.startswith("darwin"):
+        return FREECAD_MOD_DIR["MacOS"]
+    else:
+        raise OSError("Unsupported OS")
+
+def copy_module_to_freecad(source_dir, target_dir):
+    module_path = os.path.join(source_dir, MODULE_NAME)
+    target_path = os.path.join(target_dir, MODULE_NAME)
+    
+    print(f"Copying module to FreeCAD directory: {target_path}")
+    if os.path.exists(target_path):
+        shutil.rmtree(target_path)
+    shutil.copytree(module_path, target_path)
+    print("Module installation complete.")
+
+def main():
+    try:
+        # Determine FreeCAD Mod directory
+        freecad_mod_dir = get_freecad_mod_dir()
+        if not os.path.exists(freecad_mod_dir):
+            raise FileNotFoundError(f"FreeCAD Mod directory not found: {freecad_mod_dir}")
+
+        # Copy the module to the FreeCAD directory
+        copy_module_to_freecad(CLONED_MODULE_DIR, freecad_mod_dir)
+
+        print("Installation completed successfully!")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+log_file_path = r"C:/Logs/jaackd-freecad/install.log"
+
+logger = logging.getLogger(__name__)
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    filename=log_file_path,
+    format="%(asctime)s - %(levelname)s - %(message)s")
+
+if __name__ == "__main__":
+    logger.info("jaackd-freecad starting Install.py")
+    main()
+
+
+
+
+Explanation:
+•	save_configurations_to_json: Converts the Configuration objects into dictionaries and saves them to a JSON file.
+•	load_configurations_from_json: Loads the configurations back from the JSON file into the ConfigurationManager.
+
+ 
+Conclusion
+With this approach, you create a flexible system where:
+•	Custom data structures (like Configuration) hold part-specific parameters.
+•	User interfaces (like the configuration wizard) make it easy for users to input and manage configurations.
+•	Event listeners track changes in the FreeCAD document and handle updates automatically.
+•	Data storage via JSON (or other formats) ensures that configurations can be saved and reloaded.
+This provides a robust foundation for building parametric parts libraries with user-defined configurations and dynamic FreeCAD part creation
+
+
+Don't repeat what you've told me previously unless I specificall ask you to. Tell me only new information or specific details I request. Provide no addition context, summary or conclusions, unless I request them. And don't show me files or file content unless I ask for them. 
+
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+rm -f packages.microsoft.gpg
+
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+
+sudo apt update
+sudo apt install code
+
+
+
+
+To create a custom chat window within Visual Studio Code that can automate the process of adding specific content to each prompt, you can develop a VS Code extension. This extension can provide a custom webview panel where you can input your prompts, and it will automatically add the specified content before sending it.
+
+Here are the steps to create such an extension:
+
+1. **Set Up Your Extension**:
+    - Open a terminal and run the following commands to create a new VS Code extension:
+      ```bash
+      npx yo code
+      ```
+    - Follow the prompts to set up your extension. Choose "New Extension (TypeScript)" for the project type.
+
+2. **Modify the Extension**:
+    - Open the generated extension folder in VS Code.
+    - Modify the `src/extension.ts` file to create a custom webview panel:
+
+      ```typescript
+      import * as vscode from 'vscode';
+
+      export function activate(context: vscode.ExtensionContext) {
+          context.subscriptions.push(
+              vscode.commands.registerCommand('extension.openChatWindow', () => {
+                  const panel = vscode.window.createWebviewPanel(
+                      'chatWindow',
+                      'Custom Chat Window',
+                      vscode.ViewColumn.One,
+                      {
+                          enableScripts: true
+                      }
+                  );
+
+                  panel.webview.html = getWebviewContent();
+                  panel.webview.onDidReceiveMessage(
+                      message => {
+                          switch (message.command) {
+                              case 'sendPrompt':
+                                  const additionalContent = `
+                                  Don't repeat what you've told me previously unless I specifically ask you to. Tell me only new information or specific details I request. Provide no additional context, summary, or conclusions, unless I request them.
+                                  `;
+                                  const fullPrompt = `${additionalContent}\n${message.text}`;
+                                  vscode.window.showInformationMessage(fullPrompt);
+                                  return;
+                          }
+                      },
+                      undefined,
+                      context.subscriptions
+                  );
+              })
+          );
+      }
+
+      function getWebviewContent() {
+          return `
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>Custom Chat Window</title>
+              </head>
+              <body>
+                  <textarea id="prompt" rows="10" cols="50"></textarea>
+                  <br>
+                  <button onclick="sendPrompt()">Send Prompt</button>
+                  <script>
+                      const vscode = acquireVsCodeApi();
+                      function sendPrompt() {
+                          const prompt = document.getElementById('prompt').value;
+                          vscode.postMessage({
+                              command: 'sendPrompt',
+                              text: prompt
+                          });
+                      }
+                  </script>
+              </body>
+              </html>
+          `;
+      }
+
+      export function deactivate() {}
+      ```
+
+3. **Add a Command to Package.json**:
+    - Modify the `package.json` file to add a command for opening the chat window:
+
+      ```json
+      {
+          "contributes": {
+              "commands": [
+                  {
+                      "command": "extension.openChatWindow",
+                      "title": "Open Custom Chat Window"
+                  }
+              ]
+          }
+      }
+      ```
+
+4. **Run and Test the Extension**:
+    - Press `F5` to open a new VS Code window with your extension loaded.
+    - Open the Command Palette (`Ctrl+Shift+P`) and run the command `Open Custom Chat Window`.
+    - Enter your prompt in the textarea and click the "Send Prompt" button. The full prompt with the additional content will be displayed as an information message.
+
+This setup creates a custom chat window within VS Code where you can input your prompts, and it will automatically add the specified content before displaying the full prompt. You can further customize this extension to suit your needs.
+
+Similar code found with 1 license type

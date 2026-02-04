@@ -4,6 +4,7 @@ import FreeCADGui as Gui
 import logging, debugpy
 
 from PySide2 import QtWidgets
+from command_manager import CommandManager
 
 
 def show_freecad_message_box(title, message):
@@ -45,11 +46,11 @@ class HelloWorldCommand:
 class JaackdFreecad(Gui.Workbench):
     def __init__(self):
         # Log the path to the currently executing file
-        self.logger.info(f"Executing file: {os.path.abspath(__file__)}")
+        logging.info(f"Executing file: {os.path.abspath(__file__)}")
 
         self.config_manager = ConfigManager()  # Store the instance of ConfigManager
         
-        self.logger.info(f"Current working directory: {os.getcwd()}")
+        logging.info(f"Current working directory: {os.getcwd()}")
         
         self.config_manager.setup_logging()
 
@@ -66,8 +67,8 @@ class JaackdFreecad(Gui.Workbench):
         self.appendToolbar("Jaackd Tools", ["HelloWorld"])
         self.appendMenu("Jaackd", ["HelloWorld"])
 
-        # self.command_manager = CommandManager('commands', self.add_commands_to_ui)
-        # self.command_manager.load_commands()
+        self.command_manager = CommandManager('commands', self.add_commands_to_ui)
+        self.command_manager.load_commands()
 
         # self.processor = BackgroundProcessor(self.config_manager)  # Pass the ConfigManager instance
         # self.processor.start()

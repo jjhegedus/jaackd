@@ -10,15 +10,11 @@
         "${env:JAACKD_FREECAD_INSTALL_FOLDER}/jaackd-freecad/testing/test.FCStd"
       ],
       "options": {
-        "env": {
-          "JAACKD_FREECAD_INSTALL_FOLDER": "/usr/share/freecad-daily/Mod"
-        }
       },
       "linux": {
         "command": "/usr/bin/freecad-daily",
         "args": [
-          "--write-log",
-          "${env:JAACKD_FREECAD_INSTALL_FOLDER}/jaackd-freecad/testing/test.FCStd"
+          "--write-log"
         ]
       },
       "problemMatcher": [],
