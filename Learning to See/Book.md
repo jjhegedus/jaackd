@@ -47,7 +47,7 @@ It was the realization that I had been standing at a table, cue in my hand, beli
 and I wasn’t even close.
 
 
-#Chapter 1 — The Room
+# Chapter 1 — The Room
 
 Every pool room has an order.
 I didn’t know that yet.
@@ -120,7 +120,7 @@ I was making balls. I was winning some money. I could see who was good and who w
 I thought the game was starting to open up.
 
 
-#Chapter 2 — Marek (Final)
+# Chapter 2 — Marek (Final)
 
 I don’t remember noticing Marek when he first came into the room.
 
@@ -229,7 +229,7 @@ What mattered was that I finally understood how dangerous it is to know somethin
 and still be unable to see it.
 
 
-#Chapter 3: When the Room Changes
+# Chapter 3: When the Room Changes
 
 The first few rounds felt ordinary.
 
@@ -292,7 +292,7 @@ Paul nodded.
 That might have been the worst part.
 
 
-#Chapter 4: The Question That Followed Him Home
+# Chapter 4: The Question That Followed Him Home
 
 Paul walked because he needed to.
 
@@ -436,7 +436,7 @@ He didn’t decide anything on that walk.
 But by the time he reached his place, he knew he wasn’t done.
 
 
-#Chapter 5: The Table They Could Afford
+# Chapter 5: The Table They Could Afford
 
 Paul didn’t make a speech about it.
 
@@ -501,7 +501,7 @@ Then it would vanish again.
 He learned to keep shooting anyway.
 
 
-#Chapter 6: Picking a Side
+# Chapter 6: Picking a Side
 
 Paul stopped switching.
 
@@ -552,7 +552,7 @@ That was fine.
 Paul wasn’t looking for explanations anymore.
 
 
-#Chapter 7: What Counts as Practice
+# Chapter 7: What Counts as Practice
 
 Marek had been back for weeks before Paul realized he was really back.
 
@@ -733,7 +733,7 @@ By the time the ACUI qualifier went up on the wall, Paul knew Marek wasn’t try
 And Marek knew Paul didn’t need him to.
 
 
-#Chapter 8: The Qualifier
+# Chapter 8: The Qualifier
 
 The ACUI qualifier went up on the wall on a Monday.
 
@@ -838,7 +838,7 @@ But as he turned off the light at his table, he had the first clear sense that w
 It just made the next thing unavoidable.
 
 
-#Chapter 9: Seeing What Stays Put
+# Chapter 9: Seeing What Stays Put
 
 Paul didn’t notice the club gathering at first.
 
@@ -915,7 +915,7 @@ He didn’t try to keep it.
 He didn’t need to.
 
 
-#Chapter 10: After the Noise
+# Chapter 10: After the Noise
 
 They went to Garcia’s because it was still open.
 
@@ -1006,7 +1006,7 @@ He wasn’t trying to remember what had been said.
 He didn’t need to.
 
 
-#Chapter 11: Counting Backward
+# Chapter 11: Counting Backward
 
 Paul spent what he made.
 
@@ -1103,7 +1103,7 @@ Paul knew where that question had first found him.
 And he knew it would be waiting.
 
 
-#Chapter 12: Still There
+# Chapter 12: Still There
 
 Paul walked because he didn’t feel like driving.
 
@@ -1156,7 +1156,7 @@ He didn’t try to answer it.
 But the words followed him all the way home.
 
 
-#Chapter 13: The Wall Works Both Ways
+# Chapter 13: The Wall Works Both Ways
 
 The university room ran on a schedule Paul knew by muscle memory. Open at four. Close at eleven. Ten on Sundays. No exceptions.
 
@@ -1344,7 +1344,7 @@ It was exposure.
 And once it went up, the world answered.
 
 
-#Chapter 14: Diagrams
+# Chapter 14: Diagrams
 
 It had been weeks since Paul had last seen the man in the chair.
 
@@ -1443,7 +1443,7 @@ Intact.
 For now.
 
 
-#Chapter 15: The Book
+# Chapter 15: The Book
 
 Paul found the book because he belonged there.
 
@@ -1502,7 +1502,7 @@ But the image stayed with him — clean lines, perfect angles, everything visibl
 And no way to tell, just by looking, how much it could really hold.
 
 
-#Chapter 16: The Glass House Shatters
+# Chapter 16: The Glass House Shatters
 
 The room looked clean in a way Paul didn’t register until later.
 
@@ -1596,7 +1596,7 @@ He stood there for a long time, cue in his hand, with nowhere to put it.
 And for the first time since he’d picked one up, he wondered if everything he thought he understood had been holding him back.
 
 
-#Chapter 17: Blind
+# Chapter 17: Blind
 
 Paul went back to the hall without deciding to.
 
@@ -1665,7 +1665,7 @@ For the first time since the tournament, he didn’t try to fix anything.
 He left the hall without finishing his time.
 
 
-#Chapter 18: Other Rooms
+# Chapter 18: Other Rooms
 
 The university room stayed exactly the same.
 
@@ -1758,7 +1758,7 @@ He only knew that the rooms were asking him something new.
 And he didn’t yet know how to respond.
 
 
-#Chapter 19: Where the Eyes Go
+# Chapter 19: Where the Eyes Go
 
 Paul copied the entire book.
 
@@ -1899,7 +1899,7 @@ Paul could see the walls clearly now.
 He just didn’t know how to live without them yet.
 
 
-#Chapter 20: The Pause
+# Chapter 20: The Pause
 
 Paul started noticing pauses everywhere.
 
@@ -2070,7 +2070,7 @@ But for the first time, he understood what the pause was guarding — and what i
 And that made it impossible to pretend they were all the same.
 
 
-#Chapter 21: Breath and Rhythm
+# Chapter 21: Breath and Rhythm
 
 Paul had always heard people talk about breathing.
 
@@ -2200,7 +2200,7 @@ Because for the first time, he didn’t feel like there was a missing trick he h
 Just a habit of interruption he was finally learning to recognize.
 
 
-#Chapter 22: The Straight Stroke
+# Chapter 22: The Straight Stroke
 
 Paul had heard it his whole life.
 
@@ -2372,7 +2372,7 @@ And once he let go of the idea that the cue needed to travel straight, the strok
 It felt like something that already knew where it was going.
 
 
-#Chapter 23: Acceleration and Deceleration
+# Chapter 23: Acceleration and Deceleration
 
 Paul had always thought speed was the thing.
 
@@ -2532,7 +2532,7 @@ And belief, Paul was learning, didn’t live in the mind.
 It lived in whether the world stayed stable long enough for the body to finish what it had already started.
 
 
-#Chapter 24: Spin and Impulse
+# Chapter 24: Spin and Impulse
 
 Paul had learned to think about spin the way everyone did.
 
@@ -2699,7 +2699,7 @@ They never needed to.
 They were already protecting the thing that made it clean.
 
 
-#Chapter 25: Soft Shots and Slip
+# Chapter 25: Soft Shots and Slip
 
 Paul used to think soft shots were hard because they required touch.
 
@@ -2846,7 +2846,7 @@ And if he couldn’t—
 The table told him exactly why.
 
 
-#Chapter 26: Why Aiming Systems Fail
+# Chapter 26: Why Aiming Systems Fail
 
 Paul had learned them all.
 
