@@ -1,4 +1,4 @@
-#Prologue — The Game I Didn’t Get to Play (Final)
+# Prologue — The Game I Didn’t Get to Play (Final)
 
 When I arrived at the university, I thought I knew how to play pool.
 
