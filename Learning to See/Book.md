@@ -115,7 +115,7 @@ At this point, I thought I understood the room, the tables and the game.
 I was making balls. I was winning some money. I could see who was good and who wasn’t. I knew who to play and who to avoid. I had recovered from Cole, and more importantly, I believed I had learned from it.
 
 
-# Chapter 2 — Marek (Final)
+# Chapter 2 — Marek
 
 I don’t remember noticing Marek when he first came into the room.
 
@@ -617,9 +617,9 @@ Paul noticed Marek working on the same things himself.
 
 Especially the break shots.
 
-One afternoon, Paul stopped mid-rack.
+One afternoon, Marek stopped Paul mid-rack. What are you doing?
 
-“This is fine,” he said.
+“Making balls,” he said.
 
 Marek shook his head. “It gets ugly later.”
 
@@ -629,13 +629,13 @@ Paul frowned. “Where?”
 
 “I can deal with it.”
 
-“Not when it matters,” Marek said. “Fix it now.”
+“Not when it's important,” Marek said. “Fix it now.”
 
 He bent down to show him.
 
 For just a second, as Marek dropped into the stance, his shoulder twitched.
 
-The cue dipped. The hit was off. The ball glanced into the cluster instead of opening it. Nothing broke. Everything locked up worse.
+The cue dipped. The hit was off. The shot missed and the cueball barerly nudged into the cluster instead of opening it. Nothing broke. Everything locked up worse.
 
 Marek straightened fast.
 
@@ -683,7 +683,7 @@ The next day, he didn’t practice.
 
 After that, he didn’t line up break shots anymore.
 
-He still watched Paul. Still corrected him. Still said “stay down” and “earlier” and “don’t buy trouble.”
+He still came into the room and watched Paul. Still corrected him. Still said “stay down” and “earlier” and “don’t buy trouble.”
 
 But he didn’t bend down to show shots like he used to.
 
@@ -758,9 +758,9 @@ Marek watched from a few steps back.
 
 He didn’t smile. He didn’t frown. He nodded once, like something had gone the way it was supposed to.
 
-Later, Paul noticed the picture on the wall.
+Later, Paul noticed his picture on the wall.
 
-It was bigger than the others. Centered. Framed. Paul behind the table, trophy in one hand, cue in the other. The smile looked confident. Final.
+It was big. Centered. Framed. Paul behind the table, trophy in one hand, cue in the other. The smile looked confident. Final.
 
 He felt proud.
 
@@ -770,9 +770,9 @@ Marek stood beside him for a moment.
 
 “That’ll get people’s attention,” he said.
 
-Paul looked at the picture. “Is that bad?”
+Paul looked at the picture. “What do you mean?”
 
-Marek shrugged. “It just is.”
+Marek shrugged. “It's tough to miss when you have to walk right by it to get in the door.”
 
 They stood there without talking.
 
@@ -805,7 +805,7 @@ Paul didn’t notice the club gathering at first.
 
 He was mid-rack when Iris came through the door, clipboard under her arm, keys already in hand. She stopped short when she saw him at the table — not annoyed, exactly, just recalculating.
 
-The billiard club met there on Thursdays. Same table. Same time. Iris ran it because no one else would. She waited for a natural pause that didn’t come.
+The billiard club was getting ready for their annual tournament. Iris ran it because no one else would. Paul was playing where she tried to gather them to get started. Paul noticed but thought he had time to finish the rack. She waited for a natural pause that didn’t come.
 
 Paul kept shooting.
 
@@ -813,49 +813,29 @@ Not fast. Not slow. Just continuous — the cue never quite leaving his hand lon
 
 People drifted closer.
 
-Eli arrived late, leaned against the far rail, and stayed there. He watched the way Paul moved — not the stroke, but what happened between shots. Paul wasn’t scanning. He wasn’t checking angles twice. He looked once, stepped in, and let the shot go.
+Eli arrived late, leaned against the far rail, and stayed there. He watched the way Paul moved — not the stroke, but what happened between shots. Paul wasn’t fidgeting. He wasn’t checking angles twice. He looked once, stepped in, got down on the ball and focused until he let the shot go.
 
-The table stayed quiet.
-
-Paul cleared the rack and moved directly into the next without looking up.
+The crowd stayed quiet.
 
 Iris cleared her throat. “Hey—”
 
-Paul shot anyway.
-
-A few laughs behind her. Not mocking. Curious.
+Paul kept shooting.
 
 She waited this time.
 
-Paul finished the run and straightened, finally aware of the room. He nodded once, apologetic but unembarrassed.
+Paul cleared the rack and looked up at Iris. She glanced at the table, then at Eli, who raised his eyebrows slightly — not impressed, exactly, but interested. She smilled and kicked off the meeting. Most of the crowd was still staring at Paul.
 
-“Sorry,” he said. “I didn’t realize.”
+Paul went through the tournament without a loss. He beat both Eli and Iris to do it. None of his matches were ever in doubt.
 
-“It’s fine,” Iris said. “We were just about to start.”
-
-She glanced at the table, then at Eli, who raised his eyebrows slightly — not impressed, exactly, but interested.
-
-“What were you working on?” Iris asked.
-
-Paul thought about it, then shook his head. “Nothing specific.”
-
-Eli smiled at that.
-
-They took the next table instead. Paul stayed where he was. He didn’t join the club game. He didn’t leave either. He just played — quieter now, but no less committed.
-
-After a while, Eli wandered over.
+A few days later, Eli wandered over.
 
 “You’re not playing patterns,” he said.
 
-Paul looked up. “I am. Just not individually.”
+Paul looked up., confused. “I'm just playing the rack.”
 
-Eli nodded slowly, like that sentence fit something he’d been circling without landing on.
+Eli nodded slowly, like that sentence fit something he’d already known.
 
-“You’re not locking onto shots,” Iris said from behind him. “You’re letting them show up.”
-
-Paul hesitated. That was closer than he expected.
-
-“I stopped trying to hold onto anything,” he said finally.
+Iris was standing behind him.
 
 They were quiet for a moment.
 
@@ -865,7 +845,7 @@ Paul thought of the walk. The chair. The voice that hadn’t cared whether he un
 
 “I flinch,” he said. “Just not at the ball anymore.”
 
-Iris smiled. “You should come play with us sometime. Not the club stuff. Just… us.”
+Iris smiled. “You should come play with us sometime.”
 
 Paul nodded. “Yeah. I’d like that.”
 
