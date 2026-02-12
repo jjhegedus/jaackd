@@ -886,9 +886,9 @@ Eli picked at the label on his bottle.
 
 “What about peripheral?” he asked.
 
-Paul looked up. “That’s the only thing that survives.”
+Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes dissapears too.”
 
-Eli’s eyebrows rose. “Survives how?”
+Eli’s eyebrows rose. “Sometimes? When?”
 
 “When I’m not trying to aim,” Paul said slowly. “When I’m aware of the table instead of the ball. Not staring. Not checking. Just… letting it be there. That’s when the shot feels obvious.”
 
@@ -934,7 +934,7 @@ Paul shook his head, half-laughing now.
 
 Paul sat back, letting it settle.
 
-“I met a guy once,” he said. “Barely spoke. Asked one question. I wasn’t even sure he was real.”
+“I met a guy once,” he said. “Barely spoke. Asked one question. If it works both ways, how can it matter? I wasn’t even sure he was real.”
 
 Eli shrugged. “Doesn’t matter. The question was.”
 
@@ -951,15 +951,13 @@ He didn’t need to.
 
 Paul spent what he made.
 
-A hundred a week from Subway. Another hundred, give or take, from small games in the room. Rent, food, books — whatever was left disappeared quietly. He never carried more than a couple hundred on him because there was never a reason to.
+About fifty a week from Subway. Another hundred, give or take, from small games. Whatever he made disappeared quietly - pool time, food, drinks, entertainment. He never carried more than a couple hundred on him because he never had more.
 
-Chuck did.
+Chuck did. He worked in the local car factory and made good money and flashed a big wad of cash.
 
-They were still in the university pool room, not some back hall where money could sit out in the open. Everything stayed discreet. Bills changed hands off to the side, folded, quick. Nothing on the table. Neither of them needed that kind of attention.
+They were still in the university pool room, not some sketchy pool hall where money could sit out in the open. Everything stayed discreet. Bills changed hands off to the side, folded, quick. Nothing on the table. Neither of them needed that kind of attention.
 
-Chuck named fifty a set.
-
-Paul did the math immediately.
+Chuck introduced himself said he liked to gamble and that he saw my picture on the wall. He asked if i wanted to play a little for fifty a set.
 
 Four barrels.
 
@@ -967,7 +965,7 @@ It was higher than he usually played, but not reckless. Fifty didn’t feel like
 
 Paul won the first set.
 
-Chuck paid with a single fifty, peeled cleanly from the roll. The roll itself didn’t seem to change. It stayed thick in Chuck’s hand, like it hadn’t noticed the loss.
+Chuck paid with a single fifty, peeled cleanly from the roll. The roll itself didn’t change. It stayed thick in Chuck’s hand, like it hadn’t noticed the loss.
 
 They played again.
 
@@ -981,13 +979,13 @@ Chuck leaned on his cue.
 
 Paul froze, just long enough to feel it.
 
-Nothing had changed on the table. No games lost. No momentum shift. And yet the math rewrote itself instantly.
+Nothing had changed on the table. No games lost. No momentum shift. But the math, that rewrote itself instantly.
 
 At a hundred a set, Paul didn’t have four barrels anymore.
 
 He had three.
 
-Three sets he could lose before he was done — before he couldn’t even play cheap until payday. And suddenly the clock mattered too. Plenty of time for three more sets. Enough time to lose everything.
+Three sets he could lose before he was done. If he did, he wouldn't have enough to bet anything until payday. Barely enough to play at all. And suddenly the clock was working against him. Plenty of time for three more sets. Enough time to lose everything.
 
 Paul nodded.
 
@@ -997,7 +995,7 @@ Paul noticed himself calculating while he was down on the shot.
 
 Chuck didn’t change.
 
-Same pace. Same posture. Same refusal to acknowledge the stakes he’d just raised. When Paul missed, Chuck was already committed, already moving.
+Same pace. Same posture. Same indifference about the stakes he’d just raised. When Paul missed, Chuck was already committed, already moving.
 
 Paul lost the set.
 
@@ -1031,9 +1029,7 @@ Chuck paused at the door.
 
 Paul watched him go.
 
-He knew, without needing to see it, that next time the number would change again — not because Chuck needed to win, but because Chuck needed the game to keep tightening. Chuck would raise the bet without blinking, the way people do when they’re not testing the money, but the person across from them.
-
-(Exit)
+He knew, without needing to see it, that next time the number would change again — not because Chuck needed to win, but because Chuck needed the game to keep tightening. Chuck would raise the bet without blinking, the way people do when they’re not testing the money, but the person across the table.
 
 The walk home stripped the noise away.
 
@@ -1052,7 +1048,7 @@ Not to go anywhere. Just far enough that the room — the money, the counting, t
 
 The hall was open.
 
-Same big tables. Same lights. A few players spread out, unremarkable. Paul paid for time and racked without warming up.
+Same big tables. Same fast cloth. A few players spread out, unremarkable. Paul got balls from the owner and racked them up.
 
 He played.
 
@@ -1078,11 +1074,11 @@ The words didn’t sound like advice. Or criticism. Or anything he could do some
 
 Paul racked again. Shot. Missed. Shot again. The rhythm came back, but the sentence stayed — not loud, not urgent — just there.
 
-When he finally glanced toward the corner, the chair was empty.
+When he finally glanced toward the corner to ask what he meant, the chair was empty.
 
-Paul didn’t search.
+Paul laughed, this again. He didn't even look for him?.
 
-He finished his time, returned the balls, and left.
+He finished the rack, returned the balls, paid his time, and left.
 
 The walk back felt ordinary. Streetlights. Empty sidewalks. The university buildings rising ahead of him the way they always did.
 
@@ -1097,7 +1093,7 @@ He didn’t try to answer it.
 But the words followed him all the way home.
 
 
-# Chapter 13: The Wall Works Both Ways
+# Chapter 13: Being Seen
 
 The university room ran on a schedule Paul knew by muscle memory. Open at four. Close at eleven. Ten on Sundays. No exceptions.
 
@@ -1105,7 +1101,7 @@ Paul was there when the lights came on and still there when they went off. Not b
 
 He was mid-rack when Marek leaned in from the next table.
 
-“That guy under your picture,” Marek said quietly.
+“Another one noticed your picture,” Marek said quietly.
 
 Paul glanced up.
 
@@ -1115,7 +1111,7 @@ Billy stood with his back to the wall, directly beneath the photograph. It was s
 
 Billy wasn’t studying the room. He wasn’t studying Paul. He stood out the way people do when they don’t blend and don’t intend to.
 
-“Road man,” Marek said. Not impressed. Not worried. Just stating weather. “He’s here to play you. Get ready.”
+“Road man,” Marek said. “He’s here to play you. Get ready.”
 
 Word moved sideways.
 
@@ -1123,7 +1119,7 @@ Chairs shifted. Nearby games finished and didn’t rerack. Eli appeared at the r
 
 Billy waited until Paul finished the set he was already in.
 
-He didn’t compliment. Didn’t introduce himself. He nodded once toward the table.
+He didn’t compliment. Didn’t introduce himself. He nodded once toward the table, "Race to five for fifty?"
 
 Paul nodded back.
 
@@ -1131,7 +1127,9 @@ They played.
 
 Not cheap. Not reckless. Enough to matter.
 
-Paul lost the first set cleanly. A couple of balls caught the point instead of falling. Nothing dramatic. The second went worse. He felt his attention narrow as the eyes around the table multiplied.
+Paul lost the first set cleanly. A couple of balls caught the point instead of falling. Nothing dramatic. He felt his attention narrow as the eyes around the table multiplied.
+
+The second set stayed tight the whole way. Billy bore down the way people do when they’ve lived inside pressure longer than applause. Paul missed late and paid for it.
 
 He didn’t talk.
 
@@ -1143,29 +1141,21 @@ By the third set, he slowed just enough to let the noise exist without answering
 
 Paul took the third.
 
-The fourth stayed tight the whole way. Billy bore down the way people do when they’ve lived inside pressure longer than applause. Paul missed late and paid for it.
+The fourth stayed tight the whole way. Billy bore down the way people do when they’ve lived inside pressure longer than applause. Paul missed late and paid for it. He was down a hundred.
 
-They were in the sixth set when the announcement came.
-
-“Last rack.”
-
-Not a warning. Not a suggestion. Just fact.
+It was twenty to eleven.
 
 The room closed at eleven whether you were ahead, behind, or lining up the last ball.
-
-Paul and Billy finished the rack. Billy won it.
-
-They stood there for a moment, chalk still in hand, the table unfinished by intention rather than outcome.
-
-Paul checked the clock.
-
-Eleven.
 
 “No time for another set,” Paul said.
 
 Billy nodded. “Fair.”
 
-They packed up together. No rush. No disappointment. Just acknowledgment.
+"I drove all the way down from Chicago. Anywhere we can keep going?"
+
+Paul thought about it for a few minutes before nodding, "I know a place across town."
+
+They packed up together. No rush. No disappointment.
 
 Someone Paul knew caught his sleeve as he turned toward the door.
 
@@ -1173,15 +1163,15 @@ Someone Paul knew caught his sleeve as he turned toward the door.
 
 Paul frowned. “What do you mean?”
 
-“I mean robbed,” the guy said. “Followed. I mean you don’t go wandering off at eleven with someone you don’t know just because he can run balls.”
+“I mean robbed,” the guy said following Paul while Billy paid for time. “I mean you don’t go wandering off at eleven with some sketchy character just because he can run a few balls.”
 
-Paul glanced at Billy, already a few steps ahead.
+Paul glanced at Billy, already a few steps ahead. He wasn't sketchy and Paul felt the ratial slur.
 
 The warning landed heavier than he expected.
 
 Part of him bristled. Part of him felt something uglier — an old reflex he hated recognizing. His dad’s stories about Detroit. The prejudice that had always embarrassed Paul even when he was too young to name it.
 
-That discomfort nudged him out the door anyway.
+That discomfort nudged him out the door.
 
 Billy’s car sat under a broken light.
 
@@ -1205,8 +1195,7 @@ Billy exhaled through his nose. “Figures.”
 
 Paul scanned the block, irritated now, the night still buzzing. Then he saw it.
 
-POOL
-OVERTIME
+The Overtime
 
 “That sign says pool,” Paul said.
 
@@ -1220,15 +1209,13 @@ The man glanced at them as they passed.
 
 “You sure you want to go in there?” he asked casually, already moving on.
 
-Paul didn’t answer.
+Paul looked back at him as he got in his car. Then turned back around where Billy was looking at him. "What's up?"
 
-They went in.
+"Nothing," Paul said. They went in.
 
 The room was narrow and loud, bass pressing against the walls. Paul stepped up to the bar, still scanning for felt and rails.
 
-The bartender spoke without turning around.
-
-“You’re in the wrong place.”
+The bartender took one look at Billy, then with a sneer, “You’re in the wrong place.”
 
 Paul felt it before he saw it — the shift behind him. Three men at the end of the bar had gone still. One turned just enough to make eye contact. Another set his drink down carefully.
 
@@ -1240,9 +1227,9 @@ Paul stepped forward. “What the hell is that supposed to—”
 
 Billy’s hand closed around Paul’s arm.
 
-“Not this one,” he said quietly.
+“Not this time,” he said quietly.
 
-The bartender never turned.
+The bartender turned back around, confident the regulars had everthing under control.
 
 Outside, the door shut behind them with a dull weight.
 
@@ -1256,7 +1243,7 @@ Paul shook his arm free. “Why?”
 
 Billy glanced back.
 
-“Because if we stand here long enough,” he said, “those guys are going to decide it’s time to come out and have some fun.”
+“Because if we stand here long enough,” he said, “those guys are going to decide it’s time to come out.”
 
 The door stayed closed.
 
@@ -1297,9 +1284,9 @@ It followed him without urgency. Not like a warning. More like a label he didn�
 
 After Billy, it came back stronger.
 
-Not because Billy had said anything like it — he hadn’t — but because the night had exposed the same feeling in a different way. The sense that something Paul relied on assumed the world would meet him halfway. That rooms would be neutral. That skill would be sufficient.
+Not because he had lost and not because Billy had said anything like it — he hadn’t — but because the night had exposed the same feeling in a different way. The sense that something Paul relied on assumed the world made sense. That rooms would be neutral. That skill would be sufficient.
 
-That assumption had held. Until it didn’t.
+That assumption held. Until it didn’t.
 
 When things didn’t sit right, Paul defaulted to structure.
 
@@ -1311,15 +1298,20 @@ Lines from cue ball to object ball. Object ball to pocket. Cue ball paths after 
 
 They held—sometimes.
 
-Then he drew what actually happened.
+Then he set up the shots and drew what actually happened.
 
 The lines drifted. Paths bent. The cue ball went where the rule said it shouldn’t have.
 
 He erased and redrew. Same problem.
 
-He set the shots up on the bar table at home and watched carefully. Came back and adjusted the diagrams. Still off.
+He set the shots up and watched carefully. Came back and adjusted the diagrams. They weren't quite what he expected.
+
+Then he went home for winter break and did the same on the bar table. They didn't quite match.
 
 So he stopped pretending the differences were noise and started writing them down.
+
+
+He hit every shot with every variety.
 
 Soft.
 Medium.
@@ -1333,9 +1325,9 @@ Minimal draw.
 Medium draw.
 Max draw.
 
-He didn’t know why the transitions happened the way they did. He didn’t need to yet. What mattered was that they were consistent. If he hit this way, that happened. If he added a hair of speed, something else happened. If he crossed the line, the margin shrank exactly the way Marek had warned him it would.
+He didn’t know why the transitions happened the way they did. He didn’t need to yet. What mattered was that they were consistent on the table. If he hit this way, that happened. If he added a hair of speed, something else happened. If he crossed the line, the margin shrank exactly the way Marek had warned him it would.
 
-The diagrams filled up.
+The differences on the tables king dof made sense. The diagrams filled up.
 
 He practiced to match them.
 
@@ -1360,10 +1352,6 @@ The picture stayed on the wall.
 And still, the sentence wouldn’t leave him alone.
 
 A beautiful glass house.
-
-Because even as Paul’s predictions got better, something else stayed true: everything he knew depended on conditions staying within a narrow range. Speed. Cloth. Light. Attention. Rooms.
-
-When the conditions shifted, even slightly, the diagrams stopped being maps and started being guesses.
 
 He could feel the missing variables now.
 
