@@ -1380,7 +1380,7 @@ The physics library felt different from the rest of campus — quieter, heavier,
 
 He was there for a problem set when the spine caught his eye.
 
-Théorie mathématique du jeu de billard.
+Théorie mathématique des effets du jeu de billard.
 
 He smiled despite himself.
 
@@ -1415,10 +1415,6 @@ And all of it made it easier to put the book back without admitting that he didn
 As he slid it onto the shelf, the phrase came back to him — uninvited, unhelpful.
 
 A beautiful glass house.
-
-He didn’t know why it fit.
-
-Just that it did.
 
 He stood there a moment longer, looking at the spine, then turned back to his problem set. The equations on the page in front of him behaved the way equations were supposed to. Step by step. Assumptions stated. Results earned.
 
@@ -1527,7 +1523,7 @@ And for the first time in a long time, wondered if he understood anything.
 
 # Chapter 17: Blind
 
-Paul went back to the hall without deciding to.
+Paul went back to the hall across town without deciding to.
 
 He hadn’t stopped playing since the tournament. He still showed up. Still paid. Still racked. The motions were intact. Only the reason for them had thinned out.
 
@@ -1536,11 +1532,11 @@ He wasn’t competing.
 
 He was going through the motions.
 
-The tables felt dull now. Not tighter. Not faster. Just emptied of meaning. Shots came and went without consequence. Makes didn’t register. Misses didn’t sting. He stayed down because that was what careful players did.
+The tables felt dull now. Not tighter. Not faster. Just emptied of meaning. Shots came and went without consequence. Makes didn’t register. Misses didn’t sting. He stayed down because that was what Marek had beaten into him.
 
 He ran a rack and felt nothing.
 
-Missed the next one and didn’t care.
+Missed the nine on next one and didn’t care.
 
 At some point, he noticed the chair.
 
@@ -1591,7 +1587,7 @@ Paul picked up his cue and put it back down again.
 
 For the first time since the tournament, he didn’t try to fix anything.
 
-He left the hall without finishing his time.
+He brought his ball back up to the counter, paid and started on his long walk home deep in thought.
 
 
 # Chapter 18: Other Rooms
@@ -1600,15 +1596,13 @@ The university room stayed exactly the same.
 
 That was the problem.
 
-Same tables. Same cloth. Same lights. Same rhythm. Paul could walk in, rack up, and feel settled before the first ball dropped. The place didn’t surprise him anymore.
-
-After regionals, surprise was what he needed.
+Same tables. Same cloth. Same lights. Same rhythm. Paul could walk in, rack up, and feel settled before the first ball dropped. The place didn’t make him think anymore.
 
 So when someone mentioned a weekly tournament across town, Paul said yes without thinking it through.
 
 He needed a ride.
 
-Eli drove most nights. Iris came along sometimes. A couple of others squeezed in, cues knocking together in the back seat. Paul didn’t rehearse shots on the way. He watched the streets change and tried to notice how little he knew about where they were going.
+Eli drove most nights. Iris came along sometimes. Sometimes a couple of others squeezed in, cues knocking together in the back seat. Paul didn’t rehearse shots on the way. He watched the streets change and tried to notice how little he knew about where they were going.
 
 The weekly was stronger than the university room.
 
@@ -1668,7 +1662,7 @@ The sentence from the hall came back again, unchanged.
 
 You can never be too careful.
 
-For the first time, Paul felt it shift slightly — not into its opposite, not into a lesson — just into something that no longer sat flat.
+For the first time, Paul felt it shift slightly.
 
 He kept going to other rooms.
 Kept playing stronger fields.
@@ -1701,7 +1695,7 @@ But the book changed something anyway.
 
 It made the glass house visible again — not shattered, not repaired — just standing there, elegant and suspect.
 
-Paul never mentioned the book.
+Paul never mentioned the book to anyone.
 
 He never would.
 
@@ -1723,19 +1717,17 @@ Paul nodded. “That’s what everyone says.”
 
 Eli glanced at him. “You disagree?”
 
-“I don’t know,” Paul said. “I just know that when I’m really on, it doesn’t feel like I’m looking at anything in particular.”
+“I don’t know,” Paul said. “I just know that when I’m really on, it doesn’t feel like I’m looking at anything.”
 
 Eli waited.
 
-“It feels like the table becomes its own world,” Paul said slowly. “Three-dimensional. Self-contained.”
-
-Eli leaned back against the rail. “Go on.”
+“It feels like the table becomes its own world,” Paul said slowly. “Three-dimensional. Self-contained. And I'm somehow inside of it”
 
 “When it’s right,” Paul said, “I’m not in the room. I’m not even really there. The table is huge. The balls feel massive — like mountains. And the pockets aren’t targets.”
 
 He paused.
 
-“They’re reference points. They’re just there. Holding everything together.”
+“They’re reference points. They’re just there. Holding everything together. I see them out of the corner of my eyes.”
 
 Eli nodded. “Fiducials.”
 
@@ -1779,23 +1771,25 @@ Paul glanced at him.
 
 “It’s how you build the model,” Eli said. “You’re letting the system average itself. Depth. Spacing. Alignment.”
 
-“That’s why it has to be rhythmic,” Paul said. “If I rush it, the picture never finishes forming.”
+“And it has to be rhythmic,” Paul said. “If I rush it, or stop still and try to force it, the picture never finishes forming.”
 
 “Exactly,” Eli said. “The problem isn’t sampling. It’s continuing to sample after you’ve committed.”
 
-Paul felt that click.
-
-“When I’m right,” he said slowly, “there’s a moment where the picture locks.”
+Paul felt that click. “Yeah, when I’m right,” he said slowly, “there’s a moment where the picture locks.”
 
 “And when you miss under pressure,” Eli said, “you don’t trust that lock.”
 
-“So I keep checking,” Paul said. “Tiny corrections. Trying to make it feel safe again.”
+“I don't even know if it locks. But if it does, I can't see it. So, yeah, I keep checking, keep looking for it.” Paul said. “Tiny corrections. Trying to make it feel right again.”
 
-“And every new sample,” Eli said, “is taken from a slightly different state, a slightly different angle.”
+“And every new sample,” Eli said, “is taken from a slightly different state, or a slightly different angle.”
 
-Paul nodded. “So the world starts to drift.”
+Paul wondered, "What do you mean a differnt state."
 
-“Not because movement is bad,” Eli said. “But because the reference frame never stabilizes.”
+Eli though for a moment, "You might be moving forward vs back in your balance or flexing different muscles."
+
+Paul nodded. “OK, that kind of makes sense. And when that happens, the world starts to drift.”
+
+“Not because movement is bad, or changing those other things is bad” Eli said. “But because the reference frame never stabilizes.”
 
 Paul watched the next player step into a shot.
 
@@ -1813,7 +1807,7 @@ He felt unsettled.
 
 Because nothing they had said sounded like a technique.
 
-It sounded like a description of a state — one that couldn’t be forced and couldn’t survive once doubt reopened the evaluation loop.
+It sounded like something that couldn’t be identified or forced and couldn’t survive his doubt."
 
 “I don’t know how to train that,” Paul said.
 
@@ -1825,7 +1819,7 @@ The glass house was there again — larger now, enclosing not just patterns and 
 
 Paul could see the walls clearly now.
 
-He just didn’t know how to live without them yet.
+He just didn’t know how to live with them or without them anymore.
 
 
 # Chapter 20: The Pause
@@ -1858,15 +1852,13 @@ Before the picture formed, pauses felt useful. They let the table settle. They a
 
 After the picture locked, pauses felt different.
 
-They didn’t add information.
+They reopened questions. Made him try harder.
 
-They reopened questions.
+Paul felt it in his body. When he paused after commitment, something subtle changed. His breathing shifted. His weight redistributed. The sense of the table as a single object softened at the edges.
 
-Paul felt it in his own body. When he paused after commitment, something subtle changed. His breathing shifted. His weight redistributed. The sense of the table as a single object softened at the edges.
+The pockets faded.
 
-The fiducials faded.
-
-The pockets were still there — but less present. Less anchoring. Like stars you knew were there but couldn’t quite place anymore.
+They were still there — but less present. Less anchoring. Like stars you knew were there but couldn’t quite place anymore.
 
 He thought back to regionals.
 
@@ -1876,11 +1868,7 @@ He started asking Eli about it one night, quietly.
 
 “I don’t think pauses are one thing,” Paul said.
 
-“They aren’t,” Eli said.
-
-“There’s a pause that builds the picture,” Paul said. “And a pause that breaks it.”
-
-Eli nodded. “Different states.”
+“They aren’t,” Eli said. “There’s a pause that builds the picture,and a pause that breaks it. They come from different states.”
 
 Paul frowned. “Same body. Same table. Same shot.”
 
@@ -1898,7 +1886,7 @@ Paul exhaled slowly.
 
 Eli didn’t answer immediately.
 
-“It’s not a stop,” he said finally. “It’s a transition.”
+“This stuff doesn't lend itself well to verbal descriptions but," he paused for a minute, "It’s not a stop,” he said finally. “It’s a transition.”
 
 That stayed with Paul.
 
@@ -1931,15 +1919,13 @@ It was an absence of hurry.
 
 They weren’t stopping motion — they were letting it finish assembling.
 
-And once it had assembled, they didn’t touch it again.
+And once it had assembled, they didn’t touch it again. They just completed the motion they had already established.
 
 Others paused because they didn’t trust it.
 
-Those pauses were full of evaluation. Tiny checks. Micro-corrections. Each one taken from a slightly different state, a slightly different angle.
+Those pauses were full of evaluation. Tiny checks. Micro-corrections. That didn't seem to help them.
 
-The world drifted.
-
-Paul felt the difference viscerally.
+Paul could feel the difference even when watching someone else.
 
 When he paused too long after commitment, his awareness narrowed. Foveal vision took over. The table shrank. Speed went first. Then angles.
 
@@ -1947,30 +1933,26 @@ When he let the stroke go without interruption, the table stayed large. The pock
 
 This wasn’t about tempo.
 
-Fast players paused. Slow players didn’t. Some great players appeared frozen; others never stopped moving.
+Some fast players paused. Some slow players didn’t. Some great players appeared frozen; others never stopped moving.
 
 The commonality wasn’t time.
 
 It was continuity.
 
-The pause that worked preserved continuity of state.
-The pause that failed fractured it.
+The pause that worked looked natural.
+The pause that failed didn't.
 
-Paul realized why “stay still” had always felt incomplete.
+Paul started to realize why “stay still” had always felt incomplete.
 
 Stillness wasn’t the goal.
 
-Coherence was.
+Coherence and continuity were more important.
 
-And coherence didn’t care whether you were moving — only whether the movement belonged to the same world as the decision.
+And they didn’t care whether you were moving — only whether the movement belonged to the same world, the same state, the same system as the decision.
 
-That explained something else he’d never been able to articulate.
-
-Why pausing felt worse under pressure.
+And maybe it explained something else he’d never understood. Why pausing felt worse under pressure.
 
 Pressure didn’t add time. It added self. The pause filled with thought. With protection. With care.
-
-Very careful.
 
 Paul smiled grimly at that.
 
@@ -1990,13 +1972,11 @@ And sometimes — just sometimes — when the picture locked and the stroke flow
 
 Huge.
 Gravitational.
-Unconcerned with him.
+And he wasn't separate from it. For a moment, he was smaller and just a tiny part of that world.
 
-Paul knew he wasn’t there yet.
+Paul knew he wasn’t there yet. But he was beginning to understand what the pause was guarding — and what it was destroying.
 
-But for the first time, he understood what the pause was guarding — and what it was destroying.
-
-And that made it impossible to pretend they were all the same.
+And that made it impossible to continue to pause in the same way. It just didn't make sense to him anymore.
 
 
 # Chapter 21: Breath and Rhythm
@@ -2005,27 +1985,23 @@ Paul had always heard people talk about breathing.
 
 Instructors talked about it. Commentators talked about it. Players talked about it the way they talked about chalk or stance—something you were supposed to manage once things got serious.
 
-None of it had ever felt right to him.
+It had never felt right to him. When he thought about his breath, it felt mechanical, like he was pushing against his diaphragm instead of using it to breathe.
 
 It always came with instructions. Inhale here. Exhale there. Hold it. Let it out. As if there were a single correct place for breath to be when the cue went forward.
 
-Paul didn’t believe that.
+Paul wasn't sure.
 
 What he started noticing instead wasn’t where the breath was, but whether it was still moving.
 
 When the table felt large—when the pockets held the space and the balls felt like fixed objects instead of fragile targets—his breathing was simply happening. Unforced. Unremarkable. Not something he noticed until afterward.
 
-When the table shrank, his breath didn’t go wrong.
-
-It got interrupted.
+When the table shrank, his breath felt like a stutter, like it got interrupted.
 
 Sometimes it shortened. Sometimes it stalled. Sometimes it hit a hard edge it hadn’t hit a moment earlier. The commonality wasn’t pattern—it was discontinuity.
 
 That was the same thing he’d been noticing with pauses.
 
-Traditional pauses were everywhere. Players froze over the ball because someone had told them to. They held still because stillness was supposed to mean control. They waited for certainty to arrive.
-
-Paul started to suspect that most pauses weren’t about readiness at all.
+Paul started to suspect that neigther were about readiness at all.
 
 They were about reassurance.
 
@@ -2035,23 +2011,21 @@ Another player took nearly as long over a tougher shot, but nothing actually sto
 
 That shot went in.
 
-Paul realized then that “pause” was the wrong word for what worked.
+Paul realized then that “pause” was the wrong word for what worked. And no amount of paying attention to your breathing would ever helped.
 
-What worked wasn’t stopping.
+What worked wasn’t that specific but it was always continuous.
 
-It was not breaking continuity.
-
-From a physics standpoint, the difference mattered.
+He thought about physics systems.
 
 The body wasn’t a rigid frame waiting for action. It was a dynamic system—lungs, diaphragm, spine, balance—all subtly in motion whether you acknowledged it or not. Breath wasn’t noise layered on top of precision; it was part of the system’s baseline motion.
 
-Interrupting it changed the state.
+Interrupting it or changing it changed the state of the system.
 
 That didn’t mean breath needed to be controlled. It meant it needed to be left alone.
 
 The same was true of pauses.
 
-A pause that emerged naturally—because the system had assembled and wasn’t in a hurry—felt open. Spacious. The table stayed coherent. The fiducials stayed present.
+A pause that emerged naturally—because the system had assembled and wasn’t in a hurry—felt open. Spacious. The table stayed coherent. The pockets stayed in place where he expected them.
 
 A pause that was imposed—because someone felt unsure—did something else entirely. It invited evaluation back in. It reopened questions that had already been answered. It fractured the state the shot depended on.
 
@@ -2059,17 +2033,11 @@ Paul thought about Efren Reyes.
 
 Everyone talked about Efren’s pause. They pointed to it like proof that pausing was essential, like it was the thing you copied if you wanted to be great.
 
-But Paul had watched Efren closely.
+But Paul had watched Efren closely. He tried his best to immitate his pause, his rhythm, his stroke.
 
-Efren didn’t pause and then shoot.
+Efren didn’t pause and then shoot. After the pause, there was always the same sequence. One practice stroke. Not two. Not three. One. And then the final stroke arrived exactly where that practice stroke had been headed.
 
-He paused, yes—but only long enough to rebuild rhythm.
-
-After the pause, there was always the same sequence. One practice stroke. Not two. Not three. One. And then the final stroke arrived exactly where that practice stroke had been headed.
-
-The pause wasn’t an ending.
-
-It was a reset.
+The pause wasn’t the last step before the shot. It was just a reset, rebuilding the rhythm for the final shot.
 
 Efren never froze and then fired from stillness. He never tried to launch a stroke from a dead system. The pause cleared noise, and the single practice stroke reestablished continuity. Breath, motion, perception—everything came back online the same way every time.
 
@@ -2085,7 +2053,7 @@ Pressure made this distinction impossible to ignore.
 
 Under pressure, pauses multiplied. Players didn’t pause because the shot needed it. They paused because they did. Breath stopped. Awareness narrowed. The self got loud.
 
-Very careful.
+You can never be too careful.
 
 Paul smiled faintly at that again.
 
@@ -2126,7 +2094,7 @@ He felt relieved.
 
 Because for the first time, he didn’t feel like there was a missing trick he hadn’t been taught.
 
-Just a habit of interruption he was finally learning to recognize.
+Just a habit of self sabotage he was finally learning to recognize.
 
 
 # Chapter 22: The Straight Stroke
@@ -2181,7 +2149,7 @@ Paul also began to understand why coaches loved it.
 
 Straight-stroke instruction worked — especially at the beginning.
 
-It reduced degrees of freedom. It gave beginners something visible and feelable. It made mistakes obvious and correction straightforward. It allowed coaches to diagnose problems without needing to understand the entire system.
+It reduced degrees of freedom. It gave beginners something visible that they could understand. It made mistakes obvious and correction straightforward. It allowed coaches to diagnose problems without needing to understand the entire system.
 
 For teaching, it was powerful.
 
@@ -2195,21 +2163,25 @@ Straightness wasn’t truth. It was scaffolding.
 
 And scaffolding only helps if you know when to remove it.
 
-Paul had seen what happened when it stayed too long.
+He couldn't help but be reminded of a famous quote of Albert Einstein, "Everything should be as simple as it can be, but not simpler!"
+
+Paul had seen what happened when it became too important.
 
 Players guarded their strokes. They monitored them. They checked alignment mid-shot. They protected straightness like it was something fragile.
 
-Very careful.
+You can never be too careful.
+
+Again and again it came back.
 
 And every act of supervision pulled them out of the state the stroke depended on.
 
 The deeper problem was even simpler.
 
-The best players weren’t making sure the cue tip arrived in the right place at the right time.
+The best players weren’t making sure the stroke was straight or even that the cue tip arrived in the right place at the right time.
 
 They were thinking past that.
 
-What mattered wasn’t the path of the cue. What mattered was the cue ball’s arrival — where it would be, how fast it would be moving, and how it would be rotating when it got there.
+What mattered wasn’t the path of the cue. What mattered was the cue ball’s arrival — where it would be, how fast it would be moving, and how it would be spinning when it got there.
 
 The stroke wasn’t the objective.
 
@@ -2230,7 +2202,7 @@ Some of the best players he knew didn’t line up the way they were supposed to.
 They lined up high and still drew the ball.
 They lined up inside and still got clean outside spin.
 
-He knew one good player who didn’t even address the cue ball from directly behind center. He stood slightly off to the side — visibly so — and still delivered exactly the speed and English the shot required.
+He knew one good player who didn’t even address the cue ball from directly behind center. His tip was always slightly off to the side — visibly so — and still delivered exactly the speed and English the shot required.
 
 It looked wrong.
 
@@ -2242,11 +2214,11 @@ It was the result.
 
 They weren’t aiming the tip at a point on the cue ball. They were sending the cue ball into a specific state — a trajectory, a rotation, a pace — that made the object ball go where it needed to go and the table open the way it was supposed to.
 
-From that perspective, lining up “correctly” was optional.
+From that perspective, lining up “correctly” was non sensical. The equations in that book were too complex for anyone to calculate, much less during the shot.
 
 The cue ball didn’t care where the cue started.
 
-It cared how it arrived.
+It cared how it it was impacted.
 
 Efren’s stroke made sense now in a deeper way.
 
@@ -2263,16 +2235,14 @@ He didn’t try to make it looser either.
 
 He paid attention to whether the stroke belonged to the same world as the picture he’d built — the same rhythm, the same breath, the same spatial field.
 
-When it did, the stroke felt light. Inevitable. Like a release rather than an action.
+When it did, the stroke felt light as a feather and heavy as swinging an axe. Inevitable. Like a release rather than an action.
 
-When it didn’t, it felt heavy. Supervised. Separate.
+When it didn’t, it felt clumsy. Supervised. Separate.
 
 He could feel the difference immediately.
 
 One version demanded control.
 The other did not.
-
-That clarified everything.
 
 The straight stroke wasn’t a hidden ideal he hadn’t achieved yet.
 
@@ -2307,7 +2277,7 @@ Paul had always thought speed was the thing.
 
 Soft. Medium. Firm. Power. Touch.
 
-Everyone talked about speed as if it were a property of the stroke at impact — how fast the cue was moving when it met the ball. Faster meant more draw. Slower meant more control. It all sounded clean.
+People talked about speed as if it were a property of the stroke at impact — how fast you moved your arm or how fast the cue was moving when it met the ball. Faster meant more draw. Slower meant more control. It all sounded clean.
 
 It wasn’t.
 
@@ -2325,7 +2295,7 @@ Not as an instruction.
 
 As a signature.
 
-Good strokes didn’t leap to speed. They gathered it. Not uniformly, not mechanically, but in a way that belonged to the same rhythm as the picture he’d built. Acceleration wasn’t added.
+Good strokes didn’t leap to speed. They gathered it. Not uniformly, not mechanically, but in a way that belonged to the same rhythm as the picture that had been built. Acceleration wasn’t added.
 
 It emerged.
 
@@ -2337,9 +2307,7 @@ From a physics standpoint, this explained far more than Paul expected.
 
 The cue ball didn’t respond to speed alone. It responded to how force was applied over time and space. The cue flexed. The tip compressed. Friction engaged. Spin developed.
 
-Two strokes could produce the same apparent speed at contact and still deliver different cue-ball states because the acceleration profile had been different.
-
-That was the missing variable.
+Two strokes that looked like they had the same speed at contact could result in vastly different results.
 
 Acceleration wasn’t just temporal — how fast speed increased.
 It was spatial — where in the stroke force was being developed relative to the cue ball.
@@ -2368,21 +2336,19 @@ Both did work.
 
 The difference wasn’t the shape of the curve.
 
-It was whether deceleration was resolved or corrective.
+It was whether deceleration was forced or natural. Natural deceleration belonged to a committed plan. The system knew where it was going. The cue ball arrived in the intended state.
 
-Resolved deceleration belonged to a committed plan. The system knew where it was going. The cue ball arrived in the intended state.
-
-Corrective deceleration came from doubt.
+Forced deceleration came from doubt.
 
 That kind of deceleration wasn’t planned. It wasn’t chosen. It showed up as restraint — a subtle braking layered into motion that had already been decided.
 
-Paul recognized it instantly.
+Paul recognized it instantly. If you watched it it looked terrible and the results were equally so.
 
 That was the stroke that felt like it hesitated without stopping.
 The one that felt supervised.
 The one that sounded thin at contact.
 
-Very careful.
+You can never be too careful.
 
 That phrase again.
 
@@ -2404,7 +2370,7 @@ By reflex.
 
 The moment Paul doubted what he was seeing, his body tried to save the shot. It softened the delivery. It flattened the acceleration. It introduced micro-braking.
 
-The cue ball didn’t do what he expected — not because he’d hit it wrong, but because he’d arrived differently.
+The cue ball didn’t do what he expected — not because the speed was wrong, but because it had arrived differently.
 
 Same speed.
 
@@ -2418,15 +2384,15 @@ Why trying to be smooth sometimes made things worse.
 
 Acceleration wasn’t something you added to fix a shot.
 
-It was something that collapsed when perception fractured.
+It was something that worked when you didn't think about it and fell apart when you did.
 
-Paul understood now why acceleration was so rarely taught well.
+But Paul understood why the subtleties of acceleration were so rarely taught.
 
 You couldn’t see it in a mirror.
 You couldn’t freeze-frame it.
-You couldn’t correct it directly.
+You couldn’t correct it simply.
 
-Acceleration lived in time and state.
+Acceleration lived in time, space and internal state.
 
 Trying to manage it explicitly only created more interference.
 
@@ -2456,9 +2422,9 @@ Acceleration wasn’t a technique.
 
 It was the physical expression of belief.
 
-And belief, Paul was learning, didn’t live in the mind.
+And belief, Paul was learning, wasn't intellectual.
 
-It lived in whether the world stayed stable long enough for the body to finish what it had already started.
+It happened whenever the stroke, the stance, the world, stayed stable long enough for the body to finish what it had already started.
 
 
 # Chapter 24: Spin and Impulse
@@ -2477,11 +2443,7 @@ Spin wasn’t something applied at contact.
 
 It was something delivered.
 
-Paul noticed this first on shots he thought he understood perfectly. Shots he’d hit thousands of times. The cue ball would arrive with what looked like the same speed—but the outcome would change. The object ball would take a slightly different path. The cue ball would check, slide, or carry in ways that didn’t match what he expected.
-
-Same speed.
-
-Different behavior.
+Paul noticed this first on shots he thought he understood perfectly. Shots he’d hit thousands of times. He would hit the cue ball in the same spot with what felt like the same speed and it would arrive with something completely different. The object ball would take a slightly different path. The cue ball would check, slide, or carry in ways that didn’t match what he expected.
 
 That was the moment speed stopped making sense as the thing he was controlling.
 
@@ -2489,17 +2451,15 @@ What mattered wasn’t how fast the cue ball was moving.
 
 It was what changed when it was struck.
 
-Paul had been thinking of impulse the wrong way too.
+Paul stopped thinking about acceleration and force. He started thinking about impulse.
 
-Impulse wasn’t really force applied over time. That was already a simplification—useful for math, but misleading for understanding what the cue ball experienced.
-
-What mattered was the change in momentum.
+Impulse was the change in momentum. That was the goal of the stroke.
 
 A jump.
 
-The cue ball didn’t feel the stroke unfolding. It didn’t feel effort. It didn’t feel smoothness.
+The shot didn't care about how the cue ball was pushed or in what direction or where your tip contacted it. It didn’t care about effort. It didn’t care about smoothness.
 
-It felt a sudden transition from one state to another.
+It cared about the momentum change.
 
 The cleaner that transition—the closer it was to an instantaneous change—the more predictable everything became.
 
@@ -2513,13 +2473,13 @@ It was to prepare a system capable of delivering a clean change in momentum with
 
 Everything before contact existed only to make that possible.
 
-Everything that interfered—hesitation, corrective braking, late supervision—didn’t reduce power so much as smear the impulse.
+Everything that interfered—hesitation, corrective braking, late supervision, desire to be straight, avoiding deceleration—didn’t reduce power so much as smear the impulse.
 
 The result wasn’t weaker.
 
 It was less predictable.
 
-That explained something Paul had never been able to reconcile before.
+Things started to make more sense.
 
 Why two shots with the same apparent speed could produce wildly different draw.
 Why some players could line up high and still pull the cue ball back.
@@ -2533,13 +2493,13 @@ Acceleration lived inside that.
 
 Not as a goal, but as a consequence.
 
-The shape of acceleration determined how cleanly momentum transferred. Abrupt, corrective motion distributed the change across time and space. Resolved motion allowed it to arrive all at once.
+The shape of acceleration determined how cleanly momentum transferred. Corrective motion distributed the change across time and space. A clean stroke allowed it to arrive all at once.
 
 This was where deceleration finally made sense.
 
 Deceleration wasn’t automatically bad.
 
-What mattered was whether it was resolved or corrective.
+What mattered was whether it was clean.
 
 Some players accelerated early, peaked, and let the cue coast through contact. Others continued accelerating right through impact.
 
@@ -2553,41 +2513,16 @@ It corrupted the transfer.
 
 Paul felt it immediately when it happened.
 
-The contact sounded thinner.
-The cue ball behaved incomplete.
-Spin bled off faster than it should have.
+The contact sounded wrong.
+The cue ball didn't react as expected.
 
-Very careful.
+You can never be too careful
 
-That phrase surfaced again.
+Over and over.
 
-Careful strokes weren’t weak.
+Careful strokes were noisy.
 
-They were noisy.
-
-This was where vision came back into it—again.
-
-When the picture stayed wide—when the pockets anchored the space and the table felt stable—the impulse resolved cleanly. The cue ball arrived with both translation and rotation intact.
-
-When vision collapsed—when attention narrowed and doubt crept in—the body didn’t decide to change the stroke.
-
-It reacted.
-
-Acceleration distorted automatically.
-Impulse smeared.
-Spin degraded.
-
-No conscious choice required.
-
-That was why pressure showed up first on soft shots.
-
-On power shots, impulse was large enough that contamination hid inside it. On soft shots, the change in momentum was small and fragile. Any interference mattered.
-
-That was why players under pressure under-hit far more often than they over-hit.
-
-The impulse collapsed before contact.
-
-Paul also saw now why spin diagrams lied.
+Paul also saw now another reason why spin diagrams lied.
 
 They treated spin as a location on the cue ball—hit here to get this result.
 
@@ -2605,27 +2540,19 @@ They weren’t aligning to geometry.
 
 They were shaping impulse.
 
-This reframed biomechanics completely.
-
 The stroke stopped looking like a push and started looking like a release. Less muscular. More elastic. Less about applying force and more about not interfering with its transfer.
 
 Paul didn’t start trying to “add” spin.
 
 He stopped interrupting its formation.
 
-When the system stayed coherent—vision wide, rhythm intact, acceleration resolved—the cue ball arrived alive. It carried rotation naturally. It behaved the way the simple models said it should.
+When the system stayed coherent—vision wide, rhythm intact, impulse clean—the cue ball arrived alive. It carried rotation naturally. It behaved the way he expected it to.
 
-When it didn’t, nothing he did afterward mattered.
+When it didn’t, nothing could fix it.
 
-Spin didn’t fail because he aimed wrong.
+Spin didn’t fail because of bad aim.
 
 It failed because the momentum change had been polluted.
-
-And for the first time, Paul understood why the best players never talked about impulse.
-
-They never needed to.
-
-They were already protecting the thing that made it clean.
 
 
 # Chapter 25: Soft Shots and Slip
@@ -2644,9 +2571,9 @@ On a soft shot, there was nowhere to hide.
 
 The change in momentum was small. Fragile. Any contamination mattered.
 
-That was why pressure showed up first on easy shots.
-That was why people under-hit far more often than they over-hit.
-That was why confidence evaporated when finesse was required.
+That was why they failed quickest under pressure and why the best players tried to avoid them.
+That was why people under-hit far more often than they over-hit, especially under pressure.
+That was why confidence often evaporated when finesse was required.
 
 Paul started noticing something else about the best soft shooters.
 
@@ -2656,9 +2583,7 @@ They looked released.
 
 The cue didn’t slow to a crawl. It didn’t creep forward. It didn’t feel like it was being guided into contact.
 
-It slipped.
-
-Not because the player intended it to—but because nothing was gripping it too tightly.
+For some of the best players, it looked like they weren't even holding the cue. Not because the player intended it—but because nothing was gripping it too tightly.
 
 Paul had heard people talk about “slip stroke” for years. It was usually framed as a flaw or a crutch. Something amateurs did when they lacked control. Something you fixed once you got serious.
 
@@ -2696,7 +2621,7 @@ When something went wrong, the feeling wasn’t uncertainty.
 
 It was resistance.
 
-The cue felt heavier.
+The cue felt heavier. Stuck with the motion of the arm.
 The motion felt supervised.
 The release didn’t arrive cleanly.
 
@@ -2704,7 +2629,7 @@ That was the signal.
 
 Not that the stroke was wrong—but that something upstream had fractured.
 
-Paul understood now why trying to “feel” a soft shot often made it worse.
+Paul understood now why trying to shoot soft sometimes made it worse.
 
 Attention moved inward. The body got loud. The grip tightened. Acceleration flattened. The impulse smeared.
 
@@ -2714,9 +2639,9 @@ The irony was brutal.
 
 The more carefully someone tried to execute a soft shot, the more likely they were to ruin it.
 
-Very careful.
+You can never be too careful.
 
-That phrase again.
+He couldn't believe how much that phrase meant.
 
 Careful players tried to guide soft shots into existence.
 
@@ -2740,11 +2665,7 @@ Paul stopped trying to avoid the slip.
 
 He stopped trying to create it too.
 
-He let it be diagnostic.
-
-When the cue slipped, the shot usually behaved.
-
-When it didn’t, something had gone wrong long before the cue ball was struck.
+He let it be happen if it wanted to. And it usually did at some point in the stroke. When the cue slipped, the shot usually behaved. When it didn’t, something had often gone wrong long before the cue ball was struck.
 
 Soft shots taught him this faster than anything else.
 
@@ -2772,7 +2693,7 @@ If he could deliver impulse cleanly when it barely existed, he could deliver it 
 
 And if he couldn’t—
 
-The table told him exactly why.
+He would be punished.
 
 
 # Chapter 26: Why Aiming Systems Fail
@@ -2795,7 +2716,7 @@ For a long time, Paul believed that.
 
 Then he noticed something he couldn’t unsee.
 
-Aiming systems worked best on shots that didn’t push the table very hard.
+Aiming systems worked best on shots that didn’t push very hard.
 
 Firm shots.
 Stun shots.
@@ -2813,7 +2734,7 @@ They assumed friction was a detail.
 They assumed contact behaved smoothly and continuously.
 They assumed geometry dominated physics.
 
-Most of all, they assumed there was only one way the collision could behave.
+Most of all, they assumed there was only one way collisions could behave. Collisions between the tip and the cue ball as well as collisions between the cue ball and the object ball.
 
 Paul now knew that wasn’t true.
 
@@ -2825,21 +2746,19 @@ When the contact slid under kinetic friction, the object ball deflected in a lim
 
 But if static friction appeared unintentionally, everything changed.
 
-Static friction was roughly an order of magnitude stronger than kinetic friction. Forces spiked. Gearing appeared where it wasn’t expected. Small delivery differences produced large angular errors.
+Static friction was huge compared to kinetic friction. The balls stuck together. Forces spiked. Gearing appeared where it wasn’t expected. Small delivery differences produced huge errors.
 
-This was skid.
+Skid was bad. All the good players complained about it. And they did everything they could to avoid it.
 
-Rolling cue balls were worse.
+Rolling cue balls were the worst.
 
-With a rolling cue ball, the contact point on the cue ball was descending. The object ball became wedged between the cue ball and the cloth. Normal force increased, and friction increased with it.
+With a rolling cue ball, the contact point on the cue ball was descending. The object ball would sometimes become wedged between the cue ball and the cloth. Normal force increased, and friction increased with it.
 
 The collision became violently sensitive.
 
 That was why rolling balls skidded more — not less.
 
-Paul had been taught the opposite.
-
-He’d been told rolling was natural. That stun was risky. That draw was dangerous.
+Paul had been taught rolling was natural. That draw was dangerous.
 
 None of that survived contact with reality.
 
@@ -2847,17 +2766,15 @@ Draw helped by lifting the contact point and reducing the wedging effect, but it
 
 Outside English complicated things — but not in the simple way people described.
 
-On very thin cuts, outside English reduced relative tangential velocity at the contact. That made unintended static friction more likely. When it failed, it failed badly. Skid appeared suddenly. The miss felt inexplicable.
+On very thin cuts, outside English reduced relative velocity at the contact point. That made static friction more likely. When it failed, it failed badly. Skid appeared and the miss was virtually guaranteed.
 
-Extreme outside spin could sometimes counter cut-induced throw completely, but it curved the cue ball, forced a thinner effective cut, and lived at the edge of physical control. It was nearly impossible to repeat, especially under pressure.
+Extreme outside spin could sometimes counter cut-induced throw completely, but it curved the cue ball the wrong way, forcing a thinner effective cut. And it lived at the edge of physical control. It was nearly impossible to repeat, especially under pressure.
 
 But Paul also saw something else.
 
 On less-thin cuts, outside English worked beautifully — for a very different reason.
 
-In those cases, skilled players instinctively selected just enough outside spin to counter the natural tangential velocity between the balls. At contact, the spin and the cut matched so closely that the points of contact had near-zero relative tangential motion.
-
-Static friction appeared — but this time it was intentional.
+In those cases, skilled players instinctively selected just enough outside spin to counter the relative tangential velocity between the balls. At contact, the spin and the cut matched so closely that the points of contact had near-zero motion with respect to each other. This time it was in the realm of static friction but intentional and controllable.
 
 The balls geared cleanly. Throw collapsed instead of exploding. The collision became precise rather than sensitive.
 
@@ -2871,7 +2788,7 @@ Outside English wasn’t wrong.
 
 It was exact when it was matched.
 
-It worked with the rails too. Running English produced stable, predictable relationships between inbound and outbound angles. Position routes opened up. Patterns simplified.
+It worked with the rails and the angles better too. After contact, you'd end up deflecting into the rail with the right angle and speed to have running english on the cue ball. Running English produced stable, predictable relationships between inbound and outbound angles. Position routes opened up. Patterns simplified.
 
 But that regime was narrow.
 
@@ -2879,7 +2796,7 @@ Miss the match — too much spin, too little, or corrupted impulse — and stati
 
 Inside English was different.
 
-By increasing relative tangential velocity at the contact, inside English guaranteed sliding. Kinetic friction remained dominant. The throw was larger, but more importantly, it was predictable.
+By increasing relative tangential velocity at the contact, inside English guaranteed sliding. Kinetic friction remained dominant. The throw was much smaller, but more importantly, it was much more predictable.
 
 Inside English didn’t remove throw.
 
@@ -2893,7 +2810,7 @@ They assumed friction behaved politely.
 They assumed the collision obeyed geometry.
 They assumed the cue ball arrived ideal.
 
-Those assumptions only held when impulse was large, the cut wasn’t extreme, or the collision happened to be forgiving — like stun shots or medium cuts with correctly matched outside English.
+Those assumptions only held when impulse was large, the cut wasn’t extreme, or the collision happened to be forgiving - which was a narrow subset of the shots.
 
 Paul finally understood why stun shots felt so accurate.
 
@@ -2910,7 +2827,7 @@ The physics was being kind.
 But kindness disappeared the moment the shot got thin, soft, or pressured.
 
 Impulse shrank.
-Regime sensitivity exploded.
+Sensitivity to error exploded.
 Friction dominated.
 
 Aiming harder didn’t help.
@@ -2939,8 +2856,8 @@ Aiming systems tried to make the table simpler than it was.
 
 The table refused.
 
-And for the first time, Paul understood why no aiming system could ever survive contact with real pressure.
+Paul knew now that no aiming system could ever survive contact with real pressure.
 
 Because pressure didn’t break geometry.
 
-It exposed friction.
+It exposed friction. It exposed sensitivity to error.
