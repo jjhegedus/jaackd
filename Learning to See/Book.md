@@ -2696,8 +2696,9 @@ And if he couldn’t—
 He would be punished.
 
 
-# Chapter 26: Why Aiming Systems Fail
+# Chapter 26: Friction
 
+Aiming syatems.
 Paul had learned them all.
 
 Ghost ball.
@@ -2720,41 +2721,29 @@ Aiming systems worked best on shots that didn’t push very hard.
 
 Firm shots.
 Stun shots.
-Less-thin cuts.
-Familiar cloth.
+Mild cut shots.
 
-They failed first on thin cuts. On soft shots. On shots with spin. On shots where pressure was present and the cue ball arrived fragile.
-
-That wasn’t an accident.
+They failed first on thin cuts. On soft shots. On shots with spin. When the pressure was on.
 
 Aiming systems assumed a world that didn’t exist.
 
-They assumed the cue ball was a point.
-They assumed friction was a detail.
-They assumed contact behaved smoothly and continuously.
-They assumed geometry dominated physics.
+There was only one way contact worked. Contact between the tip and the cue ball. Contact between the cue ball and the object ball.
 
-Most of all, they assumed there was only one way collisions could behave. Collisions between the tip and the cue ball as well as collisions between the cue ball and the object ball.
+But reality was more complex, more subtle.
 
-Paul now knew that wasn’t true.
+On cut shots, contact flirted with a boundary. Small changes in speed, spin, or delivery could push it from one kind of friction to another.
 
-On cut shots, the collision lived near a boundary. Small changes in speed, spin, or delivery could push it from one friction regime into another.
+And they were nothing alike.
 
-And the regimes were nothing alike.
+When the contact was sliding, the object ball behaved in a limited, predictable way. Errors were bounded. The table behaved.
 
-When the contact slid under kinetic friction, the object ball deflected in a limited, predictable way. Errors were bounded. The table behaved.
-
-But if static friction appeared unintentionally, everything changed.
-
-Static friction was huge compared to kinetic friction. The balls stuck together. Forces spiked. Gearing appeared where it wasn’t expected. Small delivery differences produced huge errors.
+But if they grabbed unintentionally, everything changed.
 
 Skid was bad. All the good players complained about it. And they did everything they could to avoid it.
 
 Rolling cue balls were the worst.
 
-With a rolling cue ball, the contact point on the cue ball was descending. The object ball would sometimes become wedged between the cue ball and the cloth. Normal force increased, and friction increased with it.
-
-The collision became violently sensitive.
+With a rolling cue ball, the contact point on the cue ball was descending. The object ball would sometimes become wedged between the cue ball and the cloth. The balls could stick together like glue. The collision became violently sensitive to minor differences in speed or spin.
 
 That was why rolling balls skidded more — not less.
 
@@ -2764,50 +2753,36 @@ None of that survived contact with reality.
 
 Draw helped by lifting the contact point and reducing the wedging effect, but it wasn’t a guarantee. The collision could still drift into static friction.
 
-Outside English complicated things — but not in the simple way people described.
+Outside English complicated things — but not in the simple way people described. Right english didn't always throw the object ball left and left english didn't always throw it right.
 
-On very thin cuts, outside English reduced relative velocity at the contact point. That made static friction more likely. When it failed, it failed badly. Skid appeared and the miss was virtually guaranteed.
+On very thin cuts, outside English wasn't quite enough to overcome cut induced throw. But it reduced relative velocity at the contact point. That made static friction more likely. When it failed, it failed badly. Skid appeared and the miss was virtually guaranteed.
 
-Extreme outside spin could sometimes counter cut-induced throw completely, but it curved the cue ball the wrong way, forcing a thinner effective cut. And it lived at the edge of physical control. It was nearly impossible to repeat, especially under pressure.
+Extreme outside spin could sometimes counter cut-induced throw completely, but it curved the cue ball the wrong way, forcing a thinner cut. And it lived at the edge of physical control. It was nearly impossible to execute consistently, especially under pressure.
 
-But Paul also saw something else.
+But on mild cuts, outside English worked beautifully. In those cases, the best players instinctively selected just enough outside spin to counter the cut induced throw. Not too much though. Just enough. At contact, the spin and the cut matched so closely that the points of contact had near-zero motion with respect to each other. There wasn't any relative velocity. It was like the cue ball rolled off the object ball instead. They became predictable.
 
-On less-thin cuts, outside English worked beautifully — for a very different reason.
+Outside English wasn’t wrong. When done correctly it was perfect. The best of the best used it on almost every shot.
 
-In those cases, skilled players instinctively selected just enough outside spin to counter the relative tangential velocity between the balls. At contact, the spin and the cut matched so closely that the points of contact had near-zero motion with respect to each other. This time it was in the realm of static friction but intentional and controllable.
+It worked with the rails and the angles better too. After contact, you'd end up deflecting into the rail with the right angle and spin to have running english on the cue ball. Running English produced stable, predictable relationships between inbound and outbound angles. Position routes opened up. Patterns simplified.
 
-The balls geared cleanly. Throw collapsed instead of exploding. The collision became precise rather than sensitive.
+But the window was narrow.
 
-This was not luck.
-
-It was not calculation.
-
-Almost every good player did it instinctively.
-
-Outside English wasn’t wrong.
-
-It was exact when it was matched.
-
-It worked with the rails and the angles better too. After contact, you'd end up deflecting into the rail with the right angle and speed to have running english on the cue ball. Running English produced stable, predictable relationships between inbound and outbound angles. Position routes opened up. Patterns simplified.
-
-But that regime was narrow.
-
-Miss the match — too much spin, too little, or corrupted impulse — and static friction reappeared in its dangerous form.
+Miss the match — too much spin, too little — and friction, drag or throw reappeared with a big miss.
 
 Inside English was different.
 
-By increasing relative tangential velocity at the contact, inside English guaranteed sliding. Kinetic friction remained dominant. The throw was much smaller, but more importantly, it was much more predictable.
+By increasing relative motion at contact, inside English guaranteed sliding. Kinetic friction remained dominant. The throw was much smaller and always cut induced. Always the same direction. It was much more predictable.
 
 Inside English didn’t remove throw.
 
 It avoided catastrophe.
 
-That was why it worked so well on thin cuts — and why it collapsed instantly if impulse purity failed.
+That was why it worked so well on thin cuts.
 
 Aiming systems couldn’t represent any of this.
 
 They assumed friction behaved politely.
-They assumed the collision obeyed geometry.
+They assumed the same geometry resulted in the same behavior.
 They assumed the cue ball arrived ideal.
 
 Those assumptions only held when impulse was large, the cut wasn’t extreme, or the collision happened to be forgiving - which was a narrow subset of the shots.
@@ -2818,13 +2793,11 @@ Not because they were simple.
 
 Because they were tolerant.
 
-With near-zero rotation at impact, the collision stayed away from regime boundaries. Small delivery errors didn’t explode. Geometry matched expectation.
-
-That was why aiming systems seemed to work there.
+With near-zero rotation at impact, the collision stayed away from the edges. Small delivery errors didn’t explode. Geometry matched expectation.
 
 The physics was being kind.
 
-But kindness disappeared the moment the shot got thin, soft, or pressured.
+But that kindness disappeared the moment the shot got thin, soft, or pressured.
 
 Impulse shrank.
 Sensitivity to error exploded.
@@ -2846,7 +2819,7 @@ Great players didn’t aim less.
 
 They aimed differently.
 
-They didn’t try to predict the collision. They shaped the state the cue ball arrived in so the collision unfolded in a survivable regime.
+They didn’t try to predict the collision. They shaped the state the cue ball arrived in so the collision happened in a predictable way.
 
 Angle wasn’t the input.
 
@@ -2860,4 +2833,9 @@ Paul knew now that no aiming system could ever survive contact with real pressur
 
 Because pressure didn’t break geometry.
 
-It exposed friction. It exposed sensitivity to error.
+It exposed sensitivity to error in the wrong shot selection.
+
+# Chapter 27 — Seeing Through Glass
+
+Summary: Started winning regularly in local tournamentsBacker, First road trip, South Bend, 19 years old, Kitty Cat Lounge strip club, red felt valley bar table with 6" roll, #5 in indiana, 5 1/2 hours missed twice, the put away using table roll to curve the ball, big win - $540, walk across town, walk across town to the pool hall, asking for action, guru walking out saying, i see you've got it all figured out, paul saying finally and watching him walk out the door, good player saying rack em up kid
+
