@@ -1,4 +1,4 @@
-# Prologue — The Game I Didn’t Get to Play (Final)
+# Prologue — The Game He Didn’t Get to Play (Final)
 
 When Paul arrived at the university, He thought he knew how to play pool.
 
