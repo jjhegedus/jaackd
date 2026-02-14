@@ -208,13 +208,17 @@ What mattered was that I finally understood how dangerous it is for something to
 and to be unable to see it. Paul eventually figured it out when he pressed to play for more, trying to win back some of the money Marek had taken from him. Sure that he was the better player now. Same story. He lost but just barely. Paul didn't know how much he had lost to him. Forty a week for months and then a couple hundred in one dumb ass attack.
 
 
-# Chapter 3: The First ACUI Tounament
+# Chapter 3: Paul' First Tounament
+
+Near the end of the second semester, there was a big tournament to see who would represent Purdue at the big college tournaments in the region. The Association of College Unions International put it on. The ACUI It was a big deal for college pool. Everyone wanted to win it.
+
+Paul signed up. He was excited but knew there were better players and knew he would have to play his best and get a little luck to make it through.
 
 Paul moved through the early matches with a quiet efficiency that surprised even him. No scrambling. No recalculation mid-stroke. The table looked wide. The pockets generous. The noise of the room stayed where it belonged — outside the shot.
 
 He wasn’t invincible. Just solid.
 
-Between matches, people said the usual things. “You’re stroking it good.” “Looks easy out there.” Paul nodded, but didn’t take the bait. Compliments had a way of reaching for more space than they deserved.
+Between matches, people said the usual things. “You’re stroking it good.” “Looks easy out there.” Paul nodded, but didn’t take the bait. Compliments had a way of getting in your head.
 
 Then he saw Calder’s name on the bracket.
 
@@ -232,7 +236,7 @@ By the third rack, Paul knew he was in trouble — not because he was missing, b
 
 Calder never changed.
 
-He didn’t dominate. He didn’t pressure. He just kept doing what he did while Paul quietly fought himself. When it was over, Calder offered a nod that contained no judgment at all.
+He didn’t dominate. He didn’t pressure. He just kept doing what he did while Paul quietly fought himself. When it was over, Calder offered a nod. He knew what had happened.
 
 That was worse.
 
@@ -285,7 +289,7 @@ The back room held the real tables.
 
 Big tables. Proper distance. Slick cloth that made the balls roll and spin forever. They were beautiful.
 
-The owner was a curios fellow, lik a character in a sitcom. The one that was a little odd. He picked up the balls from the counter and racked without ceremony. Shot for a while. Missed one he shouldn’t have. Then another. Then stopped shooting altogether.
+The owner was a curios fellow, lik a character in a sitcom. The one that was a little odd. Paul picked up the balls from the counter and racked without ceremony. Shot for a while. Missed one he shouldn’t have. Then another. Then stopped shooting altogether.
 
 That was when the room went quiet in a way that had nothing to do with emptiness.
 
@@ -299,11 +303,11 @@ Object ball on the long rail. Not frozen, but close enough to matter. Cue ball a
 
 “Object ball,” he muttered, leaning in.
 Then straightened.
-“No—cue ball.”
+“Or cue ball.”
 
 He rolled the cue between his fingers, annoyed at himself for caring.
 
-Object ball focus had felt right last month. He’d switched after a coach told him it simplified everything. Let the cue take care of itself. It had worked—for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
+Object ball focus had felt right last month. He’d switched after a coach told him it simplified everything. Let the cue take care of itself. It had worked... for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
 
 Cue ball focus had been the answer before that. Control the white, everything else follows. That advice came from a player who never seemed rattled, even with cash on the line. Paul had tried it tonight. The stroke felt deliberate. Mechanical. The shot… didn’t.
 
@@ -319,7 +323,7 @@ He stood back up and exhaled through his nose.
 
 He chalked, though the tip didn’t need it.
 
-“They all play better than me.”
+“They all play better than me," he said, knowing it wasn't completely true. Obviously it was under the pressure though.
 
 The chair in the corner creaked.
 
@@ -333,13 +337,13 @@ The words didn’t sound loud. They didn’t sound important.
 
 But they landed.
 
-Paul’s mouth opened, already forming a reply—something about preference, about feel, about people being different—
+Paul’s mouth opened, already forming a reply, something about preference, about feel, about people being different.
 
 And then it stopped.
 
 The thought didn’t finish. It didn’t even fade. It simply… failed to arrive.
 
-For a moment—he couldn’t tell how long—there was only the table.
+For a moment, he couldn’t tell how long, there was only the table.
 
 Not the shot. The table.
 
@@ -355,13 +359,13 @@ Curiosity.
 
 He turned toward the chair.
 
-“Wait—” he said. “What do you mean?”
+“Wait” he said. “What do you mean?”
 
 The chair was empty.
 
 Not pushed back. Not obviously abandoned. Just empty, as if no one had been there to begin with.
 
-Paul stared at it longer than made sense.
+Paul stared at it, "Huh?"
 
 He walked over, half expecting the man to be standing just out of view, maybe near the counter, maybe lining up a shot at the far table.
 
@@ -371,7 +375,7 @@ The hat was gone too.
 
 Paul looked back at the table. The shot was still there, unchanged. He set his cue down and took a step back, then another, as if distance might help him see what he’d just lost track of.
 
-The question echoed—not loudly, but persistently.
+The question echoed, not loudly, but persistently.
 
 If it mattered which ball you looked at…
 
@@ -390,7 +394,7 @@ Not at the object ball.
 
 At the whole thing.
 
-And for just a moment—only a moment—the shot felt obvious.
+And for just a moment, only a moment, the shot felt obvious.
 
 Then the feeling slipped away.
 
@@ -457,7 +461,7 @@ That summer, the table became part of the house.
 
 Paul practiced in the evenings, then late, then whenever the rest of the place went quiet. The bar table changed the game in small, irritating ways. Shorter distances. Faster decisions. Less room for correction.
 
-Paul's Dad used to play and knowing him he was a gambler. He banked better than Paul and knew how to let the cue run arond the rails.
+Paul's Dad used to play and knowing him he was a gambler. He banked better than Paul and knew how to let the cue run around the rails.
 
 The question from the pool hall didn’t go away.
 
@@ -474,17 +478,17 @@ He learned to keep shooting anyway.
 
 Paul stopped switching.
 
-That was the decision — not dramatic, not announced. He simply chose one way of setting up, one way of letting the table come into view, and refused to change it when things felt strange.
+That was the decision — not dramatic, not announced. He simply chose one way of setting up, one way of letting the table come into view, and refused to change when things felt strange.
 
 The first week was rough.
 
-Shots that used to bail him out disappeared. Easy runs broke early. His instincts reached for old habits and found nothing there. More than once, he considered abandoning the whole thing and going back to what mostly worked.
+Shots that used to bail him out disappeared. Easy runs broke early. His instincts reached for old habits. He caught himself falling back into old routines and had to drag himself back. More than once, he considered abandoning the whole thing and going back to what mostly worked.
 
 He didn’t.
 
 Instead, he practiced longer.
 
-Something began to settle — not in his stroke, but in the way the table arrived all at once instead of in pieces. He stopped checking the pocket. Stopped interrogating alignment. The urge to confirm faded, replaced by a quieter sense of placement.
+Something began to settle. He stopped checking the pocket. Stopped interrogating alignment. The urge to confirm faded, replaced by a quieter sense of placement.
 
 Some nights, everything locked in.
 
@@ -492,7 +496,7 @@ Some nights, it didn’t.
 
 But even on the bad nights, the table no longer felt hostile.
 
-By the end of the summer, his improvement was obvious. One night when playing his Dad, he ran three in a row from the break. After the third rack, he could see his Dad was getting irritated. He threw his cue out on the table, "That's enough he snapped." He walked up the stairs and they didn't play again that summer.
+By the end of the summer, his improvement was obvious. One night when playing his Dad, he ran three in a row from the break. After the third rack, he could see his Dad was getting irritated. He threw his cue out on the table. Hard. it bounced off and the tip popped through the drywall. "What the fuck," he muttered. Paul knew he was pissed at himself because he gave himself more work to fix the hole. His dad walked up the stairs and they didn't play again that summer.
 
 When school started again, the difference followed him.
 
@@ -515,15 +519,15 @@ Paul smiled. He was feeling good.
 
 # Chapter 7: What Counts as Practice
 
-Marek finally showed up but he wasnt the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after he hit him.
+Marek finally showed up but he wasnt the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after it was too late.
 
 At first, he was just there early, hitting balls on the far table before anyone else showed up. No crowd. No games. Just racks and resets, the sound of balls breaking and gathering again. He didn't want to play, just practice.
 
 Marek didn’t say much when Paul asked him to play. He didn’t stop practicing either. He worked through straight pool racks slowly, methodically, the way someone does when they’re testing something they don’t trust anymore.
 
-Paul watched him shoot for a while. The stroke still looked good but not the same. And he couldn't get down low like he used to.
+Paul watched him shoot for a while. The stroke still looked good but not the same. And he didn't get down low like he used to.
 
-Marek reset the rack without comment.
+Marek reset the rack with barely a look in Paul's direction.
 
 Later that afternoon, after Paul had played and won another set, Marek said, “You’re always playing.”
 
@@ -537,7 +541,7 @@ Paul smiled. “I’m winning.”
 
 He didn’t say it like praise.
 
-“How is that helping?” Marek went on. “You miss a ball, you blame the game. You make one, you don't even think about it. That’s not practice.”
+“How is that helping?” Marek went on. “You need practice and pressure, not funsies.”
 
 He walked over to Paul’s table and set a long, straight-in shot.
 
@@ -553,7 +557,7 @@ Paul straightened. “See?”
 
 Marek didn’t react. “How far were you trying to draw it?”
 
-Paul hesitated. “As far as I could.”
+Paul hesitated. Staring at Marek as if he was speaking a foriegn language.
 
 Marek spun the chalk on the cloth, leaving a blue circle.
 
@@ -567,11 +571,11 @@ Too long.
 
 He shot again and pulled it back to within about six inches. “That was close.”
 
-Marek shook his head. “Random.”
+Marek shook his head. “Oh yeah, that was great. Not in the circle and completely random.”
 
-Paul got it inside the circle once and looked up.
+Paul kept shooting the shot. After a few more, he got it inside the circle and looked up.
 
-Marek laughed. “ Come back when its inside,” he said. Then after a long pause, “Every time.”
+Marek laughed. “Come back when its inside,” he said. Then after a long pause, “Every time.”
 
 Paul laughed then. Marek just turned anound and went back to his own table.
 
@@ -579,19 +583,19 @@ Paul just stared at him. Was he serious?
 
 That was how Marek worked.
 
-He practiced. Paul practiced. Sometimes together. Often apart. Marek pused him. stay down. Keep your cue level. Stop changing your mind when you're halfway there. If you aren't sure get up and look again. He added things when he saw gaps.
+He practiced. Paul practiced. Sometimes together. Often apart. Marek pushed him. Get down. Lower. Keep your cue level. Stop changing your mind when you're halfway there. If you aren't sure get up and look again. He added things when he saw gaps.
 
 “You've got to stay down too,” he said, when Paul popped up early.
 
-“If your head comes up before the cue stops, you don't really see what actually happened.”
+“If your head comes up before the cue stops, you don't really see what actually happened.” Try to replay that shot in your head. You can't because you weren't really watching.
 
-Another day, Marek racked fourteen balls.
+Another day, Marek racked fifteen balls.
 
 “Straight pool,” he said.
 
-Paul frowned. “I’m playing rotation.”
+Paul frowned. “I’m playing nine ball.”
 
-“You’re practicing now,” Marek said. “Straight pool teaches patterns and rhythm. Rotation forgives bad decisions.”
+“You’re practicing now,” Marek said. “Straight pool teaches patterns and rhythm. Nine ball forgives bad decisions.”
 
 They worked racks slowly. Marek stopped Paul often.
 
@@ -605,7 +609,7 @@ Reset.
 
 Marek showed him break shots, how to arrive at them instead of forcing them. How to leave balls for later. How not to solve every problem immediately.
 
-“Same problems come back,” Marek said. “Learn them.”
+“Some problems keep coming back,” Marek said. “Learn them.”
 
 Paul noticed Marek working on the same things himself.
 
@@ -617,13 +621,13 @@ One afternoon, Marek stopped Paul mid-rack. What are you doing?
 
 Marek shook his head. “It gets ugly later.”
 
-Paul frowned. “Where?”
+Paul frowned.
 
 “Right there,” Marek said, pointing farther down the table. “You’re letting it sit.”
 
 “I can deal with it.”
 
-“Not when it's important,” Marek said. “Fix it now.”
+“Not when it's important,” Marek said, "when the pressure is on." “Fix it now.”
 
 He bent down to show him.
 
@@ -645,7 +649,7 @@ He calmly reset the balls.
 
 Marek looked at him.
 
-Paul played the early shot, soft and deliberate, nudging the problem ball open just enough. Nothing else moved.
+Paul played the early shot, firm but not to firm, and deliberate, nudging the problem ball open just enough. Nothing else moved.
 
 He stayed standing and traced the rest of the rack. One ball. Two. Three. Clear.
 
@@ -665,7 +669,7 @@ But Paul’s break shots started opening.
 
 Marek’s didn’t.
 
-One evening, alone on the far table, Marek lined up another breakout. Same angle. Same speed he’d trusted his whole life.
+One evening, alone on the far table, Marek lined up another breakout. Same angle. Same speed he’d trusted oast year.
 
 The ball didn’t open.
 
@@ -866,11 +870,11 @@ At some point — Paul wasn’t sure when — pool crept back in.
 
 “I can’t explain it,” Paul said, staring at the condensation ring his glass had left on the table. “I know what works. I just don’t know why it stops.”
 
-Eli leaned back. “Start from the beginning.”
+Eli leaned back and looked at him. “What are you babbling about.”
 
 Paul thought for a moment.
 
-“Object ball focus,” he said. “Works great. Until it doesn’t. Cue ball focus too. Same story. And when it fails, it’s not gradual. The pocket doesn’t get smaller — it just… moves.”
+“Object ball focus,” he said. “Works great. Until it doesn’t. Cue ball focus too. Same story. And when it fails, it’s not gradual. The pocket doesn’t get smaller, it just… moves.”
 
 Eli nodded, not interrupting.
 
@@ -882,7 +886,7 @@ Eli picked at the label on his bottle.
 
 Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes dissapears too.”
 
-Eli’s eyebrows rose. “Sometimes? When?”
+Eli’s eyebrows rose. “When does it work best?”
 
 “When I’m not trying to aim,” Paul said slowly. “When I’m aware of the table instead of the ball. Not staring. Not checking. Just… letting it be there. That’s when the shot feels obvious.”
 
@@ -898,7 +902,7 @@ Eli leaned forward now, elbows on the table.
 
 Paul felt his chest tighten.
 
-“And when I try to use the peripheral feeling,” Paul said, “it disappears.”
+“But when I try to use the peripheral feeling,” Paul said, “it disappears.”
 
 “Because now you’re asking it to explain itself,” Eli said. “The moment you check, you collapse it again.”
 
@@ -922,9 +926,9 @@ Eli smiled slowly. “Yeah. That tracks.”
 
 Paul shook his head, half-laughing now.
 
-“I’ve been trying to protect the method,” he said. “That’s why it keeps breaking.”
+“I’ve been trying to focus on the method,” he said. “That’s why it keeps breaking.”
 
-“Protection introduces fear,” Eli said. “Fear narrows attention. Narrowing kills structure.”
+“If focus is too strong it leads to fear,” Eli said. “Fear narrows attention. Narrowing kills structure.”
 
 Paul sat back, letting it settle.
 
@@ -932,7 +936,7 @@ Paul sat back, letting it settle.
 
 Eli shrugged. “Doesn’t matter. The question was.”
 
-They sat there until the beer ran out and the staff started stacking chairs. When they finally stood up, the night felt thinner, like it had been used up properly.
+They sat there until the beer ran out and the staff started stacking chairs. When they finally stood up, the night felt empty, like it had been used up properly.
 
 On the walk back, Paul noticed something quietly different.
 
@@ -951,7 +955,7 @@ Chuck did. He worked in the local car factory and made good money and flashed a 
 
 They were still in the university pool room, not some sketchy pool hall where money could sit out in the open. Everything stayed discreet. Bills changed hands off to the side, folded, quick. Nothing on the table. Neither of them needed that kind of attention.
 
-Chuck introduced himself said he liked to gamble and that he saw my picture on the wall. He asked if i wanted to play a little for fifty a set.
+Chuck introduced himself said he liked to gamble and that he saw Paul's picture on the wall. He asked if Paul wanted to play a little for fifty a set.
 
 Four barrels.
 
@@ -1023,7 +1027,7 @@ Chuck paused at the door.
 
 Paul watched him go.
 
-He knew, without needing to see it, that next time the number would change again — not because Chuck needed to win, but because Chuck needed the game to keep tightening. Chuck would raise the bet without blinking, the way people do when they’re not testing the money, but the person across the table.
+He knew, without needing to see it, that next time the number would change again — not because Chuck needed to win, but because Chuck needed the game to keep tightening. Chuck would raise the bet without blinking, the way people do when they’re not testing themselves, but the person across the table.
 
 The walk home stripped the noise away.
 
