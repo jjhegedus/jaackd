@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep '^# Chapter' c:/P/gh/jjhegedus/jaackd/books/expanding-your-vision/*.md)",
+      "Read(//c/P/gh/jjhegedus/jaackd/**)",
+      "Bash(\"C:/Users/jeff/AppData/Roaming/npm/markdown-pdf\" \"c:/P/gh/jjhegedus/jaackd/books/learning-to-see/commands.md\")"
+    ],
+    "additionalDirectories": [
+      "c:\\P\\gh\\jjhegedus\\jaackd\\books\\expanding-your-vision",
+      "c:\\P\\gh\\jjhegedus\\jaackd\\books\\learning-to-see"
+    ]
+  }
+}
