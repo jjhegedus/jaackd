@@ -1,7 +1,7 @@
 # Chapter 7: What Counts as Practice
 
 
-Marek finally showed up but he wasnt the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after it was too late.
+Marek finally showed up but he wasn't the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after it was too late.
 
 At first, he was just there early, hitting balls on the far table before anyone else showed up. No crowd. No games. Just racks and resets, the sound of balls breaking and gathering again. He didn't want to play, just practice.
 
@@ -39,7 +39,7 @@ Paul straightened. “See?”
 
 Marek didn’t react. “How far were you trying to draw it?”
 
-Paul hesitated. Staring at Marek as if he was speaking a foriegn language.
+Paul hesitated. Staring at Marek as if he was speaking a foreign language.
 
 Marek spun the chalk on the cloth, leaving a blue circle.
 
@@ -57,9 +57,9 @@ Marek shook his head. “Oh yeah, that was great. Not in the circle and complete
 
 Paul kept shooting the shot. After a few more, he got it inside the circle and looked up.
 
-Marek laughed. “Come back when its inside,” he said. Then after a long pause, “Every time.”
+Marek laughed. “Come back when it's inside,” he said. Then after a long pause, “Every time.”
 
-Paul laughed then. Marek just turned anound and went back to his own table.
+Paul laughed then. Marek just turned around and went back to his own table.
 
 Paul just stared at him. Was he serious?
 
@@ -115,7 +115,7 @@ He bent down to show him.
 
 For just a second, as Marek dropped into the stance, his shoulder twitched.
 
-The cue dipped. The hit was off. The shot missed and the cueball barerly nudged into the cluster instead of opening it. Nothing broke. Everything locked up worse.
+The cue dipped. The hit was off. The shot missed and the cue ball barely nudged into the cluster instead of opening it. Nothing broke. Everything locked up worse.
 
 Marek straightened fast.
 
@@ -131,7 +131,7 @@ He calmly reset the balls.
 
 Marek looked at him.
 
-Paul played the early shot, firm but not to firm, and deliberate, nudging the problem ball open just enough. Nothing else moved.
+Paul played the early shot, firm but not too firm, and deliberate, nudging the problem ball open just enough. Nothing else moved.
 
 He stayed standing and traced the rest of the rack. One ball. Two. Three. Clear.
 
@@ -151,7 +151,7 @@ But Paul’s break shots started opening.
 
 Marek’s didn’t.
 
-One evening, alone on the far table, Marek lined up another breakout. Same angle. Same speed he’d trusted oast year.
+One evening, alone on the far table, Marek lined up another breakout. Same angle. Same speed he’d trusted past year.
 
 The ball didn’t open.
 

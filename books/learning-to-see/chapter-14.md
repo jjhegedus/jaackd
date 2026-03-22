@@ -54,7 +54,7 @@ Max draw.
 
 He didn’t know why the transitions happened the way they did. He didn’t need to yet. What mattered was that they were consistent on the table. If he hit this way, that happened. If he added a hair of speed, something else happened. If he crossed the line, the margin shrank exactly the way Marek had warned him it would.
 
-The differences on the tables king dof made sense. The diagrams filled up.
+The differences on the tables kind of made sense. The diagrams filled up.
 
 He practiced to match them.
 

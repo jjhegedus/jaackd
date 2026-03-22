@@ -7,13 +7,13 @@ Most people didn’t.
 
 He was friendly. Easy to talk to. He played whoever was around and didn’t seem to care much about the outcome. He didn’t draw attention to himself. He played pretty decent. If you were watching casually, there was nothing there to notice.
 
-When we played, it felt ordinary.
+When they played, it felt ordinary.
 
 The stakes were small. The games were reasonable. Paul had been winning lately, and felt like he was still improving. Nothing about Marek felt threatening. He wasn’t someone Paul thought about when walking into the room.
 
 Marek played solid pool. He made the balls that were there. He missed some. He didn’t rush or stall. He didn’t do anything that looked intentional. If anything, he seemed happy just to be playing.
 
-The first time Paul played him it didn't go great, but not terrible either. Paul lost a few bucks. He told myself he’d been careless. The second time felt similar. The third followed the same shape. Close racks. Familiar frustration. Nothing decisive.
+The first time Paul played him it didn't go great, but not terrible either. Paul lost a few bucks. He told himself he’d been careless. The second time felt similar. The third followed the same shape. Close racks. Familiar frustration. Nothing decisive.
 
 Weeks passed.
 
@@ -33,7 +33,7 @@ Each time he felt closer. Each time the games felt competitive. Each time he bel
 
 And each time, it didn’t.
 
-Every time his game sharpened, Marek's did too-just enough. He never pulled away. He always congratulated Paul on his good shots, told him he was getting better and should have beaten him if I'd gotten a roll here or he hadn't gotten lucky there. He stayed exactly where he needed to be.
+Every time his game sharpened, Marek's did too-just enough. He never pulled away. He always congratulated Paul on his good shots, told him he was getting better and should have beaten him if he'd gotten a roll here or he hadn't gotten lucky there. He stayed exactly where he needed to be.
 
 The stakes never rose.
 
@@ -51,7 +51,7 @@ Paul smiled. “I’m getting close.”
 
 Eli laughed. “That’s what he wants you to think.”
 
-Paul waited for him to explain what Ihe was missing. Shots. Patterns. Something concrete.
+Paul waited for him to explain what he was missing. Shots. Patterns. Something concrete.
 
 “He’s better than you,” Eli said. “By enough that he can stay ahead without showing it.”
 
@@ -75,7 +75,7 @@ Eli added. “He’s just better than you... and patient.”
 
 Then he walked back to his table.
 
-Paulstood there longer than he needed to.
+Paul stood there longer than he needed to.
 
 He replayed the weeks again—not rack by rack, but night by night. How he never quite caught up. How the gap never closed. How every small gain he made seemed to vanish the moment it mattered.
 
@@ -93,6 +93,6 @@ Some took it as proof Marek wasn’t that good. Others wondered if it proved the
 
 By then, it didn’t matter to Paul.
 
-What mattered was that I finally understood how dangerous it is for something to be true — 
+What mattered was that he finally understood how dangerous it is for something to be true —
 
 and to be unable to see it. Paul eventually figured it out when he pressed to play for more, trying to win back some of the money Marek had taken from him. Sure that he was the better player now. Same story. He lost but just barely. Paul didn't know how much he had lost to him. Forty a week for months and then a couple hundred in one dumb ass attack.

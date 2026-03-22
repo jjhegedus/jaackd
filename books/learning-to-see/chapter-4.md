@@ -17,7 +17,7 @@ The back room held the real tables.
 
 Big tables. Proper distance. Slick cloth that made the balls roll and spin forever. They were beautiful.
 
-The owner was a curios fellow, lik a character in a sitcom. The one that was a little odd. Paul picked up the balls from the counter and racked without ceremony. Shot for a while. Missed one he shouldn’t have. Then another. Then stopped shooting altogether.
+The owner was a curious fellow, like a character in a sitcom. The one that was a little odd. Paul picked up the balls from the counter and racked without ceremony. Shot for a while. Missed one he shouldn’t have. Then another. Then stopped shooting altogether.
 
 That was when the room went quiet in a way that had nothing to do with emptiness.
 

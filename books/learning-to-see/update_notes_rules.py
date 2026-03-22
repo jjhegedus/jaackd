@@ -129,7 +129,9 @@ def main():
     print(f"\nSuggested keywords:\n  {raw}\n")
 
     try:
-        keywords = ast.literal_eval(raw)
+        # Strip markdown code fences if present
+        clean = re.sub(r"```(?:python)?\s*", "", raw).strip()
+        keywords = ast.literal_eval(clean)
         if not isinstance(keywords, list):
             raise ValueError
     except (ValueError, SyntaxError):

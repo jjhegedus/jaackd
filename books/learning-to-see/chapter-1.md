@@ -9,9 +9,9 @@ The order wasn’t written anywhere. No rankings. No brackets. You learned it by
 
 What surprised Paul early on wasn’t who would play—but who wouldn’t.
 
-Some players didn’t play strangers at all. Not for money. Not evencheap. Not for practice. They played only with people they already knew, often the same small group but sometimes larger. Most of them didn't seem to care about pool, just somewhere to hang out. Some though were regular and there almost every night. It wasn’t about protecting anything. They simply weren’t open to the room.
+Some players didn’t play strangers at all. Not for money. Not even cheap. Not for practice. They played only with people they already knew, often the same small group but sometimes larger. Most of them didn't seem to care about pool, just somewhere to hang out. Some though were regular and there almost every night. It wasn’t about protecting anything. They simply weren’t open to the room.
 
-You could walk among them and never be part of their world. Others though would come arond eventually and let you in but not until they determined that you were safe.
+You could walk among them and never be part of their world. Others though would come around eventually and let you in but not until they determined that you were safe.
 
 None of that mattered, though.
 
@@ -20,7 +20,7 @@ he needed practice.
 
 So he stayed.
 
-As weeks passed, he adjusted to the tables and with the consisten play,he improved. He learned the distances. The speed. How unforgiving the tables were when you were careless. He worked on making balls cleanly and consistently. Long shots stopped feeling long. Patterns began to appear where before there had only been clutter.
+As weeks passed, he adjusted to the tables and with the consistent play, he improved. He learned the distances. The speed. How unforgiving the tables were when you were careless. He worked on making balls cleanly and consistently. Long shots stopped feeling long. Patterns began to appear where before there had only been clutter.
 
 He started to win.
 
@@ -62,4 +62,4 @@ Paul noticed her.
 
 At this point, Paul thought he understood the room, the tables and the game.
 
-Hevwas making balls. He was winning some money. He could see who was good and who wasn’t. He knew who to play and who to avoid. He had recovered from Cole, and more importantly, he believed he had learned from it.
+He was making balls. He was winning some money. He could see who was good and who wasn’t. He knew who to play and who to avoid. He had recovered from Cole, and more importantly, he believed he had learned from it.

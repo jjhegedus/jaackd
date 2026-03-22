@@ -25,6 +25,7 @@ CHAPTERS = {
     "chapter-19": "Chapter 19 — Where the Eyes Go",
     "chapter-20": "Chapter 20 — Kevin",
     "chapter-21": "Chapter 21 — The Pinnacle",
+    "chapter-22": "Chapter 22 — The Aftermath",
     "general":    "General Notes",
 }
 
@@ -57,6 +58,15 @@ RULES = [
     # Early narrative chapters
     ("chapter-2",  3, ["marek"]),
     ("chapter-1",  3, ["university room"]),
+
+    # Chapter 20 — Chapter 20 — Kevin
+    ("chapter-20", 3, ['Kevin', 'bar.table', 'runout', 'put.*(away|them)', 'crush.*ego', 'Empire.Billiards', 'four.rails', 'gambling.*pool']),
+
+    # Chapter 21 — Chapter 21 — The Pinnacle
+    ("chapter-21", 3, ['Jerry|Kitty.?Cat.?Lounge', 'Mishawaka', 'break.*nothing|dead.?break', 'roll.*table|table.?roll', 'side.?bet', 'will.*faltered|moment.*will', 'hook.*shot|curve.*around', 'five.?hundred.*dollars|eighteen.?games']),
+
+    # Chapter 22 — Chapter 22 — The Aftermath
+    ("chapter-22", 3, ['pool.hall', 'Paul|Kevin', 'corner.*chair', 'set.of.balls', 'table.*nearby', 'wired|tired.*excited', 'well.earned.rest', 'until.next.time']),
 
     # General
     ("general",    2, ["standardiz", "converge", "modern pool", "pro pool",

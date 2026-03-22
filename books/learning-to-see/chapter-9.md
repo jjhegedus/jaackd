@@ -23,7 +23,7 @@ Paul kept shooting.
 
 She waited this time.
 
-Paul cleared the rack and looked up at Iris. She glanced at the table, then at Eli, who raised his eyebrows slightly — not impressed, exactly, but interested. She smilled and kicked off the meeting. Most of the crowd was still staring at Paul.
+Paul cleared the rack and looked up at Iris. She glanced at the table, then at Eli, who raised his eyebrows slightly — not impressed, exactly, but interested. She smiled and kicked off the meeting. Most of the crowd was still staring at Paul.
 
 Paul went through the tournament without a loss. He beat both Eli and Iris to do it. None of his matches were ever in doubt.
 
@@ -31,7 +31,7 @@ A few days later, Eli wandered over.
 
 “You’re not playing patterns,” he said.
 
-Paul looked up., confused. “I'm just playing the rack.”
+Paul looked up, confused. “I'm just playing the rack.”
 
 Eli nodded slowly, like that sentence fit something he’d already known.
 

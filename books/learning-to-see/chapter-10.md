@@ -15,7 +15,7 @@ At some point — Paul wasn’t sure when — pool crept back in.
 
 “I can’t explain it,” Paul said, staring at the condensation ring his glass had left on the table. “I know what works. I just don’t know why it stops.”
 
-Eli leaned back and looked at him. “What are you babbling about.”
+Eli leaned back and looked at him. “What are you babbling about?”
 
 Paul thought for a moment.
 
@@ -29,7 +29,7 @@ Eli picked at the label on his bottle.
 
 “What about peripheral?” he asked.
 
-Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes dissapears too.”
+Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes disappears too.”
 
 Eli’s eyebrows rose. “When does it work best?”
 

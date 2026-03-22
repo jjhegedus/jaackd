@@ -71,7 +71,7 @@ Paul frowned. “What do you mean?”
 
 “I mean robbed,” the guy said following Paul while Billy paid for time. “I mean you don’t go wandering off at eleven with some sketchy character just because he can run a few balls.”
 
-Paul glanced at Billy, already a few steps ahead. He wasn't sketchy and Paul felt the ratial slur.
+Paul glanced at Billy, already a few steps ahead. He wasn't sketchy and Paul felt the racial slur.
 
 The warning landed heavier than he expected.
 
@@ -135,7 +135,7 @@ Billy’s hand closed around Paul’s arm.
 
 “Not this time,” he said quietly.
 
-The bartender turned back around, confident the regulars had everthing under control.
+The bartender turned back around, confident the regulars had everything under control.
 
 Outside, the door shut behind them with a dull weight.
 

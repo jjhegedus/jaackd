@@ -101,9 +101,9 @@ Paul felt that click. “Yeah, when I’m right,” he said slowly, “there’s
 
 “And every new sample,” Eli said, “is taken from a slightly different state, or a slightly different angle.”
 
-Paul wondered, "What do you mean a differnt state."
+Paul wondered, "What do you mean a different state."
 
-Eli though for a moment, "You might be moving forward vs back in your balance or flexing different muscles."
+Eli thought for a moment, "You might be moving forward vs back in your balance or flexing different muscles."
 
 Paul nodded. “OK, that kind of makes sense. And when that happens, the world starts to drift.”
 

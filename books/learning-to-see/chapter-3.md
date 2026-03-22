@@ -1,4 +1,4 @@
-# Chapter 3: Paul' First Tounament
+# Chapter 3: Paul's First Tournament
 
 
 Near the end of the second semester, there was a big tournament to see who would represent Purdue at the big college tournaments in the region. The Association of College Unions International put it on. The ACUI It was a big deal for college pool. Everyone wanted to win it.

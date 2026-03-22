@@ -11,7 +11,7 @@ It was the first place he’d spent real time on full-size tables. Not just walk
 
 Then he played Cole.
 
-Cole didn’t look like the best player in the room. He stood too high, used too much wrist, talked constantly. He never seemed focused. He never seemed serious. If Paul been asked to describe him before we played, he would have said confident, maybe reckless.
+Cole didn’t look like the best player in the room. He stood too high, used too much wrist, talked constantly. He never seemed focused. He never seemed serious. If Paul been asked to describe him before they played, he would have said confident, maybe reckless.
 
 Cole suggested rotation. A dollar a point. One hundred twenty-five points in the rack.
 
@@ -19,7 +19,7 @@ It was one game.
 
 Cole never had any big runs.
 
-When the shot was obvious, he took it. When it wasn’t, he moved the cue ball somewhere that felt temporary, harmless. Paulkept waiting for his turn—for the table to open, for a mistake, for the game to turn.
+When the shot was obvious, he took it. When it wasn’t, he moved the cue ball somewhere that felt temporary, harmless. Paul kept waiting for his turn—for the table to open, for a mistake, for the game to turn.
 
 It didn’t.
 
@@ -27,7 +27,7 @@ He never made a ball.
 
 Not one.
 
-The rack didn’t end so much as disappear. A point here. Two there. Nothing dramatic. just inevitable.
+The rack didn’t end so much as disappear. A point here. Two there. Nothing dramatic. Just inevitable.
 
 One hundred twenty-five dollars.
 
@@ -39,6 +39,6 @@ Cole told Paul to pay him later. Then he moved on, already playing someone else.
 
 What stayed with Paul wasn’t the money.
 
-It was the realization that henhad been standing at a table, cue in his hand, believing he was playing pool—
+It was the realization that he had been standing at a table, cue in his hand, believing he was playing pool—
 
 and he wasn’t even close.
