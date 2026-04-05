@@ -35,7 +35,7 @@ Then straightened.
 
 He rolled the cue between his fingers, annoyed at himself for caring.
 
-Object ball focus had felt right last month. He’d switched after a coach told him it simplified everything. Let the cue take care of itself. It had worked... for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
+Object ball focus had felt right last month. He’d switched after he'd heard a coach say it simplified everything. Let the cue ball take care of itself. It had worked... for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
 
 Cue ball focus had been the answer before that. Control the white, everything else follows. That advice came from a player who never seemed rattled, even with cash on the line. Paul had tried it tonight. The stroke felt deliberate. Mechanical. The shot… didn’t.
 

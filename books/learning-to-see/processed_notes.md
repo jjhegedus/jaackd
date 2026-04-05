@@ -40,7 +40,7 @@ The conversations are presented in the order they occurred — chronologically, 
 
 Each exchange carries a note indicating which chapter of the book it most closely informed. That label is approximate. Many conversations touched several chapters at once, and some of what was worked out here extended into territory that will appear in later volumes. Where a conversation did not map clearly to any single chapter, it is labeled General Notes.
 
-The conversations continue across the full arc of this series. What is included here is the record through this first volume.
+The conversations continue across the full arc of this series. What is included here is the record through this first volume. Conversations that apply to later volumes were included here for timeliness. AI capabilities are rapidly changing and these conversations are illustrative of interacting with AI at the moment this book was being written. As AI capabilities change, the nature of the conversations will change. These conversations will be most useful for interacting with AI now.
 
 ---
 

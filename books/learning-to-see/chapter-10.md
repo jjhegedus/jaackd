@@ -27,9 +27,11 @@ Eli nodded, not interrupting.
 
 Eli picked at the label on his bottle.
 
-“What about peripheral?” he asked.
+“What about your peripheral vision?” he asked.
 
-Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes disappears too.”
+Paul looked up. “I'm not sure what you mean. I don't aim with my peripheral vision. I see the table with it and where the cue ball is going after the shot.”
+
+Eli brushed it off.
 
 Eli’s eyebrows rose. “When does it work best?”
 
@@ -43,13 +45,13 @@ Paul laughed. “You’re the first person who’s ever said that and meant it.�
 
 Eli leaned forward now, elbows on the table.
 
-“When you lock onto a single point,” he said, “you’re asking a foveal system to do a spatial job. Depth, geometry, stability — that’s peripheral territory. When you narrow under pressure, you’re throwing away the scaffolding that keeps everything from drifting.”
+“When you lock onto a single point,” he said, “you’re asking a foveal system to do a spatial job. Depth, geometry, stability — that’s peripheral territory. When you focus under pressure, you become single minded to the point that you only see what's in the center, the foveal. You're throwing away the scaffolding that keeps everything from drifting.”
 
 Paul felt his chest tighten.
 
-“But when I try to use the peripheral feeling,” Paul said, “it disappears.”
+“But when I try to use the peripheral feeling,” Paul said, “it doesn't seem to help. It just disappears.”
 
-“Because now you’re asking it to explain itself,” Eli said. “The moment you check, you collapse it again.”
+“Because now you’re trying to make it behave like foveal vision.” Eli said. “The moment you check, you collapse it again.”
 
 The words landed harder than Paul expected.
 
@@ -67,7 +69,7 @@ Eli blinked. “What is?”
 
 “I wasn’t being asked where to look,” Paul said. “I was being asked why the picture stayed together at all.”
 
-Eli smiled slowly. “Yeah. That tracks.”
+Eli smiled and slowly drew out the word. “OK?”
 
 Paul shook his head, half-laughing now.
 
@@ -77,7 +79,7 @@ Paul shook his head, half-laughing now.
 
 Paul sat back, letting it settle.
 
-“I met a guy once,” he said. “Barely spoke. Asked one question. If it works both ways, how can it matter? I wasn’t even sure he was real.”
+“I met a guy once,” he said. “Barely spoke. Asked one question. If it works both ways, how can it matter? After I thought about it for a second, I looked up to ask him a question and he was gone. I wasn’t even sure he was real.”
 
 Eli shrugged. “Doesn’t matter. The question was.”
 

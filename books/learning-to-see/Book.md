@@ -13,7 +13,7 @@ It was the first place he’d spent real time on full-size tables. Not just walk
 
 Then he played Cole.
 
-Cole didn’t look like the best player in the room. He stood too high, used too much wrist, talked constantly. He never seemed focused. He never seemed serious. If Paul been asked to describe him before we played, he would have said confident, maybe reckless.
+Cole didn’t look like the best player in the room. He stood too high, used too much wrist, talked constantly. He never seemed focused. He never seemed serious. If Paul been asked to describe him before they played, he would have said confident, maybe reckless.
 
 Cole suggested rotation. A dollar a point. One hundred twenty-five points in the rack.
 
@@ -130,7 +130,7 @@ The first time Paul played him it didn't go great, but not terrible either. Paul
 
 Weeks passed.
 
-They played once or twice a week. Different games. Similar results.
+They played a few times a week. Different games. Similar results.
 
 Paul kept getting better.
 
@@ -213,7 +213,7 @@ and to be unable to see it. Paul eventually figured it out when he pressed to pl
 # Chapter 3: Paul's First Tournament
 
 
-Near the end of the second semester, there was a big tournament to see who would represent Purdue at the big college tournaments in the region. The Association of College Unions International put it on. The ACUI It was a big deal for college pool. Everyone wanted to win it.
+Near the end of the second semester, there was a big tournament to see who would represent Purdue at the big college tournaments in the region. The Association of College Unions International put it on. The ACUI. It was a big deal for college pool. Everyone wanted to win it.
 
 Paul signed up. He was excited but knew there were better players and knew he would have to play his best and get a little luck to make it through.
 
@@ -310,7 +310,7 @@ Then straightened.
 
 He rolled the cue between his fingers, annoyed at himself for caring.
 
-Object ball focus had felt right last month. He’d switched after a coach told him it simplified everything. Let the cue take care of itself. It had worked... for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
+Object ball focus had felt right last month. He’d switched after he'd heard a coach say it simplified everything. Let the cue ball take care of itself. It had worked... for a while. Then in the last tournament, under lights that were just a little harsher than these, the pocket had seemed to slide sideways at the last moment, as if it hadn’t quite decided where it wanted to be.
 
 Cue ball focus had been the answer before that. Control the white, everything else follows. That advice came from a player who never seemed rattled, even with cash on the line. Paul had tried it tonight. The stroke felt deliberate. Mechanical. The shot… didn’t.
 
@@ -440,7 +440,7 @@ His dad didn’t say no.
 
 He just said, “Big table won’t fit. And I can’t afford one anyway.”
 
-Paul nodded. He hadn’t expected anything else.
+Paul nodded. He hadn’t expected anything else. Hadn't expected anything at all.
 
 A week passed.
 
@@ -448,7 +448,7 @@ Then his dad mentioned, casually, that a guy from work was selling a bar table. 
 
 They went on a Saturday morning.
 
-The table had seen some use. The cloth wasn’t perfect. The pockets rails tight in a way that suggested intention rather than wear. Paul ran his hand along them, not saying much.
+The table had seen some use. The cloth wasn’t perfect. The rails tight in a way that suggested intention rather than wear. Paul ran his hand along them, not saying much.
 
 His dad watched him for a moment.
 
@@ -522,7 +522,7 @@ Paul smiled. He was feeling good.
 # Chapter 7: What Counts as Practice
 
 
-Marek finally showed up but he wasn't the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after it was too late.
+Marek finally showed up but he wasn't the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until it was too late.
 
 At first, he was just there early, hitting balls on the far table before anyone else showed up. No crowd. No games. Just racks and resets, the sound of balls breaking and gathering again. He didn't want to play, just practice.
 
@@ -576,7 +576,7 @@ He shot again and pulled it back to within about six inches. “That was close.�
 
 Marek shook his head. “Oh yeah, that was great. Not in the circle and completely random.”
 
-Paul kept shooting the shot. After a few more, he got it inside the circle and looked up.
+Paul kept shooting the shot. After a few more, he got it to the edge of the circle and looked up.
 
 Marek laughed. “Come back when it's inside,” he said. Then after a long pause, “Every time.”
 
@@ -586,11 +586,11 @@ Paul just stared at him. Was he serious?
 
 That was how Marek worked.
 
-He practiced. Paul practiced. Sometimes together. Often apart. Marek pushed him. Get down. Lower. Keep your cue level. Stop changing your mind when you're halfway there. If you aren't sure get up and look again. He added things when he saw gaps.
+He practiced. Paul practiced. Sometimes together. Often apart. Marek pushed him. Get down. Lower. Keep your cue level. Stop changing your mind when you're halfway down. If you aren't sure get up and look again. He added things when he saw gaps.
 
 “You've got to stay down too,” he said, when Paul popped up early.
 
-“If your head comes up before the cue stops, you don't really see what actually happened.” Try to replay that shot in your head. You can't because you weren't really watching.
+“If your head comes up before the cue stops, you don't really see what actually happened. Try to replay that shot in your head. You can't because you weren't really watching.”
 
 Another day, Marek racked fifteen balls.
 
@@ -630,7 +630,7 @@ Paul frowned.
 
 “I can deal with it.”
 
-“Not when it's important,” Marek said, "when the pressure is on." “Fix it now.”
+“Not when it's important,” Marek said, "when the pressure is on. Fix it now.”
 
 He bent down to show him.
 
@@ -713,7 +713,7 @@ He didn’t feel sharp.
 
 He felt available.
 
-The early matches went fast. Paul didn’t dominate so much as he didn’t give anything away. He took the longer shots when they kept the table open. He fixed small problems early. When a ball asked for perfect speed, he chose something else.
+The early matches went fast. Paul didn’t dominate so much as he didn’t give anything away. He took the longer shots when they kept the table open. He fixed small problems early. When a shot asked for perfect speed, he chose something else.
 
 Marek said nothing.
 
@@ -795,7 +795,7 @@ And now there was proof.
 
 Paul didn’t know yet what that proof would cost.
 
-But as he turned off the light at his table, he had the first clear sense that winning something official didn’t end anything.
+But as he gathered the balls and walked away from his table, he had the first clear sense that winning something official didn’t end anything.
 
 It just made the next thing unavoidable.
 
@@ -885,9 +885,11 @@ Eli nodded, not interrupting.
 
 Eli picked at the label on his bottle.
 
-“What about peripheral?” he asked.
+“What about your peripheral vision?” he asked.
 
-Paul looked up. “That seems to be a little better, especially when looking down at the table but when i get down on the ball, it sometimes disappears too.”
+Paul looked up. “I'm not sure what you mean. I don't aim with my peripheral vision. I see the table with it and where the cue ball is going after the shot.”
+
+Eli brushed it off.
 
 Eli’s eyebrows rose. “When does it work best?”
 
@@ -901,13 +903,13 @@ Paul laughed. “You’re the first person who’s ever said that and meant it.�
 
 Eli leaned forward now, elbows on the table.
 
-“When you lock onto a single point,” he said, “you’re asking a foveal system to do a spatial job. Depth, geometry, stability — that’s peripheral territory. When you narrow under pressure, you’re throwing away the scaffolding that keeps everything from drifting.”
+“When you lock onto a single point,” he said, “you’re asking a foveal system to do a spatial job. Depth, geometry, stability — that’s peripheral territory. When you focus under pressure, you become single minded to the point that you only see what's in the center, the foveal. You're throwing away the scaffolding that keeps everything from drifting.”
 
 Paul felt his chest tighten.
 
-“But when I try to use the peripheral feeling,” Paul said, “it disappears.”
+“But when I try to use the peripheral feeling,” Paul said, “it doesn't seem to help. It just disappears.”
 
-“Because now you’re asking it to explain itself,” Eli said. “The moment you check, you collapse it again.”
+“Because now you’re trying to make it behave like foveal vision.” Eli said. “The moment you check, you collapse it again.”
 
 The words landed harder than Paul expected.
 
@@ -925,7 +927,7 @@ Eli blinked. “What is?”
 
 “I wasn’t being asked where to look,” Paul said. “I was being asked why the picture stayed together at all.”
 
-Eli smiled slowly. “Yeah. That tracks.”
+Eli smiled and slowly drew out the word. “OK?”
 
 Paul shook his head, half-laughing now.
 
@@ -935,7 +937,7 @@ Paul shook his head, half-laughing now.
 
 Paul sat back, letting it settle.
 
-“I met a guy once,” he said. “Barely spoke. Asked one question. If it works both ways, how can it matter? I wasn’t even sure he was real.”
+“I met a guy once,” he said. “Barely spoke. Asked one question. If it works both ways, how can it matter? After I thought about it for a second, I looked up to ask him a question and he was gone. I wasn’t even sure he was real.”
 
 Eli shrugged. “Doesn’t matter. The question was.”
 
@@ -1077,7 +1079,7 @@ Paul racked again. Shot. Missed. Shot again. The rhythm came back, but the sente
 
 When he finally glanced toward the corner to ask what he meant, the chair was empty.
 
-Paul laughed, this again. He didn't even look for him?.
+Paul laughed, this again. He didn't even look for him.
 
 He finished the rack, returned the balls, paid his time, and left.
 
@@ -1150,7 +1152,7 @@ The room closed at eleven whether you were ahead, behind, or lining up the last 
 
 “No time for another set,” Paul said.
 
-Billy nodded. “Fair.”
+Billy nodded. Right.”
 
 "I drove all the way down from Chicago. Anywhere we can keep going?"
 
@@ -1184,7 +1186,7 @@ They drove a few blocks in silence.
 
 Paul swallowed. “For what?”
 
-“For being worth the drive,” Billy said. “I wasn’t passing through. I heard about the kid from Purdue.”
+“For being worth the drive,” Billy said. “I wasn’t passing through. I heard about the college kid.”
 
 Paul watched the streetlights streak past the windshield.
 
@@ -1375,7 +1377,7 @@ For now.
 # Chapter 15: The Book
 
 
-Paul found the book because he belonged there.
+Paul found the book because it belonged there and so did he.
 
 The physics library felt different from the rest of campus — quieter, heavier, built for people who assumed they could take their time. He liked that. Physics was his degree. He was proud of it. It meant something to him that it was hard.
 
@@ -1588,7 +1590,7 @@ Paul picked up his cue and put it back down again.
 
 For the first time since the tournament, he didn’t try to fix anything.
 
-He brought his ball back up to the counter, paid and started on his long walk home deep in thought.
+He brought his balls back up to the counter, paid and started on his long walk home deep in thought.
 
 # Chapter 18: Other Rooms
 
@@ -1825,13 +1827,17 @@ He just didn’t know how to live with them or without them anymore.
 # Chapter 20 — Kevin
 
 
-Paul met Kevin at one of his buddy John's parties. Paul thought it was the Whiskey Sours and Nitrous Oxide party. That was a special party though and memories of it were a bit hazy. He remembered sitting in John's bedroom with a bunch of folks John's girlfriend on his lap when she inhaled from a balloon. She bit John so hard that she drew blood. John jumped up and pushed her off him. Then she climbed up the chair and onto his desk like she was climbing stairs and started clawing at the ceiling in the corner. When she came out of it, she looked at all of us and said, "I thought there was a trap door to the upstairs." We all laughed so hard we were falling down.
+Paul met Kevin at one of his buddy John's parties. Paul thought it was the Whiskey Sours and Nitrous Oxide party. That was a special party though and memories of it were a bit hazy.
+
+He remembered sitting in John's bedroom with a bunch of folks, John's girlfriend on his lap when she inhaled from a balloon. She bit John so hard that she drew blood. John jumped up and pushed her off him. Then she climbed up the chair and onto his desk like she was climbing stairs and started clawing at the ceiling in the corner. When she came out of it, she looked at all of us and said, "I thought there was a trap door to the upstairs."
+
+We all laughed so hard we were falling down.
 
 Then John inhaled the rest of that balloon and climbed up on his chair and tried to stop the ceiling fan with his tongue. It didn't go well and John had a bandaid on his nose for a month.
 
 When Paul inhaled his balloon, Stairway to Heaven was playing and he followed the music. He thought all the way to heaven. He disappeared for a minute then he was back like nothing ever happened... except he would always remember how beautiful the music was in that moment.
 
-He wasn't sure if that was the party but he remembered meeting Kevin. How could he forget. He was tall and lanky and a little goofy. His personality was bigger than life though.
+He wasn't one hundred percent sure it was that party but he definitely remembered meeting Kevin. How could he forget. He was tall and lanky and a little goofy. His personality was bigger than life.
 
 The first thing Kevin said to Paul was, "So you're the one John says is like the second coming of Christ on a pool table."
 
@@ -1843,7 +1849,7 @@ Again he had Paul stuttering. "I'm not trying to hustle you."
 
 Kevin charged though, "I have a table over at my place. You should come over and play a few games sometime." He gave Paul his phone number and walked away leaving Paul standing there wondering what just happened.
 
-But Paul was curious. Kevin was a character. He talked to everyone and had everyone either laughing or flabbergasted. He had money and flashed it around. Paul wasn't sure if that was just for his benefit or if it was just the way Kevin was. He also smoked MJ like a chimney and Paul didn't mind that either.
+But Paul was curious. Kevin was a character. He talked to everyone and had everyone either laughing or flabbergasted. He had money and flashed it around. Paul wasn't sure if that was just for his benefit or if it was just the way Kevin was.
 
 A few days later Paul called Kevin and asked if he wanted to play a few games. Kevin gave him his address and told him to come over.
 
@@ -1851,9 +1857,11 @@ When he got there, he was amazed. It was a huge place with the pool table front 
 
 Kevin cranked up some classic country which Paul had never listened to before and they started playing for a few bucks. It took Paul a while to get used to the table but after a few hour Kevin said to him, "Listen, you're pretty good. We could make some money together."
 
-Paul was interested and they started running around. Kevin seemed to know every pool hall and pool player in Indiana. He was always pushing Paul to lay low but it just wasn't in Paul's nature. He wanted the best games, not to piddle around and make a few more bucks off the suckers. They were always pushing back and forth about it.
+Paul was interested and they started running around. Kevin seemed to know every pool hall and pool player in Indiana.
 
-But they made a little money and both of them enjoyed it so they did it more and more. Paul spent a lot of time at Kevin's house playing on that bar table and it help his bar table game immensely. The wobble was so bad that if you fired the cue ball into the corner, close to the pocket, you could make it come out two rails then the top spin would grab and it would pull it into the pocket. Crazy! Paul had never seen anything like it.
+Kevin was always pushing Paul to lay low but it just wasn't in Paul's nature. He wanted the best games, not to piddle around and make a few more bucks off the suckers. They were always pushing back and forth about it.
+
+But they made a little money and both of them enjoyed it so they did it more and more. Paul spent a lot of time at Kevin's house playing on that bar table and it helped his bar table game immensely. The wobble was so bad that if you fired the cue ball into the corner, close to the pocket, you could make it come out two rails then the top spin would grab and it would pull it into the pocket. Crazy! Paul had never seen anything like it.
 
 And Kevin was always playing that old country music to the point the Paul started to like it and love the time he spent there. Randy Travis, David Allen Coe, George Strait, Merle Haggard. Paul was a metal head but Kevin opened him up to a whole new world.
 
@@ -1861,11 +1869,17 @@ Kevin wasn't an early bird so they always started late and usually didn't end un
 
 Playing all the time. Big tables, bar tables, all day and all night. And all the gambling. It changed Paul's game. He stopped questioning himself. He started playing. And he was learning that if you let them think they could win, they could win.
 
-The secret was to put them away when it was time. Make sure they knew they had no chance. It was like what Bobby Fisher said about his favorite moment in chess. It was the moment he crushed his opponents ego.  He described this as the pleasure of seeing his opponent realize they are finished and having their spirit crumble. It wasn't exactly pleasure for Paul, it was just that he knew that was the way to win. As long as they believe they have a chance, they do.
+The secret was to put them away when it was time. Make sure they knew they had no chance.
+
+It was like what Bobby Fisher said about his favorite moment in chess. It was the moment he crushed his opponents ego.  He described this as the pleasure of seeing his opponent realize they are finished and having their spirit crumble.
+
+It wasn't exactly pleasure for Paul, it was just that he knew that was the way to win. As long as they believe they have a chance, they do.
 
 He started to remember those moments. He was playing a guy named Rob at Empire Billiards in Terre Haute. Rob was pretty good and while Paul was up, he knew he needed to put him away.
 
-He was in the middle of a runout and bumped a ball and clustered things up a little. He needed to go four rails and for short side shape to get out. The window was only a matter of inches. He looked at the shot and marked a circle by spinning the chalk cube on the cloth where he needed to be. He looked up at Rob when the cue ball landed inside the circle and knew Rob was done. Rob never made another ball and a few racks later he quit.
+He was in the middle of a runout and bumped a ball and clustered things up a little. He needed to go four rails and for short side shape to get out. The window was only a matter of inches.
+
+Paul looked at the shot and marked a circle by spinning the chalk cube on the cloth where he needed to be. He looked up at Rob when the cue ball landed inside the circle and knew Rob was done. Rob never made another ball and a few racks later he quit.
 
 # Chapter 21 — The Pinnacle
 
@@ -1876,11 +1890,11 @@ Paul smiled and said, "I'm ready. Where are we going."
 
 Kevin said, "I'm serious. This guy is good. Top ten in Indiana. Maybe as high as number five. We can make some decent money if we play our cards right but he's tough and the atmosphere is a little different than what you're used to."
 
-That sobered Paul up a little and he asked, "Ok, tell me about him."
+That sobered Paul up a little and he asked, "Ok, tell me more."
 
 Kevin looked up at the ceiling and then at Paul, "He's the bar tender at a place called the Kitty Cat Lounge up in Mishawaka. Strip club."
 
-Paul said, "You remember I'm only 19, right. I can't ever get in."
+Paul said, "You remember I'm only 19, right. I can't even get in."
 
 Kevin replied, "You let me worry about that. If I get you in, can you stay focused and play your best in that environment."
 
@@ -1902,11 +1916,11 @@ By the time Kevin came back, Paul was in a game for ten a rack and up a couple g
 
 They walked in the Kitty Kat Lounge and it was about what Paul expected. Dark, smokey, loud music and drunk guys watching a few half naked girls. A couple were pretty nice looking. A couple not so nice. Ha.
 
-Paul hung behind Kevin as he walked in and walked up to the bar tender. "We're back. Are you good now."
+Paul hung behind Kevin as he walked in and walked up to the bar tender. "We're back. Are you good now?"
 
 The bar tender said he'd be a few minutes. He walked over to one of the other guys behind the bar and talked to him for a few minutes. Not sure what kind of deal he made but it didn't matter to Paul. He went over to the table and put some quarters in and put his cue together. He shot a few balls rolled the cue around bounced it off the rails. Dead rails and a six inch roll from end to end of the table. There was one pocket you didn't even really need to aim at. Hit the rail within six inches and it would bounce dead and the roll would pull it back into the pocket. Wow, what a piece of shit.
 
-The bar tender came over and introduced himself, "I'm Jerry". Paul replied, "Paul. Hey, what do you think about going over to the Seniors Club and playing. This table is a piece of shit." Jerry responded, "Hey, I'm working. Lucky I can play at all. This is the deal. Kevin knew that. Didn't he tell you." He looked a little pissed.
+The bar tender came over and introduced himself, "I'm Jerry". Paul replied, "Paul. Hey, what do you think about going over to the Seniors Club and playing. This table is a piece of shit." Jerry responded, "I'm working here. Lucky I can play at all. This is the deal. Kevin knew that. Didn't he tell you." He looked a little pissed.
 
 Paul replied, "Yeah, fine. I get it. This is what we've got." Paul knew that was BS though. This was where Jerry wanted to play because he knew this piece of shit table and knew it would mess with anyone who came in to play him.
 
@@ -1922,17 +1936,19 @@ Paul broke as hard as he could. He felt like it was a much better break than eit
 
 Kevin came up to him and said, "We can't afford to just keep losing." Paul replied, "I made the two shots I had. Not sure what else I can do." Kevin looked around, "Just stay focused. Don't let this all get to you. I think you're better than him if you play your game." Paul just nodded and Kevin went back to his chair.
 
-That was the way the night went. Paul shot his best. He couldn't buy a ball on the break though. It was tough going. They played for hours and as it went on Paul started to take over. He just didn't miss. He didn't run a lot of racks with his break not working but when he got a chance he either ran out or played a lock up safety. He wasn't making mistakes and they were well ahead a few hours in. He wasn't keeping score exactly. He trusted Kevin and he knew they would settle up fairly at the end of the night.
+That was the way the night went. Paul shot his best. He couldn't buy a ball on the break though. It was tough going. They played for hours and as it went on Paul started to take over. He just didn't miss.
+
+Paul didn't run a lot of racks with his break not working but when he got a chance he either ran out or played a lock up safety. He wasn't making mistakes and they were well ahead a few hours in. He wasn't keeping score exactly. He trusted Kevin and he knew they would settle up fairly at the end of the night.
 
 The crowd kept asking for side bets. He thought they could have bet fifty a rack with a dozen different people. Jerry was obviously the local favorite. He didn't get involved in that part though. He let Kevin handle it. He didn't even pay attention to it. He was focused on the game when he was playing and just staying relaxed when he was watching Jerry.
 
-By six hours in, Paul was firmly in control, but suddenly Jerry started bearing down and won a couple games in a row then played safe. Paul kicked at the ball and hit it but left Jerry a bank that he drilled. It looked like he was starting to believe he could win again.
+By six hours in, Paul was firmly in control, but suddenly Jerry started bearing down and won a few games in a row then played safe. Paul kicked at the ball and hit it but left Jerry a bank that he drilled. It looked like he was starting to believe he could win again.
 
 Paul was thinking about Bobby Fisher's favorite moment in chess and he knew that he needed to put this guy away soon or it was going to get a lot harder. He came to the table with nothing and kicked again. This time leaving an off bank on the eight that Jerry didn't like. He banked the eight around three rails and left it behind the nine. All three balls on the long rail.
 
 Paul was about to kick at the ball then he realized that this was the side the balls rolled to. He got down on the eight and lined up toward a spot about six inches out on the opposite end rail.
 
-Jerry was looking at him like he wasn't sure what he was doing. He probably thought he was going to spin it off the end rail, back into the nine but that wasn't at all what he had in mind. He felt the heft of the cue and imagined that table roll. He stroked the ball gently seeing it in the groove of that roll before he did.
+Jerry was looking at him like he wasn't sure what he was doing. He probably thought he was going to spin it off the end rail, back into the eight but that wasn't at all what he had in mind. He felt the heft of the cue and imagined that table roll. He stroked the ball gently seeing it in the groove of that roll before he did.
 
 The cue ball gently curved around the eight, almost a full ball hook, and back toward the nine. It hit the nine into that dead rail damn near a foot from the pocket, but at just the right speed. It barely bounced off the rail and the roll pulled it back into the pocket. Just like Paul had seen it.
 
@@ -1940,7 +1956,7 @@ You should have seen the look on Jerry's face. He had stood up like the game was
 
 That was the moment. The moment his will faltered. Paul knew he had him and so did Jerry. A few games later he said he needed to get back to work.
 
-On the way home, Paul was laughing about that moment. They made five hundred and forty dollars. Only eighteen games. Kevin was surprised the number was so low. He thought for sure Kevin would have taken some of those side bets. He was never sure Paul was going to beat him though. Paul never did figure out the break and Kevin knew the tide could have turned at any moment.
+On the way home, Paul was laughing about that moment. They made five hundred and forty dollars. Only eighteen games. Kevin was surprised the number was so low. He thought for sure Kevin would have taken some of those side bets. He was never sure Paul was going to win though. Paul never did figure out the break and Kevin knew the tide could have turned at any moment.
 
 It never did though and Paul was happy with the result. He could only remember making two mistakes the whole night. Crazy place. Crazy night. And he played through it like it was his.
 
@@ -2009,7 +2025,7 @@ The conversations are presented in the order they occurred — chronologically, 
 
 Each exchange carries a note indicating which chapter of the book it most closely informed. That label is approximate. Many conversations touched several chapters at once, and some of what was worked out here extended into territory that will appear in later volumes. Where a conversation did not map clearly to any single chapter, it is labeled General Notes.
 
-The conversations continue across the full arc of this series. What is included here is the record through this first volume.
+The conversations continue across the full arc of this series. What is included here is the record through this first volume. Conversations that apply to later volumes were included here for timeliness. AI capabilities are rapidly changing and these conversations are illustrative of interacting with AI at the moment this book was being written. As AI capabilities change, the nature of the conversations will change. These conversations will be most useful for interacting with AI now.
 
 ---
 

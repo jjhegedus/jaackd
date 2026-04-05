@@ -17,7 +17,7 @@ The first time Paul played him it didn't go great, but not terrible either. Paul
 
 Weeks passed.
 
-They played once or twice a week. Different games. Similar results.
+They played a few times a week. Different games. Similar results.
 
 Paul kept getting better.
 

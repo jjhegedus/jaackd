@@ -35,7 +35,7 @@ Paul racked again. Shot. Missed. Shot again. The rhythm came back, but the sente
 
 When he finally glanced toward the corner to ask what he meant, the chair was empty.
 
-Paul laughed, this again. He didn't even look for him?.
+Paul laughed, this again. He didn't even look for him.
 
 He finished the rack, returned the balls, paid his time, and left.
 

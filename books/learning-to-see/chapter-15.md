@@ -1,7 +1,7 @@
 # Chapter 15: The Book
 
 
-Paul found the book because he belonged there.
+Paul found the book because it belonged there and so did he.
 
 The physics library felt different from the rest of campus — quieter, heavier, built for people who assumed they could take their time. He liked that. Physics was his degree. He was proud of it. It meant something to him that it was hard.
 

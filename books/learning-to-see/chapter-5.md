@@ -25,7 +25,7 @@ His dad didn’t say no.
 
 He just said, “Big table won’t fit. And I can’t afford one anyway.”
 
-Paul nodded. He hadn’t expected anything else.
+Paul nodded. He hadn’t expected anything else. Hadn't expected anything at all.
 
 A week passed.
 
@@ -33,7 +33,7 @@ Then his dad mentioned, casually, that a guy from work was selling a bar table. 
 
 They went on a Saturday morning.
 
-The table had seen some use. The cloth wasn’t perfect. The pockets rails tight in a way that suggested intention rather than wear. Paul ran his hand along them, not saying much.
+The table had seen some use. The cloth wasn’t perfect. The rails tight in a way that suggested intention rather than wear. Paul ran his hand along them, not saying much.
 
 His dad watched him for a moment.
 

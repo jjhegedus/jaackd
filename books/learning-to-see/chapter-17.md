@@ -65,4 +65,4 @@ Paul picked up his cue and put it back down again.
 
 For the first time since the tournament, he didn’t try to fix anything.
 
-He brought his ball back up to the counter, paid and started on his long walk home deep in thought.
+He brought his balls back up to the counter, paid and started on his long walk home deep in thought.

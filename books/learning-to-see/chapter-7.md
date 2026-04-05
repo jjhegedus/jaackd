@@ -1,7 +1,7 @@
 # Chapter 7: What Counts as Practice
 
 
-Marek finally showed up but he wasn't the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until after it was too late.
+Marek finally showed up but he wasn't the same. He'd been in a bad motorcycle accident over the summer. Hit by a van at a four way stop out in the country. The guy never even slowed down until it was too late.
 
 At first, he was just there early, hitting balls on the far table before anyone else showed up. No crowd. No games. Just racks and resets, the sound of balls breaking and gathering again. He didn't want to play, just practice.
 
@@ -55,7 +55,7 @@ He shot again and pulled it back to within about six inches. “That was close.�
 
 Marek shook his head. “Oh yeah, that was great. Not in the circle and completely random.”
 
-Paul kept shooting the shot. After a few more, he got it inside the circle and looked up.
+Paul kept shooting the shot. After a few more, he got it to the edge of the circle and looked up.
 
 Marek laughed. “Come back when it's inside,” he said. Then after a long pause, “Every time.”
 
@@ -65,11 +65,11 @@ Paul just stared at him. Was he serious?
 
 That was how Marek worked.
 
-He practiced. Paul practiced. Sometimes together. Often apart. Marek pushed him. Get down. Lower. Keep your cue level. Stop changing your mind when you're halfway there. If you aren't sure get up and look again. He added things when he saw gaps.
+He practiced. Paul practiced. Sometimes together. Often apart. Marek pushed him. Get down. Lower. Keep your cue level. Stop changing your mind when you're halfway down. If you aren't sure get up and look again. He added things when he saw gaps.
 
 “You've got to stay down too,” he said, when Paul popped up early.
 
-“If your head comes up before the cue stops, you don't really see what actually happened.” Try to replay that shot in your head. You can't because you weren't really watching.
+“If your head comes up before the cue stops, you don't really see what actually happened. Try to replay that shot in your head. You can't because you weren't really watching.”
 
 Another day, Marek racked fifteen balls.
 
@@ -109,7 +109,7 @@ Paul frowned.
 
 “I can deal with it.”
 
-“Not when it's important,” Marek said, "when the pressure is on." “Fix it now.”
+“Not when it's important,” Marek said, "when the pressure is on. Fix it now.”
 
 He bent down to show him.
 

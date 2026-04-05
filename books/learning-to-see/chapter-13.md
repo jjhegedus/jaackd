@@ -55,7 +55,7 @@ The room closed at eleven whether you were ahead, behind, or lining up the last 
 
 “No time for another set,” Paul said.
 
-Billy nodded. “Fair.”
+Billy nodded. Right.”
 
 "I drove all the way down from Chicago. Anywhere we can keep going?"
 
@@ -89,7 +89,7 @@ They drove a few blocks in silence.
 
 Paul swallowed. “For what?”
 
-“For being worth the drive,” Billy said. “I wasn’t passing through. I heard about the kid from Purdue.”
+“For being worth the drive,” Billy said. “I wasn’t passing through. I heard about the college kid.”
 
 Paul watched the streetlights streak past the windshield.
 

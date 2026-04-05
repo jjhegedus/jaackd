@@ -23,62 +23,14 @@ CHAPTERS = {
     "chapter-17": "Chapter 17 — Blind",
     "chapter-18": "Chapter 18 — Other Rooms",
     "chapter-19": "Chapter 19 — Where the Eyes Go",
-    "chapter-20": "Chapter 20 — The Pause",
-    "chapter-21": "Chapter 21 — Breath and Rhythm",
-    "chapter-22": "Chapter 22 — The Straight Stroke",
-    "chapter-23": "Chapter 23 — Acceleration and Deceleration",
-    "chapter-24": "Chapter 24 — Spin and Impulse",
-    "chapter-25": "Chapter 25 — Soft Shots and Slip",
-    "chapter-26": "Chapter 26 — Friction",
-    "chapter-27": "Chapter 27 — Seeing Through Glass",
+    "chapter-20": "Chapter 20 — Kevin",
+    "chapter-21": "Chapter 21 — The Pinnacle",
+    "chapter-22": "Chapter 22 — The Aftermath",
     "general":    "General Notes",
 }
 
 # (chapter_key, weight, [regex_keywords])
 RULES = [
-    # Chapter 20 — The Pause
-    ("chapter-20", 3, ["the pause", "pausing reopen", "pause effect", "lock-in", "lock in",
-                        "no-pause", "no pause execution", "binary termination", "abandon shot",
-                        "commit phase", "commit signal"]),
-    ("chapter-20", 2, ["pre-shot routine", "pre shot routine", "shot routine",
-                        "setup sequence", "sampling phase"]),
-
-    # Chapter 21 — Breath and Rhythm
-    ("chapter-21", 3, ["breath and rhythm", "centripetal stroke", "practice stroke",
-                        "rhythm as invariant", "stroke shrinking", "stroke rhythm",
-                        "timing protocol"]),
-    ("chapter-21", 2, ["rhythm", "breath", "tempo", "timing"]),
-
-    # Chapter 22 — The Straight Stroke
-    ("chapter-22", 3, ["straight stroke", "inertial signal", "straight back.arm",
-                        "degrees of freedom", "pendulum stroke", "fewer failure modes",
-                        "angular acceleration"]),
-    ("chapter-22", 2, ["straight", "pendulum", "shaft lean", "cue lean", "stroke shape"]),
-
-    # Chapter 23 — Acceleration and Deceleration
-    ("chapter-23", 3, ["acceleration and deceleration", "decelerat", "follow-through speed",
-                        "fine motor control", "behavioral constraint"]),
-    ("chapter-23", 2, ["acceleration", "follow.through", "speed control"]),
-
-    # Chapter 24 — Spin and Impulse
-    ("chapter-24", 3, ["spin and impulse", "sidespin", "topspin", "backspin",
-                        "english", "cue tip contact"]),
-    ("chapter-24", 2, ["spin", "impulse", "tip offset"]),
-
-    # Chapter 25 — Soft Shots and Slip
-    ("chapter-25", 3, ["slip stroke", "rigid coupling", "grip relaxation",
-                        "finger extension", "soft shot", "lag shot", "stun shot"]),
-    ("chapter-25", 2, ["slip", "grip.*relax", "relax.*grip"]),
-
-    # Chapter 26 — Friction
-    ("chapter-26", 3, ["friction", "cloth friction", "rolling resistance"]),
-    ("chapter-26", 2, ["cloth", "felt"]),
-
-    # Chapter 27 — Seeing Through Glass
-    ("chapter-27", 3, ["seeing through glass", "diffuse light", "directional light",
-                        "edge illusion", "shadow.*surface", "shadow.*normal"]),
-    ("chapter-27", 2, ["lighting", "shadow"]),
-
     # Chapter 19 — Where the Eyes Go
     ("chapter-19", 3, ["where the eyes go", "wide.outcome", "widen.*acceptable",
                         "cue ball position distribution", "late visual correction"]),
@@ -106,6 +58,15 @@ RULES = [
     # Early narrative chapters
     ("chapter-2",  3, ["marek"]),
     ("chapter-1",  3, ["university room"]),
+
+    # Chapter 20 — Chapter 20 — Kevin
+    ("chapter-20", 3, ['Kevin', 'bar.table', 'runout', 'put.*(away|them)', 'crush.*ego', 'Empire.Billiards', 'four.rails', 'gambling.*pool']),
+
+    # Chapter 21 — Chapter 21 — The Pinnacle
+    ("chapter-21", 3, ['Jerry|Kitty.?Cat.?Lounge', 'Mishawaka', 'break.*nothing|dead.?break', 'roll.*table|table.?roll', 'side.?bet', 'will.*faltered|moment.*will', 'hook.*shot|curve.*around', 'five.?hundred.*dollars|eighteen.?games']),
+
+    # Chapter 22 — Chapter 22 — The Aftermath
+    ("chapter-22", 3, ['pool.hall', 'Paul|Kevin', 'corner.*chair', 'set.of.balls', 'table.*nearby', 'wired|tired.*excited', 'well.earned.rest', 'until.next.time']),
 
     # General
     ("general",    2, ["standardiz", "converge", "modern pool", "pro pool",

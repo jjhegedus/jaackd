@@ -17,7 +17,7 @@ He didn’t feel sharp.
 
 He felt available.
 
-The early matches went fast. Paul didn’t dominate so much as he didn’t give anything away. He took the longer shots when they kept the table open. He fixed small problems early. When a ball asked for perfect speed, he chose something else.
+The early matches went fast. Paul didn’t dominate so much as he didn’t give anything away. He took the longer shots when they kept the table open. He fixed small problems early. When a shot asked for perfect speed, he chose something else.
 
 Marek said nothing.
 
@@ -99,6 +99,6 @@ And now there was proof.
 
 Paul didn’t know yet what that proof would cost.
 
-But as he turned off the light at his table, he had the first clear sense that winning something official didn’t end anything.
+But as he gathered the balls and walked away from his table, he had the first clear sense that winning something official didn’t end anything.
 
 It just made the next thing unavoidable.
