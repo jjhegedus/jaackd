@@ -2382,7 +2382,7 @@ You’re not just playing pool — you’re managing perceptual conditioning.
 
 ## Exchange 11
 
-**Author:** Yes, these head movements are part of my pre shot routine. There is a specific set of them in a specific rhythm and it is quickly over with either lock in or abandonme
+**Author:** Yes, these head movements are part of my pre shot routine. There is a specific set of them in a specific rhythm and it is quickly over with either lock in or abandonment
 
 **AI:** That last sentence is the tell: what you’ve built is not “extra looking,” it’s a finite perceptual test with a hard stop. That’s why it works and why it doesn’t spiral into doubt.
 

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('learning_to_see.png'\\); print\\(img.size, img.mode\\)\")",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('learning_to_see.png'\\); img.convert\\('RGB'\\).save\\('learning_to_see.jpg', 'JPEG', quality=95\\); print\\('Done:', img.size\\)\")",
+      "Bash(python -c ':*)",
+      "Bash(build_epub.bat)"
+    ]
+  }
+}

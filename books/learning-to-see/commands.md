@@ -69,6 +69,17 @@ Reads `prologue.md` through `chapter-N.md` in order, then appends any existing `
 
 ---
 
+## build_review_epub (pandoc)
+
+Builds a review copy of the book as an EPUB, with a title page and ARC notice prepended.
+
+**Usage:**
+```
+pandoc title_page.md Book.md -o learning_to_see_review.epub --metadata title="Learning to See" --metadata author="Jeff Hegedus" --epub-cover-image=learning_to_see_cover.jpg --toc --toc-depth=1
+```
+
+---
+
 ## Typical Workflow
 
 ```

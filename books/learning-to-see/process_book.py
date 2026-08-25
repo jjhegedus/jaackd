@@ -26,20 +26,7 @@ CHAPTER_ORDER = [
     "chapter-22",
 ]
 
-COVER_IMAGE = "learning_to_see.png"
-
-cover_html = ""
-if os.path.exists(COVER_IMAGE):
-    cover_html = (
-        '<div style="margin:0;padding:0;page-break-after:always;">'
-        f'<img src="{COVER_IMAGE}" style="width:100%;height:100vh;object-fit:cover;display:block;">'
-        '</div>'
-    )
-    print(f"  added cover: {COVER_IMAGE}")
-else:
-    print(f"WARNING: cover image {COVER_IMAGE} not found, skipping")
-
-parts = [cover_html] if cover_html else []
+parts = []
 
 for key in CHAPTER_ORDER:
     fname = f"{key}.md"
